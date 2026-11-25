@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchProcurement } from '../api';
+import { IconDownload, IconCheck } from '../components/Icons';
 import '../styles/ProcurementPlanner.css';
 
 export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, branches = [] }) {
@@ -21,7 +22,6 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
         category: category
       });
       setPlan(res);
-      // Initialize edit state
       const initial = {};
       res.forEach(item => {
         const key = `${item.branch_id}_${item.canonical_id}`;
@@ -52,8 +52,8 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
     const headers = [
       "Branch ID", "Branch Name", "Canonical ID", "Ingredient Name", "Category",
       "Current Stock", "Daily Run Rate", "Days of Supply", "7-Day Projected Demand",
-      "Safety Buffer", "Pack Description", "Pack Unit Cost ($)", "Packs To Order",
-      "Total Order Qty (Base)", "Estimated Cost ($)", "Urgency"
+      "Safety Buffer", "Pack Description", "Pack Unit Cost (INR)", "Packs To Order",
+      "Total Order Qty (Base)", "Estimated Cost (INR)", "Urgency"
     ];
 
     const rows = plan.map(item => {
@@ -106,7 +106,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
         <div className="procurement-banner-text">
           <h2>Procurement & Purchase Planner</h2>
           <p style={{ fontWeight: 600, color: 'var(--color-black)', marginTop: 4 }}>
-            Day-of-week sales forecast + waste-adjusted safety buffer + automated pack size rounding
+            Forecast demand + waste safety buffer + automated pack size rounding
           </p>
         </div>
 
@@ -122,7 +122,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
             ))}
           </select>
           <button className="btn-neo btn-neo-black" onClick={exportProcurementCsv}>
-            📥 Export Order Sheet CSV
+            <IconDownload size={16} color="#FFFFFF" /> Export CSV
           </button>
         </div>
       </div>
@@ -135,7 +135,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
               Projected Order Total
             </span>
             <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', fontWeight: 800 }}>
-              ${totalSpend.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+              ₹{totalSpend.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </div>
           </div>
           <span className="pill-badge pill-badge-lime">{plan.length} SKU Items</span>
@@ -143,14 +143,14 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
 
         <div style={{ display: 'flex', gap: 12 }}>
           <button className="btn-neo btn-neo-yellow" onClick={handleSaveOrder}>
-            💾 Save Adjustments
+            Save Quantities
           </button>
         </div>
       </div>
 
       {savedNotice && (
         <div className="toast-notice">
-          ✅ Procurement adjustments saved successfully!
+          Procurement adjustments saved successfully!
         </div>
       )}
 
@@ -212,7 +212,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
                       {item.pack_description}
                     </span>
                     <div style={{ fontSize: '0.75rem', color: 'var(--color-gray-600)', marginTop: 2 }}>
-                      ${item.pack_unit_cost} / pack
+                      ₹{item.pack_unit_cost} / pack
                     </div>
                   </td>
                   <td>
@@ -228,7 +228,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
                     {totalOrderQty} {item.base_unit}
                   </td>
                   <td style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.05rem' }}>
-                    ${totalCost}
+                    ₹{totalCost}
                   </td>
                 </tr>
               );

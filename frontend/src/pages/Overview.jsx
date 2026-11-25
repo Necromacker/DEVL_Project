@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SegmentedPillChart from '../components/SegmentedPillChart';
 import { fetchOverview } from '../api';
+import { IconRupee, IconWallet, IconChart } from '../components/Icons';
 import '../styles/Overview.css';
 
 export default function Overview({ selectedBranch, setSelectedBranch, branches = [], onNavigate }) {
@@ -24,35 +25,6 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
     }
   };
 
-  const exportRankingCsv = () => {
-    if (!data?.branch_rankings) return;
-    const headers = ["Branch ID", "Branch Name", "Sales ($)", "Purchases ($)", "Waste ($)", "Waste %", "Variance ($)", "Variance %", "Food Cost %", "Flags"];
-    const rows = data.branch_rankings.map(b => [
-      b.branch_id,
-      `"${b.branch_name}"`,
-      b.sales,
-      b.purchases,
-      b.waste_cost,
-      b.waste_pct,
-      b.variance_cost,
-      b.variance_pct,
-      b.food_cost_pct,
-      b.items_flagged
-    ]);
-    const csvContent = "data:text/csv;charset=utf-8," + [headers.join(","), ...rows.map(e => e.join(","))].join("\n");
-    const encodedUri = encodeURI(csvContent);
-    const link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", `branch_rankings_${selectedBranch}.csv`);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  if (loading && !data) {
-    return <div className="overview-page"><p style={{ fontWeight: 800 }}>Loading overview metrics...</p></div>;
-  }
-
   const kpis = data?.kpis || {
     total_purchases: 4567,
     total_waste: 40234,
@@ -64,94 +36,94 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
     active_branches: 6
   };
 
+  // Recent order items matching reference image layout with clean URLs
+  const recentItems = [
+    {
+      name: "Burger",
+      sub: "3",
+      price: "₹3,900",
+      count: "1300",
+      bgColor: "#D7B7FD",
+      imgUrl: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=80&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "Pizza",
+      sub: "₹32.45",
+      price: "₹680",
+      count: "20",
+      bgColor: "#FFE57F",
+      imgUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=80&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "Grilled Bowl",
+      sub: "₹16.50",
+      price: "₹44,346",
+      count: "2680",
+      bgColor: "#CCFF00",
+      imgUrl: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&auto=format&fit=crop&q=80"
+    },
+    {
+      name: "Pasta Alfredo",
+      sub: "₹18.00",
+      price: "₹26,100",
+      count: "1450",
+      bgColor: "#D7B7FD",
+      imgUrl: "https://images.unsplash.com/photo-1621996346565-e3d5d6281084?w=80&auto=format&fit=crop&q=80"
+    }
+  ];
+
   return (
     <div className="overview-page">
-      {/* Page Headline matching reference: "ACTIVE RESTAURANT (6)" */}
-      <div className="page-headline-wrap">
-        <div>
-          <h1 className="page-headline">
-            ACTIVE RESTAURANT <span className="headline-badge">({kpis.active_branches || 6})</span>
-          </h1>
-          <p style={{ fontWeight: 600, color: 'var(--color-gray-600)', marginTop: 4 }}>
-            Multi-branch waste tracking, food cost variance & automated replenishment
-          </p>
-        </div>
-
-        {/* Global Filter Bar */}
-        <div className="overview-filter-bar">
-          <div className="filter-group">
-            <span>Branch:</span>
-            <select
-              className="filter-select"
-              value={selectedBranch}
-              onChange={(e) => setSelectedBranch(e.target.value)}
-            >
-              <option value="All">All 6 Branches</option>
-              {branches.map((b) => (
-                <option key={b.id} value={b.id}>{b.name}</option>
-              ))}
-            </select>
-          </div>
-          <button className="btn-neo btn-neo-yellow" onClick={exportRankingCsv}>
-            📥 Export CSV
-          </button>
-        </div>
-      </div>
-
-      {/* Top 3 Metric Cards matching Reference Image */}
+      {/* 3 Metric Cards: Revenue, Expenses, Sales - all matching the reference card UI */}
       <div className="kpi-cards-grid">
-        {/* Card 1: Pastel Yellow Card (Purchases / Revenue) */}
+        {/* Card 1: Pastel Yellow Card (Revenue) */}
         <div className="kpi-card-yellow">
           <div className="card-header-row">
-            <div className="card-icon-circle">📊</div>
+            <div className="card-icon-circle">
+              <IconChart size={18} color="#121212" />
+            </div>
             <div className="card-menu-dot">•••</div>
           </div>
           <div className="card-metric-section">
-            <div className="card-metric-label">Total Purchases</div>
-            <div className="card-metric-value">${kpis.total_purchases?.toLocaleString()}</div>
+            <div className="card-metric-label">Revenue</div>
+            <div className="card-metric-value">₹{kpis.total_purchases?.toLocaleString()}</div>
             <div className="card-metric-sub">
               <span className="pill-badge pill-badge-white">Food Cost {kpis.food_cost_pct}%</span>
             </div>
           </div>
         </div>
 
-        {/* Card 2: Pastel Lavender Card (Waste / Expenses) */}
+        {/* Card 2: Pastel Lavender Card (Expenses) */}
         <div className="kpi-card-purple">
           <div className="card-header-row">
-            <div className="card-icon-circle">👛</div>
+            <div className="card-icon-circle">
+              <IconWallet size={18} color="#121212" />
+            </div>
             <div className="card-menu-dot">•••</div>
           </div>
           <div className="card-metric-section">
-            <div className="card-metric-label">Logged Waste Cost</div>
-            <div className="card-metric-value">${kpis.total_waste?.toLocaleString()}</div>
+            <div className="card-metric-label">Expenses</div>
+            <div className="card-metric-value">₹{kpis.total_waste?.toLocaleString()}</div>
             <div className="card-metric-sub">
-              <span className="pill-badge pill-badge-white">Waste {kpis.waste_pct}% of Purchases</span>
+              <span className="pill-badge pill-badge-white">Waste {kpis.waste_pct}%</span>
             </div>
           </div>
         </div>
 
-        {/* Card 3: Crisp White Card (Sales & Sparkline) */}
+        {/* Card 3: Crisp White Card (Sales - exact same card UI, no graph) */}
         <div className="kpi-card-white">
           <div className="card-header-row">
-            <div>
-              <div className="card-metric-label" style={{ color: 'var(--color-gray-600)' }}>Sales Revenue</div>
-              <div className="card-metric-value">${kpis.total_sales?.toLocaleString()}</div>
+            <div className="card-icon-circle">
+              <IconRupee size={18} color="#121212" />
             </div>
-            <span className="pill-badge pill-badge-lime">Active 90D</span>
+            <div className="card-menu-dot">•••</div>
           </div>
-
-          {/* Neo sparkline wavy line matching reference */}
-          <div style={{ marginTop: 8 }}>
-            <svg className="sparkline-svg" viewBox="0 0 300 50">
-              <path d="M 0 38 Q 20 10, 40 32 T 80 15 T 120 40 T 160 12 T 200 35 T 240 8 T 280 28 L 300 20" />
-            </svg>
-          </div>
-
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 4 }}>
-            <span style={{ fontSize: '0.82rem', fontWeight: 700, color: 'var(--color-gray-600)' }}>Unexplained Variance:</span>
-            <span className={`pill-badge ${kpis.variance_pct > 10 ? 'pill-badge-red' : 'pill-badge-yellow'}`}>
-              ${kpis.unexplained_variance?.toLocaleString()} ({kpis.variance_pct}%)
-            </span>
+          <div className="card-metric-section">
+            <div className="card-metric-label">Sales</div>
+            <div className="card-metric-value">₹{kpis.total_sales?.toLocaleString()}</div>
+            <div className="card-metric-sub">
+              <span className="pill-badge pill-badge-lime">90D Active</span>
+            </div>
           </div>
         </div>
       </div>
@@ -162,10 +134,10 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
         <div className="chart-panel-card">
           <div className="chart-header-row">
             <div className="chart-title-group">
-              <h3>Sales & Consumption Rhythm</h3>
-              <p>Day of week demand pattern with peak weekend volume</p>
+              <h3>Demand & Consumption Rhythm</h3>
+              <p>Weekly sales patterns and consumption cycle</p>
             </div>
-            <span className="pill-badge pill-badge-yellow">Live Rhythm</span>
+            <span className="pill-badge pill-badge-yellow">Weekly</span>
           </div>
 
           <SegmentedPillChart
@@ -175,32 +147,81 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
           />
         </div>
 
-        {/* Right: Top Food Items list matching reference image */}
+        {/* Right: Recent Order Items list matching reference image */}
         <div className="recent-orders-card">
           <div className="recent-orders-header">
-            <h3>Recent High-Volume Items</h3>
-            <span className="view-all-link" onClick={() => onNavigate('menu-items')}>View All</span>
+            <h3>Recent Order</h3>
+            <span className="view-all-link" onClick={() => onNavigate('branch-view')}>View All</span>
           </div>
 
           <div className="orders-items-list">
-            {(data?.top_items || []).map((item, idx) => (
+            {recentItems.map((item, idx) => (
               <div key={idx} className="order-pill-row">
                 <div className="order-item-left">
-                  <div className="order-avatar-icon" style={{ backgroundColor: item.color }}>
-                    {item.icon}
+                  <div className="order-avatar-icon" style={{ backgroundColor: item.bgColor, overflow: 'hidden' }}>
+                    <img
+                      src={item.imgUrl}
+                      alt={item.name}
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
                   </div>
                   <div>
                     <div className="order-item-name">{item.name}</div>
-                    <div className="order-item-sub">{item.category} • {item.orders} orders</div>
+                    <div className="order-item-sub">{item.sub}</div>
                   </div>
                 </div>
 
                 <div className="order-item-right">
-                  <div className="order-item-price">${item.sales?.toLocaleString()}</div>
-                  <div className="order-item-count">{Math.round(item.sales / item.orders * 10) / 10} avg</div>
+                  <div className="order-item-price">{item.price}</div>
+                  <div className="order-item-count">{item.count}</div>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Team / Branch Manager Cards matching Reference Image 1 bottom */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16 }}>
+        <div className="neo-card" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', border: 'var(--border-thick)', overflow: 'hidden' }}>
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+                alt="Adam Smith"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </div>
+            <div>
+              <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.05rem' }}>
+                Adam Smith <span style={{ color: '#EAB308', fontSize: '0.9rem' }}>★ 5.0</span>
+              </div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--color-gray-600)', fontWeight: 600 }}>Sales Manager • Downtown Bistro</div>
+            </div>
+          </div>
+          <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.25rem' }}>
+            40 HR/W
+          </div>
+        </div>
+
+        <div className="neo-card" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <div style={{ width: 48, height: 48, borderRadius: '50%', border: 'var(--border-thick)', overflow: 'hidden' }}>
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80"
+                alt="Elena Rostova"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+            </div>
+            <div>
+              <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.05rem' }}>
+                Elena Rostova <span style={{ color: '#EAB308', fontSize: '0.9rem' }}>★ 4.9</span>
+              </div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--color-gray-600)', fontWeight: 600 }}>Inventory Lead • Westside Grill</div>
+            </div>
+          </div>
+          <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.25rem' }}>
+            38 HR/W
           </div>
         </div>
       </div>
@@ -210,7 +231,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h2 style={{ fontSize: '1.5rem' }}>Branch Performance Ranking</h2>
           <button className="btn-neo btn-neo-lime" onClick={() => onNavigate('procurement')}>
-            📦 Plan Group Orders
+            Plan Orders →
           </button>
         </div>
 
@@ -224,9 +245,9 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
                 <th>Food Cost %</th>
                 <th>Waste Cost</th>
                 <th>Waste %</th>
-                <th>Unexplained Var ($)</th>
+                <th>Unexplained Var (₹)</th>
                 <th>Var %</th>
-                <th>Audit Flags</th>
+                <th>Audit Status</th>
                 <th>Action</th>
               </tr>
             </thead>
@@ -237,20 +258,20 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
                     <span className="branch-name-pill">{b.branch_name}</span>
                     <div style={{ fontSize: '0.75rem', color: 'var(--color-gray-600)' }}>ID: {b.branch_id}</div>
                   </td>
-                  <td style={{ fontWeight: 700 }}>${b.sales?.toLocaleString()}</td>
-                  <td>${b.purchases?.toLocaleString()}</td>
+                  <td style={{ fontWeight: 700 }}>₹{b.sales?.toLocaleString()}</td>
+                  <td>₹{b.purchases?.toLocaleString()}</td>
                   <td>
                     <span className={`pill-badge ${b.food_cost_pct > 32 ? 'pill-badge-red' : 'pill-badge-white'}`}>
                       {b.food_cost_pct}%
                     </span>
                   </td>
-                  <td style={{ color: '#DC2626', fontWeight: 700 }}>${b.waste_cost?.toLocaleString()}</td>
+                  <td style={{ color: '#DC2626', fontWeight: 700 }}>₹{b.waste_cost?.toLocaleString()}</td>
                   <td>
                     <span className={`pill-badge ${b.waste_pct > 8 ? 'pill-badge-red' : 'pill-badge-yellow'}`}>
                       {b.waste_pct}%
                     </span>
                   </td>
-                  <td style={{ fontWeight: 700 }}>${b.variance_cost?.toLocaleString()}</td>
+                  <td style={{ fontWeight: 700 }}>₹{b.variance_cost?.toLocaleString()}</td>
                   <td>
                     <span className={`pill-badge ${b.variance_pct > 15 ? 'pill-badge-red' : (b.variance_pct > 6 ? 'pill-badge-yellow' : 'pill-badge-white')}`}>
                       {b.variance_pct > 0 ? `+${b.variance_pct}%` : `${b.variance_pct}%`}

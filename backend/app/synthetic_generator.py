@@ -27,67 +27,67 @@ BRANCHES = [
     {"id": "B06", "name": "Harbor Point Brasserie", "location": "Pier 4", "seating_capacity": 160},
 ]
 
-# Canonical Ingredients
+# Canonical Ingredients (in INR)
 CANONICAL_INGREDIENTS = [
     {
         "id": "ING-CHICKEN", "name": "Boneless Chicken Breast", "category": "Meat & Poultry",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "case of 4 x 2.5kg",
-        "default_pack_qty_base": 10000.0, "cost_per_base_unit": 0.0075, "standard_yield_pct": 95.0
+        "default_pack_qty_base": 10000.0, "cost_per_base_unit": 0.28, "standard_yield_pct": 95.0
     },
     {
         "id": "ING-BEEF", "name": "Ground Beef 80/20", "category": "Meat & Poultry",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "box of 10 x 1kg",
-        "default_pack_qty_base": 10000.0, "cost_per_base_unit": 0.0090, "standard_yield_pct": 88.0
+        "default_pack_qty_base": 10000.0, "cost_per_base_unit": 0.35, "standard_yield_pct": 88.0
     },
     {
         "id": "ING-TOMATO", "name": "Roma Tomato", "category": "Produce",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "crate of 20 lb",
-        "default_pack_qty_base": 9071.85, "cost_per_base_unit": 0.0028, "standard_yield_pct": 90.0
+        "default_pack_qty_base": 9071.85, "cost_per_base_unit": 0.04, "standard_yield_pct": 90.0
     },
     {
         "id": "ING-ONION", "name": "Yellow Onion", "category": "Produce",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "bag of 25 kg",
-        "default_pack_qty_base": 25000.0, "cost_per_base_unit": 0.0018, "standard_yield_pct": 88.0
+        "default_pack_qty_base": 25000.0, "cost_per_base_unit": 0.035, "standard_yield_pct": 88.0
     },
     {
         "id": "ING-POTATO", "name": "Russet Potato", "category": "Produce",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "bag of 50 lb",
-        "default_pack_qty_base": 22679.6, "cost_per_base_unit": 0.0015, "standard_yield_pct": 85.0
+        "default_pack_qty_base": 22679.6, "cost_per_base_unit": 0.03, "standard_yield_pct": 85.0
     },
     {
         "id": "ING-BELLPEPPER", "name": "Green Bell Pepper", "category": "Produce",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "box of 5 kg",
-        "default_pack_qty_base": 5000.0, "cost_per_base_unit": 0.0035, "standard_yield_pct": 85.0
+        "default_pack_qty_base": 5000.0, "cost_per_base_unit": 0.06, "standard_yield_pct": 85.0
     },
     {
         "id": "ING-CREAM", "name": "Heavy Cream 36%", "category": "Dairy",
         "base_unit": "ml", "density_g_per_ml": 1.01, "default_pack_desc": "tub of 4 l",
-        "default_pack_qty_base": 4000.0, "cost_per_base_unit": 0.0055, "standard_yield_pct": 98.0
+        "default_pack_qty_base": 4000.0, "cost_per_base_unit": 0.24, "standard_yield_pct": 98.0
     },
     {
         "id": "ING-CHEESE", "name": "Mozzarella Cheese", "category": "Dairy",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "case of 6 x 2kg",
-        "default_pack_qty_base": 12000.0, "cost_per_base_unit": 0.0085, "standard_yield_pct": 98.0
+        "default_pack_qty_base": 12000.0, "cost_per_base_unit": 0.45, "standard_yield_pct": 98.0
     },
     {
         "id": "ING-EGG", "name": "Large Fresh Eggs", "category": "Dairy",
         "base_unit": "each", "density_g_per_ml": 1.0, "default_pack_desc": "pack of 30 each",
-        "default_pack_qty_base": 30.0, "cost_per_base_unit": 0.22, "standard_yield_pct": 98.0
+        "default_pack_qty_base": 30.0, "cost_per_base_unit": 7.50, "standard_yield_pct": 98.0
     },
     {
         "id": "ING-RICE", "name": "Basmati Rice", "category": "Dry Goods",
         "base_unit": "g", "density_g_per_ml": 1.0, "default_pack_desc": "bag of 20 kg",
-        "default_pack_qty_base": 20000.0, "cost_per_base_unit": 0.0025, "standard_yield_pct": 100.0
+        "default_pack_qty_base": 20000.0, "cost_per_base_unit": 0.11, "standard_yield_pct": 100.0
     },
     {
         "id": "ING-OIL", "name": "Extra Virgin Olive Oil", "category": "Dry Goods",
         "base_unit": "ml", "density_g_per_ml": 0.92, "default_pack_desc": "can of 5 l",
-        "default_pack_qty_base": 5000.0, "cost_per_base_unit": 0.0095, "standard_yield_pct": 98.0
+        "default_pack_qty_base": 5000.0, "cost_per_base_unit": 0.65, "standard_yield_pct": 98.0
     },
     {
         "id": "ING-FLOUR", "name": "All-Purpose Flour", "category": "Dry Goods",
         "base_unit": "g", "density_g_per_ml": 0.60, "default_pack_desc": "bag of 25 kg",
-        "default_pack_qty_base": 25000.0, "cost_per_base_unit": 0.0012, "standard_yield_pct": 100.0
+        "default_pack_qty_base": 25000.0, "cost_per_base_unit": 0.045, "standard_yield_pct": 100.0
     },
 ]
 
@@ -164,18 +164,18 @@ RAW_ALIASES = [
     ("Imported Artisan Truffle Glaze", None, 40.0, False),
 ]
 
-# Menu Items & Recipes
+# Menu Items & Recipes (in INR)
 MENU_ITEMS = [
-    {"id": "ITEM-01", "name": "Grilled Chicken Bowl", "category": "Mains", "price": 16.50, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-02", "name": "Classic Beef Burger", "category": "Burgers", "price": 15.00, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-03", "name": "Creamy Chicken Alfredo", "category": "Pasta", "price": 18.00, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-04", "name": "Margherita Pizza", "category": "Pizza", "price": 14.50, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-05", "name": "Loaded Potato Fries", "category": "Sides", "price": 9.50, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-06", "name": "Butter Chicken Curry", "category": "Mains", "price": 17.50, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-07", "name": "Stuffed Bell Peppers", "category": "Mains", "price": 13.00, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-08", "name": "Spanish Omelette", "category": "Breakfast", "price": 11.00, "is_estimable": True, "flag_reason": None},
-    {"id": "ITEM-09", "name": "Chef Special Risotto", "category": "Mains", "price": 22.00, "is_estimable": False, "flag_reason": "No recipe bill of materials found in database"},
-    {"id": "ITEM-10", "name": "House Secret Dip", "category": "Sides", "price": 4.50, "is_estimable": False, "flag_reason": "Missing ingredient portion weights"},
+    {"id": "ITEM-01", "name": "Grilled Chicken Bowl", "category": "Mains", "price": 380.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-02", "name": "Classic Beef Burger", "category": "Burgers", "price": 320.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-03", "name": "Creamy Chicken Alfredo", "category": "Pasta", "price": 420.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-04", "name": "Margherita Pizza", "category": "Pizza", "price": 350.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-05", "name": "Loaded Potato Fries", "category": "Sides", "price": 220.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-06", "name": "Butter Chicken Curry", "category": "Mains", "price": 440.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-07", "name": "Stuffed Bell Peppers", "category": "Mains", "price": 310.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-08", "name": "Spanish Omelette", "category": "Breakfast", "price": 250.0, "is_estimable": True, "flag_reason": None},
+    {"id": "ITEM-09", "name": "Chef Special Risotto", "category": "Mains", "price": 550.0, "is_estimable": False, "flag_reason": "No recipe bill of materials found in database"},
+    {"id": "ITEM-10", "name": "House Secret Dip", "category": "Sides", "price": 120.0, "is_estimable": False, "flag_reason": "Missing ingredient portion weights"},
 ]
 
 RECIPE_BOM = [

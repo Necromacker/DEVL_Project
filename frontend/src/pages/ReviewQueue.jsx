@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchReviewQueue, updateReviewFlag } from '../api';
+import { IconDownload, IconAlert, IconCheck } from '../components/Icons';
 import '../styles/ReviewQueue.css';
 
 export default function ReviewQueue() {
@@ -71,13 +72,13 @@ export default function ReviewQueue() {
     <div className="review-queue-page">
       <div className="page-headline-wrap">
         <div>
-          <h1 className="page-headline">Variance & Waste Review Queue</h1>
+          <h1 className="page-headline">Audit & Review Queue</h1>
           <p style={{ color: 'var(--color-gray-600)', fontWeight: 600, marginTop: 4 }}>
-            Transparent algorithmic scoring with human-readable plain language diagnostics
+            Algorithmic anomaly detection with plain language diagnostics
           </p>
         </div>
         <button className="btn-neo btn-neo-yellow" onClick={exportQueueCsv}>
-          📥 Export Queue CSV
+          <IconDownload size={16} /> Export Queue CSV
         </button>
       </div>
 
@@ -106,7 +107,7 @@ export default function ReviewQueue() {
             return (
               <div key={flag.id} className="flag-card">
                 <div className="flag-card-header">
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
                     <span
                       className="flag-severity-pill"
                       style={{
@@ -114,7 +115,7 @@ export default function ReviewQueue() {
                         color: isCritical ? '#FFFFFF' : '#121212'
                       }}
                     >
-                      Severity: {flag.severity_score}
+                      Score: {flag.severity_score}
                     </span>
                     <strong style={{ fontSize: '1.1rem' }}>{flag.branch_name}</strong>
                     <span className="pill-badge pill-badge-white">{flag.entity_id}</span>
@@ -135,7 +136,7 @@ export default function ReviewQueue() {
                 </div>
 
                 <div className="flag-reason-text">
-                  🔍 <strong>Diagnosis:</strong> {flag.reason}
+                  <strong>Diagnosis:</strong> {flag.reason}
                 </div>
 
                 <div className="flag-actions-bar">
@@ -144,7 +145,7 @@ export default function ReviewQueue() {
                       type="text"
                       className="input-neo"
                       style={{ flex: 1 }}
-                      placeholder="Add team investigation notes..."
+                      placeholder="Add investigation notes..."
                       value={notesDraft[flag.id] || ''}
                       onChange={(e) => setNotesDraft({ ...notesDraft, [flag.id]: e.target.value })}
                     />
@@ -173,7 +174,7 @@ export default function ReviewQueue() {
                       style={{ padding: '6px 14px', fontSize: '0.8rem' }}
                       onClick={() => handleStatusChange(flag.id, 'resolved')}
                     >
-                      Resolve ✓
+                      Resolve
                     </button>
                   </div>
                 </div>

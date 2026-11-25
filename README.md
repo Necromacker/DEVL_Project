@@ -38,18 +38,15 @@ Visit the app at **http://localhost:8000** (or http://localhost:5173).
 
 ## 🏗️ Architecture & Tech Stack
 
-- **Backend**: Python (FastAPI, Pandas, RapidFuzz, SQLAlchemy, Pydantic, Pytest)
-- **Frontend**: React 19, Recharts, Vite
-- **Styling**: Separate modular vanilla CSS files for every page and component (**no Tailwind**, matching the user specification):
+- **Currency**: Indian Rupee (`₹` / INR) standard across sales, purchases, waste logs, and procurement.
+- **Frontend**: React 19, Recharts, Vite, clean SVG icons, Unsplash image thumbnails
+- **Styling**: Separate modular vanilla CSS files for each page (**no Tailwind**):
   - `styles/index.css`: Global variables, neo-brutalist cards, buttons, badges, tables
   - `styles/App.css`: Responsive sidebar, sticky header, mobile drawer
   - `styles/Overview.css`: KPI cards, segmented capsule chart, recent items list
   - `styles/BranchView.css`: Branch reconciliation balance sheet, category pills
-  - `styles/MenuItemReview.css`: Recipe BOM viewer, margin & estimability audits
   - `styles/ProcurementPlanner.css`: Forecasted demand, pack size rounding, inline edits
   - `styles/ReviewQueue.css`: Human-readable diagnostics, severity scores, status tabs
-  - `styles/DataQuality.css`: Alias mapping resolver, missing recipe alerts
-  - `styles/DataUploadSettings.css`: CSV exporter/uploader, threshold configuration
 - **Database**: SQLite (`backend/data/planner.db`)
 - **CSV Storage**: 5 benchmark datasets saved in `backend/data/`:
   - `pos_orders.csv` (5,400 orders)

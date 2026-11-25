@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { fetchBranchView, fetchBranches } from '../api';
+import { fetchBranchView } from '../api';
+import { IconDownload } from '../components/Icons';
 import '../styles/BranchView.css';
 
 export default function BranchView({ selectedBranch, setSelectedBranch, branches = [] }) {
@@ -28,7 +29,7 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
 
   const exportBranchCsv = () => {
     if (!data?.ingredients) return;
-    const headers = ["Ingredient", "Category", "Unit", "Opening", "Purchases", "Closing", "Actual Usage", "Theoretical Usage", "Logged Waste", "Unexplained Var", "Var %", "Var ($)", "Z-Score"];
+    const headers = ["Ingredient", "Category", "Unit", "Opening", "Purchases", "Closing", "Actual Usage", "Theoretical Usage", "Logged Waste", "Unexplained Var", "Var %", "Var (INR)", "Z-Score"];
     const rows = data.ingredients.map(i => [
       `"${i.ingredient_name}"`,
       i.category,
@@ -80,7 +81,7 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
             ))}
           </select>
           <button className="btn-neo btn-neo-yellow" onClick={exportBranchCsv}>
-            📥 Export CSV
+            <IconDownload size={16} /> Export CSV
           </button>
         </div>
       </div>
@@ -88,12 +89,12 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
       {/* Reconciliation Formula Banner */}
       <div className="balance-formula-banner">
         <div>
-          <span>📐 Formula: </span>
+          <span style={{ fontWeight: 800 }}>Formula: </span>
           <span className="formula-tag">Actual Usage = Opening + Purchases - Closing</span>
           <span style={{ margin: '0 8px' }}>&</span>
           <span className="formula-tag">Unexplained = Actual - Theoretical - Logged Waste</span>
         </div>
-        <div style={{ display: 'flex', gap: 8 }}>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
           {['All', 'Meat & Poultry', 'Produce', 'Dairy', 'Dry Goods'].map(cat => (
             <button
               key={cat}
@@ -111,16 +112,16 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
       <div className="branch-kpis-bar">
         <div className="branch-kpi-box">
           <div className="branch-kpi-label">Total Spend (90D)</div>
-          <div className="branch-kpi-value">${data?.total_spend?.toLocaleString() || 0}</div>
+          <div className="branch-kpi-value">₹{data?.total_spend?.toLocaleString() || 0}</div>
         </div>
         <div className="branch-kpi-box">
           <div className="branch-kpi-label">Logged Waste Cost</div>
-          <div className="branch-kpi-value" style={{ color: '#DC2626' }}>${data?.total_waste_cost?.toLocaleString() || 0}</div>
+          <div className="branch-kpi-value" style={{ color: '#DC2626' }}>₹{data?.total_waste_cost?.toLocaleString() || 0}</div>
         </div>
         <div className="branch-kpi-box">
           <div className="branch-kpi-label">Unexplained Variance Cost</div>
           <div className="branch-kpi-value" style={{ color: data?.total_variance_cost > 0 ? '#DC2626' : '#16A34A' }}>
-            ${data?.total_variance_cost?.toLocaleString() || 0}
+            ₹{data?.total_variance_cost?.toLocaleString() || 0}
           </div>
         </div>
       </div>
@@ -141,7 +142,7 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
               <th>Unexplained Var</th>
               <th>Var %</th>
               <th>Peer Z-Score</th>
-              <th>Diagnosis</th>
+              <th>Status</th>
             </tr>
           </thead>
           <tbody>
@@ -164,7 +165,7 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
                   <td style={{ color: '#DC2626' }}>{row.logged_waste?.toLocaleString()} {row.base_unit}</td>
                   <td style={{ fontWeight: 800 }}>
                     {row.unexplained_variance > 0 ? `+${row.unexplained_variance?.toLocaleString()}` : row.unexplained_variance?.toLocaleString()} {row.base_unit}
-                    <div style={{ fontSize: '0.75rem', color: 'var(--color-gray-600)' }}>${row.variance_cost?.toLocaleString()}</div>
+                    <div style={{ fontSize: '0.75rem', color: 'var(--color-gray-600)' }}>₹{row.variance_cost?.toLocaleString()}</div>
                   </td>
                   <td>
                     <span className={`pill-badge ${Math.abs(row.variance_pct) > 15 ? 'pill-badge-red' : (Math.abs(row.variance_pct) > 6 ? 'pill-badge-yellow' : 'pill-badge-lime')}`}>
@@ -178,10 +179,10 @@ export default function BranchView({ selectedBranch, setSelectedBranch, branches
                   </td>
                   <td>
                     {isOverPortioning && (
-                      <span className="pill-badge pill-badge-yellow">⚠️ Portion Creep</span>
+                      <span className="pill-badge pill-badge-yellow">Portion Creep</span>
                     )}
                     {isHighDairy && (
-                      <span className="pill-badge pill-badge-red">⚠️ Cooler Spoilage</span>
+                      <span className="pill-badge pill-badge-red">Cooler Spoilage</span>
                     )}
                     {!isOverPortioning && !isHighDairy && Math.abs(row.variance_pct) <= 8 && (
                       <span className="pill-badge pill-badge-lime">Balanced</span>

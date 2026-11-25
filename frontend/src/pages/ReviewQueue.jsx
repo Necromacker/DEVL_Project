@@ -119,7 +119,6 @@ export default function ReviewQueue() {
                     </span>
                     <strong style={{ fontSize: '1.1rem' }}>{flag.branch_name}</strong>
                     <span className="pill-badge pill-badge-white">{flag.entity_id}</span>
-                    <span className="pill-badge pill-badge-purple">{flag.flag_type}</span>
                   </div>
 
                   <div>

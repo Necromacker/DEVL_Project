@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SegmentedPillChart from '../components/SegmentedPillChart';
 import { fetchOverview } from '../api';
 import { IconRupee, IconWallet, IconChart } from '../components/Icons';
+import { formatINR, formatPct } from '../utils/formatters';
 import '../styles/Overview.css';
 
 export default function Overview({ selectedBranch, setSelectedBranch, branches = [], onNavigate }) {
@@ -30,9 +31,9 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
     total_waste: 40234,
     unexplained_variance: 2845,
     total_sales: 44346,
-    waste_pct: 3.2,
-    variance_pct: 4.8,
-    food_cost_pct: 28.5,
+    waste_pct: 3,
+    variance_pct: 5,
+    food_cost_pct: 29,
     active_branches: 6
   };
 
@@ -48,7 +49,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
     },
     {
       name: "Pizza",
-      sub: "₹32.45",
+      sub: "₹320",
       price: "₹680",
       count: "20",
       bgColor: "#FFE57F",
@@ -56,7 +57,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
     },
     {
       name: "Grilled Bowl",
-      sub: "₹16.50",
+      sub: "₹380",
       price: "₹44,346",
       count: "2680",
       bgColor: "#CCFF00",
@@ -64,7 +65,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
     },
     {
       name: "Pasta Alfredo",
-      sub: "₹18.00",
+      sub: "₹420",
       price: "₹26,100",
       count: "1450",
       bgColor: "#D7B7FD",
@@ -86,9 +87,9 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
           </div>
           <div className="card-metric-section">
             <div className="card-metric-label">Revenue</div>
-            <div className="card-metric-value">₹{kpis.total_purchases?.toLocaleString()}</div>
+            <div className="card-metric-value">{formatINR(kpis.total_purchases)}</div>
             <div className="card-metric-sub">
-              <span className="pill-badge pill-badge-white">Food Cost {kpis.food_cost_pct}%</span>
+              <span className="pill-badge pill-badge-white">Food Cost {formatPct(kpis.food_cost_pct)}</span>
             </div>
           </div>
         </div>
@@ -103,14 +104,14 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
           </div>
           <div className="card-metric-section">
             <div className="card-metric-label">Expenses</div>
-            <div className="card-metric-value">₹{kpis.total_waste?.toLocaleString()}</div>
+            <div className="card-metric-value">{formatINR(kpis.total_waste)}</div>
             <div className="card-metric-sub">
-              <span className="pill-badge pill-badge-white">Waste {kpis.waste_pct}%</span>
+              <span className="pill-badge pill-badge-white">Waste {formatPct(kpis.waste_pct)}</span>
             </div>
           </div>
         </div>
 
-        {/* Card 3: Crisp White Card (Sales - exact same card UI, no graph) */}
+        {/* Card 3: Crisp White Card (Sales - exact same card UI, whole number, no decimals) */}
         <div className="kpi-card-white">
           <div className="card-header-row">
             <div className="card-icon-circle">
@@ -120,7 +121,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
           </div>
           <div className="card-metric-section">
             <div className="card-metric-label">Sales</div>
-            <div className="card-metric-value">₹{kpis.total_sales?.toLocaleString()}</div>
+            <div className="card-metric-value">{formatINR(kpis.total_sales)}</div>
             <div className="card-metric-sub">
               <span className="pill-badge pill-badge-lime">90D Active</span>
             </div>
@@ -181,7 +182,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
         </div>
       </div>
 
-      {/* Team / Branch Manager Cards matching Reference Image 1 bottom */}
+      {/* Team / Branch Manager Cards matching Reference Image with Pune Branches */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16 }}>
         <div className="neo-card" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
@@ -196,7 +197,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
               <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.05rem' }}>
                 Adam Smith <span style={{ color: '#EAB308', fontSize: '0.9rem' }}>★ 5.0</span>
               </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-gray-600)', fontWeight: 600 }}>Sales Manager • Downtown Bistro</div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--color-gray-600)', fontWeight: 600 }}>Sales Manager • Koregaon Park, Pune</div>
             </div>
           </div>
           <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.25rem' }}>
@@ -217,7 +218,7 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
               <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.05rem' }}>
                 Elena Rostova <span style={{ color: '#EAB308', fontSize: '0.9rem' }}>★ 4.9</span>
               </div>
-              <div style={{ fontSize: '0.8rem', color: 'var(--color-gray-600)', fontWeight: 600 }}>Inventory Lead • Westside Grill</div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--color-gray-600)', fontWeight: 600 }}>Inventory Lead • Viman Nagar, Pune</div>
             </div>
           </div>
           <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: '1.25rem' }}>
@@ -226,10 +227,10 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
         </div>
       </div>
 
-      {/* Branch Rankings Table */}
+      {/* Branch Rankings Table - Pune Branches & Whole Numbers */}
       <div className="branch-ranking-section">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h2 style={{ fontSize: '1.5rem' }}>Branch Performance Ranking</h2>
+          <h2 style={{ fontSize: '1.5rem' }}>Pune Branch Performance Ranking</h2>
           <button className="btn-neo btn-neo-lime" onClick={() => onNavigate('procurement')}>
             Plan Orders →
           </button>
@@ -239,14 +240,13 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
           <table className="neo-table">
             <thead>
               <tr>
-                <th>Branch</th>
+                <th>Pune Branch</th>
                 <th>Gross Sales</th>
                 <th>Purchases</th>
                 <th>Food Cost %</th>
                 <th>Waste Cost</th>
                 <th>Waste %</th>
-                <th>Unexplained Var (₹)</th>
-                <th>Var %</th>
+                <th>Unexplained Var</th>
                 <th>Audit Status</th>
                 <th>Action</th>
               </tr>
@@ -258,25 +258,20 @@ export default function Overview({ selectedBranch, setSelectedBranch, branches =
                     <span className="branch-name-pill">{b.branch_name}</span>
                     <div style={{ fontSize: '0.75rem', color: 'var(--color-gray-600)' }}>ID: {b.branch_id}</div>
                   </td>
-                  <td style={{ fontWeight: 700 }}>₹{b.sales?.toLocaleString()}</td>
-                  <td>₹{b.purchases?.toLocaleString()}</td>
+                  <td style={{ fontWeight: 700 }}>{formatINR(b.sales)}</td>
+                  <td>{formatINR(b.purchases)}</td>
                   <td>
                     <span className={`pill-badge ${b.food_cost_pct > 32 ? 'pill-badge-red' : 'pill-badge-white'}`}>
-                      {b.food_cost_pct}%
+                      {formatPct(b.food_cost_pct)}
                     </span>
                   </td>
-                  <td style={{ color: '#DC2626', fontWeight: 700 }}>₹{b.waste_cost?.toLocaleString()}</td>
+                  <td style={{ color: '#DC2626', fontWeight: 700 }}>{formatINR(b.waste_cost)}</td>
                   <td>
                     <span className={`pill-badge ${b.waste_pct > 8 ? 'pill-badge-red' : 'pill-badge-yellow'}`}>
-                      {b.waste_pct}%
+                      {formatPct(b.waste_pct)}
                     </span>
                   </td>
-                  <td style={{ fontWeight: 700 }}>₹{b.variance_cost?.toLocaleString()}</td>
-                  <td>
-                    <span className={`pill-badge ${b.variance_pct > 15 ? 'pill-badge-red' : (b.variance_pct > 6 ? 'pill-badge-yellow' : 'pill-badge-white')}`}>
-                      {b.variance_pct > 0 ? `+${b.variance_pct}%` : `${b.variance_pct}%`}
-                    </span>
-                  </td>
+                  <td style={{ fontWeight: 700 }}>{formatINR(b.variance_cost)}</td>
                   <td>
                     {b.items_flagged > 0 ? (
                       <span className="pill-badge pill-badge-red">{b.items_flagged} Alerts</span>

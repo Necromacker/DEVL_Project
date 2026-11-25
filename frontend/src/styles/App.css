@@ -112,7 +112,7 @@
   border-radius: var(--radius-pill);
 }
 
-/* Rightmost: Actions & Avatar */
+/* Rightmost: Actions */
 .navbar-right {
   display: flex;
   align-items: center;
@@ -121,16 +121,6 @@
 
 .btn-icon-lime {
   background: var(--color-lime);
-}
-
-.header-avatar-circle {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  border: var(--border-thick);
-  background: var(--color-purple);
-  overflow: hidden;
-  box-shadow: var(--shadow-neo-sm);
 }
 
 /* Mobile Toggle */

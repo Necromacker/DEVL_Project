@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchProcurement } from '../api';
-import { IconDownload, IconCheck } from '../components/Icons';
+import { IconDownload } from '../components/Icons';
+import { formatUnitQty, formatINR, formatWhole } from '../utils/formatters';
 import '../styles/ProcurementPlanner.css';
 
 export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, branches = [] }) {
@@ -53,14 +54,14 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
       "Branch ID", "Branch Name", "Canonical ID", "Ingredient Name", "Category",
       "Current Stock", "Daily Run Rate", "Days of Supply", "7-Day Projected Demand",
       "Safety Buffer", "Pack Description", "Pack Unit Cost (INR)", "Packs To Order",
-      "Total Order Qty (Base)", "Estimated Cost (INR)", "Urgency"
+      "Total Order Qty", "Estimated Cost (INR)", "Urgency"
     ];
 
     const rows = plan.map(item => {
       const key = `${item.branch_id}_${item.canonical_id}`;
       const packs = editedPacks[key] !== undefined ? editedPacks[key] : item.suggested_packs;
       const orderQty = packs * item.pack_size_base;
-      const totalCost = packs * item.pack_unit_cost;
+      const totalCost = Math.round(packs * item.pack_unit_cost);
 
       return [
         item.branch_id,
@@ -68,16 +69,16 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
         item.canonical_id,
         `"${item.ingredient_name}"`,
         item.category,
-        item.current_stock,
-        item.daily_run_rate,
-        item.days_of_supply,
-        item.projected_7day_demand,
-        item.safety_stock_buffer,
+        Math.round(item.current_stock),
+        Math.round(item.daily_run_rate),
+        Math.round(item.days_of_supply),
+        Math.round(item.projected_7day_demand),
+        Math.round(item.safety_stock_buffer),
         `"${item.pack_description}"`,
-        item.pack_unit_cost,
+        Math.round(item.pack_unit_cost),
         packs,
         orderQty,
-        totalCost.toFixed(2),
+        totalCost,
         item.urgency
       ];
     });
@@ -105,9 +106,6 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
       <div className="procurement-header-banner">
         <div className="procurement-banner-text">
           <h2>Procurement & Purchase Planner</h2>
-          <p style={{ fontWeight: 600, color: 'var(--color-black)', marginTop: 4 }}>
-            Forecast demand + waste safety buffer + automated pack size rounding
-          </p>
         </div>
 
         <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
@@ -116,7 +114,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
             value={selectedBranch}
             onChange={(e) => setSelectedBranch(e.target.value)}
           >
-            <option value="All">All Branches</option>
+            <option value="All">All Pune Branches</option>
             {branches.map(b => (
               <option key={b.id} value={b.id}>{b.name}</option>
             ))}
@@ -129,16 +127,13 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
 
       {/* Summary Row */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#FFFFFF', padding: '16px 24px', border: 'var(--border-bold)', borderRadius: 'var(--radius-card)', boxShadow: 'var(--shadow-neo)' }}>
-        <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
-          <div>
-            <span style={{ fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--color-gray-600)' }}>
-              Projected Order Total
-            </span>
-            <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', fontWeight: 800 }}>
-              ₹{totalSpend.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-            </div>
+        <div>
+          <span style={{ fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--color-gray-600)' }}>
+            Projected Order Total
+          </span>
+          <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', fontWeight: 800 }}>
+            {formatINR(totalSpend)}
           </div>
-          <span className="pill-badge pill-badge-lime">{plan.length} SKU Items</span>
         </div>
 
         <div style={{ display: 'flex', gap: 12 }}>
@@ -166,7 +161,7 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
               <th>Days Supply</th>
               <th>7-Day Demand</th>
               <th>Safety Buffer</th>
-              <th>Commercial Pack Size</th>
+              <th>Commercial Pack</th>
               <th>Order Packs</th>
               <th>Total Order Qty</th>
               <th>Est. Cost</th>
@@ -176,8 +171,8 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
             {plan.map((item) => {
               const key = `${item.branch_id}_${item.canonical_id}`;
               const packs = editedPacks[key] !== undefined ? editedPacks[key] : item.suggested_packs;
-              const totalCost = (packs * item.pack_unit_cost).toFixed(2);
-              const totalOrderQty = (packs * item.pack_size_base).toLocaleString();
+              const totalCost = packs * item.pack_unit_cost;
+              const totalOrderQtyFormatted = formatUnitQty(packs * item.pack_size_base, item.base_unit);
 
               return (
                 <tr key={key}>
@@ -198,21 +193,21 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
                       {item.urgency}
                     </span>
                   </td>
-                  <td>{item.current_stock?.toLocaleString()} {item.base_unit}</td>
-                  <td>{item.daily_run_rate} {item.base_unit}/day</td>
+                  <td>{formatUnitQty(item.current_stock, item.base_unit)}</td>
+                  <td>{formatUnitQty(item.daily_run_rate, item.base_unit)}/day</td>
                   <td>
                     <strong style={{ color: item.days_of_supply < 2 ? '#DC2626' : '#121212' }}>
-                      {item.days_of_supply} days
+                      {Math.round(item.days_of_supply)} days
                     </strong>
                   </td>
-                  <td>{item.projected_7day_demand?.toLocaleString()} {item.base_unit}</td>
-                  <td>+{item.safety_stock_buffer?.toLocaleString()} {item.base_unit}</td>
+                  <td>{formatUnitQty(item.projected_7day_demand, item.base_unit)}</td>
+                  <td>+{formatUnitQty(item.safety_stock_buffer, item.base_unit)}</td>
                   <td>
                     <span className="pill-badge pill-badge-white" style={{ fontSize: '0.75rem' }}>
                       {item.pack_description}
                     </span>
                     <div style={{ fontSize: '0.75rem', color: 'var(--color-gray-600)', marginTop: 2 }}>
-                      ₹{item.pack_unit_cost} / pack
+                      {formatINR(item.pack_unit_cost)} / pack
                     </div>
                   </td>
                   <td>
@@ -225,10 +220,10 @@ export default function ProcurementPlanner({ selectedBranch, setSelectedBranch, 
                     />
                   </td>
                   <td style={{ fontWeight: 800 }}>
-                    {totalOrderQty} {item.base_unit}
+                    {totalOrderQtyFormatted}
                   </td>
                   <td style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.05rem' }}>
-                    ₹{totalCost}
+                    {formatINR(totalCost)}
                   </td>
                 </tr>
               );

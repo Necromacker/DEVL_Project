@@ -312,7 +312,7 @@ def generate_review_flags(db: Session) -> List[Dict[str, Any]]:
                 "severity_score": 85.0,
                 "reason": reason,
                 "status": "investigating",
-                "notes": "HVAC maintenance scheduled to inspect Westside walk-in compressor."
+                "notes": "HVAC maintenance scheduled to inspect Viman Nagar walk-in compressor."
             })
 
         # 3. Suspicious inventory count anomaly (B05)
@@ -332,25 +332,6 @@ def generate_review_flags(db: Session) -> List[Dict[str, Any]]:
                 "reason": reason,
                 "status": "open",
                 "notes": "Assistant manager contacted to perform immediate recount of beef inventory."
-            })
-
-        # General variance beyond threshold
-        elif abs(var_pct) > settings["variance_threshold_pct"] and abs(var_cost) > settings["variance_threshold_dollar"]:
-            reason = (
-                f"Variance threshold exceeded: Unexplained variance is {var_pct}% "
-                f"(${abs(var_cost):,.2f}), exceeding configured {settings['variance_threshold_pct']}% threshold."
-            )
-            flags.append({
-                "entity_type": "ingredient",
-                "entity_id": c_id,
-                "branch_id": b_id,
-                "branch_name": b_name,
-                "ingredient_name": ing_name,
-                "flag_type": "variance_threshold",
-                "severity_score": min(95.0, 50.0 + abs(var_pct)),
-                "reason": reason,
-                "status": "open",
-                "notes": ""
             })
 
     # Save to database

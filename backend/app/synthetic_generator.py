@@ -17,14 +17,14 @@ from .normalizer import (
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# 6 Branches
+# 6 Branches (Pune Areas)
 BRANCHES = [
-    {"id": "B01", "name": "Downtown Bistro", "location": "Financial District", "seating_capacity": 120},
-    {"id": "B02", "name": "Uptown Cafe", "location": "Midtown Avenue", "seating_capacity": 85},
-    {"id": "B03", "name": "Westside Grill", "location": "West Marina", "seating_capacity": 140},
-    {"id": "B04", "name": "North End Diner", "location": "North Suburbs", "seating_capacity": 95},
-    {"id": "B05", "name": "Eastside Kitchen", "location": "Arts District", "seating_capacity": 110},
-    {"id": "B06", "name": "Harbor Point Brasserie", "location": "Pier 4", "seating_capacity": 160},
+    {"id": "B01", "name": "Koregaon Park", "location": "North Main Road, Pune", "seating_capacity": 120},
+    {"id": "B02", "name": "Kothrud", "location": "Paud Road, Pune", "seating_capacity": 85},
+    {"id": "B03", "name": "Viman Nagar", "location": "Phoenix Marketcity Area, Pune", "seating_capacity": 140},
+    {"id": "B04", "name": "Baner", "location": "Balewadi High Street, Pune", "seating_capacity": 95},
+    {"id": "B05", "name": "FC Road", "location": "Deccan Gymkhana, Pune", "seating_capacity": 110},
+    {"id": "B06", "name": "Wakad", "location": "Dutt Mandir Chowk, Pune", "seating_capacity": 160},
 ]
 
 # Canonical Ingredients (in INR)
@@ -83,11 +83,6 @@ CANONICAL_INGREDIENTS = [
         "id": "ING-OIL", "name": "Extra Virgin Olive Oil", "category": "Dry Goods",
         "base_unit": "ml", "density_g_per_ml": 0.92, "default_pack_desc": "can of 5 l",
         "default_pack_qty_base": 5000.0, "cost_per_base_unit": 0.65, "standard_yield_pct": 98.0
-    },
-    {
-        "id": "ING-FLOUR", "name": "All-Purpose Flour", "category": "Dry Goods",
-        "base_unit": "g", "density_g_per_ml": 0.60, "default_pack_desc": "bag of 25 kg",
-        "default_pack_qty_base": 25000.0, "cost_per_base_unit": 0.045, "standard_yield_pct": 100.0
     },
 ]
 
@@ -155,10 +150,6 @@ RAW_ALIASES = [
     ("Green Peppers", "ING-BELLPEPPER", 95.0, True),
     ("PEPPER-BELL-GREEN", "ING-BELLPEPPER", 100.0, True),
     ("Shimla Mirch Green", "ING-BELLPEPPER", 85.0, True),
-    # Flour
-    ("All Purpose Flour 25kg", "ING-FLOUR", 100.0, True),
-    ("FLOUR-AP", "ING-FLOUR", 100.0, True),
-    ("Maida White Flour", "ING-FLOUR", 85.0, True),
     # Low confidence / unmapped aliases for data quality queue!
     ("Special White Powder Condiment", None, 35.0, False),
     ("Imported Artisan Truffle Glaze", None, 40.0, False),
@@ -200,7 +191,6 @@ RECIPE_BOM = [
     {"menu_item_id": "ITEM-03", "canonical_id": "ING-OIL", "raw": "Extra Virgin Olive Oil", "qty": 10.0, "unit": "ml", "yield_pct": 98.0, "trim_loss": 2.0},
 
     # ITEM-04 Margherita Pizza
-    {"menu_item_id": "ITEM-04", "canonical_id": "ING-FLOUR", "raw": "All-Purpose Flour", "qty": 180.0, "unit": "g", "yield_pct": 100.0, "trim_loss": 0.0},
     {"menu_item_id": "ITEM-04", "canonical_id": "ING-CHEESE", "raw": "Mozzarella Cheese", "qty": 120.0, "unit": "g", "yield_pct": 98.0, "trim_loss": 2.0},
     {"menu_item_id": "ITEM-04", "canonical_id": "ING-TOMATO", "raw": "Roma Tomato", "qty": 100.0, "unit": "g", "yield_pct": 90.0, "trim_loss": 10.0},
     {"menu_item_id": "ITEM-04", "canonical_id": "ING-OIL", "raw": "Extra Virgin Olive Oil", "qty": 15.0, "unit": "ml", "yield_pct": 98.0, "trim_loss": 2.0},

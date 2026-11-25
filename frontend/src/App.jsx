@@ -12,7 +12,6 @@ export default function App() {
   const [selectedBranch, setSelectedBranch] = useState('All');
   const [branches, setBranches] = useState([]);
   const [openAlertsCount, setOpenAlertsCount] = useState(3);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     loadAppMeta();
@@ -39,7 +38,6 @@ export default function App() {
 
   const handleNav = (id) => {
     setCurrentPage(id);
-    setMobileMenuOpen(false);
   };
 
   return (
@@ -48,28 +46,19 @@ export default function App() {
       <header className="main-navbar">
         {/* Left: Logo & Brand */}
         <div className="navbar-left">
-          <button
-            className="btn-icon-circle mobile-nav-toggle"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#121212" strokeWidth="2.5">
-              <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
-            </svg>
-          </button>
-          
           <div className="brand-box" onClick={() => handleNav('overview')} style={{ cursor: 'pointer' }}>
             <div className="brand-icon-box">
               <IconLogo size={22} color="#121212" />
             </div>
             <div className="brand-title-wrap">
               <h2>BRANCH PLANNER</h2>
-              <div className="brand-subtitle">Waste & Procurement</div>
+              <div className="brand-subtitle">Waste & Procurement • Pune</div>
             </div>
           </div>
         </div>
 
         {/* Middle: 4 Essential Navigation Options */}
-        <nav className={`navbar-middle ${mobileMenuOpen ? 'mobile-open' : ''}`}>
+        <nav className="navbar-middle">
           {navItems.map((item) => {
             const isActive = currentPage === item.id;
             return (
@@ -88,7 +77,7 @@ export default function App() {
           })}
         </nav>
 
-        {/* Rightmost: Notifications, Quick Button, Profile */}
+        {/* Rightmost: Notifications & Quick Action Button */}
         <div className="navbar-right">
           <button
             className="btn-icon-circle"
@@ -105,14 +94,6 @@ export default function App() {
           >
             <IconChart size={18} color="#121212" />
           </button>
-
-          <div className="header-avatar-circle" title="Hi, Charlotte">
-            <img
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
-              alt="Charlotte"
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            />
-          </div>
         </div>
       </header>
 

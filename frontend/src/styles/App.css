@@ -1,0 +1,236 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-page);
+}
+
+/* Sidebar */
+.app-sidebar {
+  width: 270px;
+  background: #FFFFFF;
+  border-right: var(--border-bold);
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: 100;
+  box-shadow: 2px 0 0 #121212;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: var(--border-thick);
+}
+
+.brand-icon-box {
+  width: 44px;
+  height: 44px;
+  background: var(--color-yellow);
+  border: var(--border-thick);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: var(--shadow-neo-sm);
+}
+
+.brand-title-wrap h2 {
+  font-size: 1.1rem;
+  line-height: 1.1;
+  color: var(--color-black);
+}
+
+.brand-subtitle {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-gray-600);
+  text-transform: uppercase;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+.nav-item-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: var(--radius-pill);
+  border: 2px solid transparent;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-black);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+}
+
+.nav-item-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-item-btn:hover {
+  background: #F8F6F0;
+  border-color: #121212;
+  transform: translate(-1px, -1px);
+}
+
+.nav-item-btn.active {
+  background: var(--color-yellow);
+  border: var(--border-thick);
+  box-shadow: var(--shadow-neo-sm);
+}
+
+.nav-item-btn.active.nav-purple {
+  background: var(--color-purple);
+}
+
+.nav-item-btn.active.nav-lime {
+  background: var(--color-lime);
+}
+
+.nav-badge {
+  background: #121212;
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+  padding-top: 16px;
+  border-top: var(--border-thick);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.branch-select-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.branch-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Main Content Wrapper */
+.main-viewport {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+/* Top Header matching reference image: "Hi, Charlotte / Your restaurant overview" */
+.top-header {
+  background: #FFFFFF;
+  border-bottom: var(--border-bold);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-user-greeting {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-avatar-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: var(--border-thick);
+  background: var(--color-purple);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: var(--shadow-neo-sm);
+}
+
+.user-text-meta .greeting-sub {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-gray-600);
+}
+
+.user-text-meta .greeting-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-family: var(--font-display);
+  color: var(--color-black);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-icon-lime {
+  background: var(--color-lime);
+}
+
+/* Page body padding */
+.page-container {
+  padding: 28px 32px 64px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Mobile responsive navigation */
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .app-sidebar {
+    position: fixed;
+    left: -290px;
+    transition: left 0.25s ease;
+  }
+  .app-sidebar.open {
+    left: 0;
+  }
+  .mobile-nav-toggle {
+    display: flex;
+  }
+  .page-container {
+    padding: 18px 16px 40px;
+  }
+  .top-header {
+    padding: 12px 16px;
+  }
+}

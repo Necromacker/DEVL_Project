@@ -1,0 +1,90 @@
+/* Branch View Page Styles */
+.branch-view-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.branch-header-card {
+  background: var(--color-purple);
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.branch-title-group h2 {
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.branch-meta-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.branch-kpis-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.branch-kpi-box {
+  background: #FFFFFF;
+  border: var(--border-thick);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: var(--shadow-neo-sm);
+}
+
+.branch-kpi-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-gray-600);
+}
+
+.branch-kpi-value {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.balance-formula-banner {
+  background: #FFFFFF;
+  border: var(--border-thick);
+  border-radius: var(--radius-card);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.formula-tag {
+  background: var(--color-yellow);
+  padding: 4px 10px;
+  border: var(--border-thick);
+  border-radius: var(--radius-pill);
+  font-family: monospace;
+}
+
+.variance-negative {
+  color: #DC2626;
+  font-weight: 800;
+}
+
+.variance-positive {
+  color: #16A34A;
+  font-weight: 800;
+}

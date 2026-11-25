@@ -1,0 +1,1098 @@
+waste_id,branch_id,date,ingredient_name_raw,waste_quantity,unit,reason,recorded_by,canonical_id,normalized_qty,normalized_unit
+WST-80001,B01,2026-08-25,PEPPER-BELL-GREEN,71.22,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,71.22,g
+WST-80002,B01,2026-08-25,EGGS-DOZ,0.87,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.87,each
+WST-80003,B02,2026-08-25,Beef Minced Prime,129.0,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,129.0,g
+WST-80004,B03,2026-08-25,Minced Beef,207.22,g,Trimming / Prep loss,Chef Elena,ING-BEEF,207.22,g
+WST-80005,B03,2026-08-25,Aloo Russet,177.04,g,Trimming / Prep loss,Chef Elena,ING-POTATO,177.04,g
+WST-80006,B03,2026-08-25,Heavy Whipping Cream,551.03,ml,Spoiled - walk-in temp fluctuation,Chef Dave,ING-CREAM,551.03,ml
+WST-80007,B03,2026-08-25,Mozzarella block,1.35,lb,Expired batch past use-by date,Chef Elena,ING-CHEESE,610.66,g
+WST-80008,B03,2026-08-25,Farm Fresh Eggs 30ct,1.73,each,Trimming / Prep loss,Chef Jin,ING-EGG,1.73,each
+WST-80009,B04,2026-08-25,Fresh Yellow Onion,70.12,g,Trimming / Prep loss,Chef Dave,ING-ONION,70.12,g
+WST-80010,B04,2026-08-25,FLOUR-AP,106.28,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,106.28,g
+WST-80011,B05,2026-08-25,Onions bag,55.33,g,Trimming / Prep loss,Chef Chloe,ING-ONION,55.33,g
+WST-80012,B02,2026-08-26,Keema beef,0.17,lb,Overcooked/burnt,Chef Marcus,ING-BEEF,78.1,g
+WST-80013,B03,2026-08-26,Keema beef,181.33,g,Trimming / Prep loss,Chef Jin,ING-BEEF,181.33,g
+WST-80014,B03,2026-08-26,Mozzarella block,804.15,g,Expired batch past use-by date,Chef Chloe,ING-CHEESE,804.15,g
+WST-80015,B04,2026-08-26,chicken breast bnls,208.61,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,208.61,g
+WST-80016,B04,2026-08-26,Rice Basmati Extra Long,51.06,g,Dropped during prep,Chef Jin,ING-RICE,51.06,g
+WST-80017,B05,2026-08-26,BEEF-GROUND-80,132.51,g,Trimming / Prep loss,Chef Chloe,ING-BEEF,132.51,g
+WST-80018,B05,2026-08-26,ONION-YELLOW,78.72,g,Trimming / Prep loss,Chef Elena,ING-ONION,78.72,g
+WST-80019,B05,2026-08-26,Basmati Rice 20kg,145.97,g,Trimming / Prep loss,Chef Jin,ING-RICE,145.97,g
+WST-80020,B06,2026-08-26,chicken breast bnls,0.78,lb,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,352.12,g
+WST-80021,B06,2026-08-26,Shimla Mirch Green,69.99,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,69.99,g
+WST-80022,B02,2026-08-27,ONION-YELLOW,60.18,g,Trimming / Prep loss,Chef Chloe,ING-ONION,60.18,g
+WST-80023,B02,2026-08-27,Russet Potato 50lb,85.98,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,85.98,g
+WST-80024,B02,2026-08-27,PEPPER-BELL-GREEN,17.33,g,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,17.33,g
+WST-80025,B02,2026-08-27,Egg Large White,0.8,each,Overcooked/burnt,Chef Elena,ING-EGG,0.8,each
+WST-80026,B03,2026-08-27,Chicken Breast Fillet,0.3,lb,Trimming / Prep loss,Chef Elena,ING-CHICKEN,135.9,g
+WST-80027,B03,2026-08-27,Minced Beef,0.44,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,200.78,g
+WST-80028,B03,2026-08-27,CREAM-HEAVY,592.86,ml,Mold detected on cheese block,Chef Marcus,ING-CREAM,592.86,ml
+WST-80029,B03,2026-08-27,Mozzarella Cheese Shredded,793.37,g,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,793.37,g
+WST-80030,B04,2026-08-27,mozz cheese 2kg,0.29,lb,Trimming / Prep loss,Chef Dave,ING-CHEESE,133.24,g
+WST-80031,B05,2026-08-27,Fresh Tomatoes Red,177.23,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,177.23,g
+WST-80032,B05,2026-08-27,Mozzarella Cheese Shredded,141.39,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,141.39,g
+WST-80033,B06,2026-08-27,chicken breast bnls,280.47,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,280.47,g
+WST-80034,B06,2026-08-27,Yellow Onions 50lb,88.64,g,Trimming / Prep loss,Chef Elena,ING-ONION,88.64,g
+WST-80035,B06,2026-08-27,Baking Potatoes,207.71,g,Trimming / Prep loss,Chef Dave,ING-POTATO,207.71,g
+WST-80036,B06,2026-08-27,Heavy Whipping Cream,103.1,ml,Dropped during prep,Chef Chloe,ING-CREAM,103.1,ml
+WST-80037,B03,2026-08-28,TOMATO-RED 1kg,0.44,lb,Trimming / Prep loss,Chef Jin,ING-TOMATO,198.11,g
+WST-80038,B03,2026-08-28,Onions bag,151.82,g,Trimming / Prep loss,Chef Chloe,ING-ONION,151.82,g
+WST-80039,B03,2026-08-28,Heavy Whipping Cream,4.96,cup,Mold detected on cheese block,Chef Dave,ING-CREAM,1191.09,ml
+WST-80040,B03,2026-08-28,SHRED MOZZARELLA,1.287,kg,Expired batch past use-by date,Chef Dave,ING-CHEESE,1286.99,g
+WST-80041,B04,2026-08-28,OLIVE-OIL-EXTRA-VIRGIN 5L,0.08,cup,Trimming / Prep loss,Chef Dave,ING-OIL,19.23,ml
+WST-80042,B05,2026-08-28,Russet Potato 50lb,75.64,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,75.64,g
+WST-80043,B05,2026-08-28,Farm Fresh Eggs 30ct,0.7,each,Trimming / Prep loss,Chef Jin,ING-EGG,0.7,each
+WST-80044,B05,2026-08-28,Olive Oil EVOO,34.3,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,34.3,ml
+WST-80045,B06,2026-08-28,Minced Beef,262.62,g,Trimming / Prep loss,Chef Jin,ING-BEEF,262.62,g
+WST-80046,B06,2026-08-28,Yellow Onions 50lb,118.25,g,Trimming / Prep loss,Chef Elena,ING-ONION,118.25,g
+WST-80047,B06,2026-08-28,malai cream,0.38,cup,Trimming / Prep loss,Chef Chloe,ING-CREAM,90.8,ml
+WST-80048,B01,2026-08-29,Murgh Boneless,0.83,lb,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,375.25,g
+WST-80049,B01,2026-08-29,Ground Beef 80/20,0.4,lb,Overcooked/burnt,Chef Elena,ING-BEEF,180.19,g
+WST-80050,B02,2026-08-29,Tomato,154.5,g,Trimming / Prep loss,Chef Dave,ING-TOMATO,154.5,g
+WST-80051,B02,2026-08-29,ONION-YELLOW,60.03,g,Trimming / Prep loss,Chef Marcus,ING-ONION,60.03,g
+WST-80052,B02,2026-08-29,Baking Potatoes,179.45,g,Trimming / Prep loss,Chef Elena,ING-POTATO,179.45,g
+WST-80053,B02,2026-08-29,PEPPER-BELL-GREEN,0.03,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,13.46,g
+WST-80054,B03,2026-08-29,tomatoes fresh,151.08,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,151.08,g
+WST-80055,B03,2026-08-29,CREAM-HEAVY,3.04,cup,Expired batch past use-by date,Chef Jin,ING-CREAM,729.55,ml
+WST-80056,B03,2026-08-29,mozz cheese 2kg,1.83,kg,Spoiled - walk-in temp fluctuation,Chef Elena,ING-CHEESE,1829.51,g
+WST-80057,B04,2026-08-29,Onions bag,0.19,lb,Trimming / Prep loss,Chef Elena,ING-ONION,86.46,g
+WST-80058,B04,2026-08-29,anda large,1.41,each,Trimming / Prep loss,Chef Dave,ING-EGG,1.41,each
+WST-80059,B05,2026-08-29,PEPPER-BELL-GREEN,0.13,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,58.05,g
+WST-80060,B06,2026-08-29,Boneless Chk Brst 5kg,647.15,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,647.15,g
+WST-80061,B06,2026-08-29,Beef Minced Prime,0.44,lb,Customer return,Chef Elena,ING-BEEF,200.14,g
+WST-80062,B06,2026-08-29,Heavy cream 35%,228.61,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,228.61,ml
+WST-80063,B01,2026-08-30,Keema beef,0.6,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,273.67,g
+WST-80064,B01,2026-08-30,Farm Fresh Eggs 30ct,1.06,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.06,each
+WST-80065,B01,2026-08-30,Maida White Flour,131.02,g,Trimming / Prep loss,Chef Dave,ING-FLOUR,131.02,g
+WST-80066,B02,2026-08-30,chk breast,284.23,g,Trimming / Prep loss,Chef Dave,ING-CHICKEN,284.23,g
+WST-80067,B02,2026-08-30,Fresh Yellow Onion,73.99,g,Customer return,Chef Chloe,ING-ONION,73.99,g
+WST-80068,B03,2026-08-30,Roma Tom,223.9,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,223.9,g
+WST-80069,B03,2026-08-30,Piyaz,117.75,g,Customer return,Chef Marcus,ING-ONION,117.75,g
+WST-80070,B03,2026-08-30,CREAM-HEAVY,2.56,cup,Sour smell / Curdled cream,Chef Chloe,ING-CREAM,613.34,ml
+WST-80071,B03,2026-08-30,Mozzarella Cheese Shredded,1.982,kg,Sour smell / Curdled cream,Chef Jin,ING-CHEESE,1982.08,g
+WST-80072,B04,2026-08-30,FLOUR-AP,105.7,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,105.7,g
+WST-80073,B06,2026-08-30,Green Peppers,95.68,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,95.68,g
+WST-80074,B06,2026-08-30,Maida White Flour,113.73,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,113.73,g
+WST-80075,B01,2026-08-31,Fresh Tomatoes Red,0.29,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,130.88,g
+WST-80076,B02,2026-08-31,CHICKEN BONELESS,0.52,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,235.45,g
+WST-80077,B02,2026-08-31,Onions bag,51.51,g,Trimming / Prep loss,Chef Elena,ING-ONION,51.51,g
+WST-80078,B03,2026-08-31,Ground Beef 80/20,0.26,lb,Dropped during prep,Chef Chloe,ING-BEEF,117.88,g
+WST-80079,B03,2026-08-31,Fresh Tomatoes Red,84.32,g,Dropped during prep,Chef Elena,ING-TOMATO,84.32,g
+WST-80080,B03,2026-08-31,CREAM-HEAVY,529.05,ml,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CREAM,529.05,ml
+WST-80081,B03,2026-08-31,Maida White Flour,0.19,lb,Trimming / Prep loss,Chef Marcus,ING-FLOUR,85.61,g
+WST-80082,B04,2026-08-31,Onions bag,0.12,lb,Trimming / Prep loss,Chef Chloe,ING-ONION,55.92,g
+WST-80083,B04,2026-08-31,PEPPER-BELL-GREEN,58.64,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,58.64,g
+WST-80084,B05,2026-08-31,Keema beef,0.31,lb,Trimming / Prep loss,Chef Jin,ING-BEEF,141.91,g
+WST-80085,B06,2026-08-31,CREAM-HEAVY,0.38,cup,Trimming / Prep loss,Chef Dave,ING-CREAM,91.99,ml
+WST-80086,B06,2026-08-31,EV Olive Oil,20.84,ml,Trimming / Prep loss,Chef Jin,ING-OIL,20.84,ml
+WST-80087,B01,2026-09-01,Shimla Mirch Green,27.86,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,27.86,g
+WST-80088,B01,2026-09-01,Maida White Flour,81.74,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,81.74,g
+WST-80089,B02,2026-09-01,TOMATO-RED 1kg,0.14,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,65.65,g
+WST-80090,B02,2026-09-01,malai cream,52.71,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,52.71,ml
+WST-80091,B03,2026-09-01,Ground Beef 80/20,137.56,g,Customer return,Chef Jin,ING-BEEF,137.56,g
+WST-80092,B03,2026-09-01,Roma Tom,140.52,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,140.52,g
+WST-80093,B03,2026-09-01,Whipping Cream 36%,770.9,ml,Mold detected on cheese block,Chef Jin,ING-CREAM,770.9,ml
+WST-80094,B03,2026-09-01,mozz cheese 2kg,2.01,lb,Sour smell / Curdled cream,Chef Jin,ING-CHEESE,912.33,g
+WST-80095,B03,2026-09-01,Olive Oil EVOO,33.92,ml,Trimming / Prep loss,Chef Jin,ING-OIL,33.92,ml
+WST-80096,B04,2026-09-01,Boneless Chk Brst 5kg,248.36,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,248.36,g
+WST-80097,B04,2026-09-01,Russet Potato 50lb,0.15,lb,Trimming / Prep loss,Chef Chloe,ING-POTATO,67.5,g
+WST-80098,B04,2026-09-01,Green Peppers,49.68,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,49.68,g
+WST-80099,B06,2026-09-01,Mozzarella Cheese Shredded,192.93,g,Trimming / Prep loss,Chef Marcus,ING-CHEESE,192.93,g
+WST-80100,B01,2026-09-02,SHRED MOZZARELLA,177.49,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,177.49,g
+WST-80101,B01,2026-09-02,Cooking Olive Oil,33.54,ml,Customer return,Chef Elena,ING-OIL,33.54,ml
+WST-80102,B02,2026-09-02,chk breast,210.87,g,Dropped during prep,Chef Elena,ING-CHICKEN,210.87,g
+WST-80103,B02,2026-09-02,ONION-YELLOW,35.85,g,Trimming / Prep loss,Chef Chloe,ING-ONION,35.85,g
+WST-80104,B02,2026-09-02,Rice Basmati Extra Long,92.59,g,Trimming / Prep loss,Chef Jin,ING-RICE,92.59,g
+WST-80105,B03,2026-09-02,Fresh Yellow Onion,0.14,lb,Overcooked/burnt,Chef Chloe,ING-ONION,61.26,g
+WST-80106,B03,2026-09-02,Heavy cream 35%,886.86,ml,Expired batch past use-by date,Chef Dave,ING-CREAM,886.86,ml
+WST-80107,B03,2026-09-02,Rice Basmati Extra Long,0.21,lb,Customer return,Chef Dave,ING-RICE,94.72,g
+WST-80108,B04,2026-09-02,tamatar,115.63,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,115.63,g
+WST-80109,B04,2026-09-02,PEPPER-BELL-GREEN,0.07,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,33.52,g
+WST-80110,B04,2026-09-02,Egg Large White,1.18,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.18,each
+WST-80111,B04,2026-09-02,Maida White Flour,90.9,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,90.9,g
+WST-80112,B05,2026-09-02,Yellow Onions 50lb,0.22,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,100.85,g
+WST-80113,B05,2026-09-02,Heavy cream 35%,82.26,ml,Customer return,Chef Chloe,ING-CREAM,82.26,ml
+WST-80114,B05,2026-09-02,Basmati Rice 20kg,113.44,g,Trimming / Prep loss,Chef Jin,ING-RICE,113.44,g
+WST-80115,B06,2026-09-02,Heavy Whipping Cream,98.63,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,98.63,ml
+WST-80116,B01,2026-09-03,EV Olive Oil,24.93,ml,Trimming / Prep loss,Chef Elena,ING-OIL,24.93,ml
+WST-80117,B02,2026-09-03,BEEF-GROUND-80,60.12,g,Dropped during prep,Chef Chloe,ING-BEEF,60.12,g
+WST-80118,B02,2026-09-03,Onions bag,0.06,lb,Trimming / Prep loss,Chef Jin,ING-ONION,27.4,g
+WST-80119,B02,2026-09-03,Heavy Whipping Cream,50.59,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,50.59,ml
+WST-80120,B02,2026-09-03,Egg Large White,0.35,each,Trimming / Prep loss,Chef Jin,ING-EGG,0.35,each
+WST-80121,B03,2026-09-03,Green Peppers,0.2,lb,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,88.8,g
+WST-80122,B03,2026-09-03,Mozzarella Cheese Shredded,1.97,lb,Mold detected on cheese block,Chef Marcus,ING-CHEESE,894.94,g
+WST-80123,B03,2026-09-03,Rice Basmati Extra Long,164.21,g,Trimming / Prep loss,Chef Chloe,ING-RICE,164.21,g
+WST-80124,B04,2026-09-03,Ground Beef 80/20,0.21,lb,Trimming / Prep loss,Chef Jin,ING-BEEF,95.52,g
+WST-80125,B04,2026-09-03,tamatar,0.22,lb,Dropped during prep,Chef Jin,ING-TOMATO,100.19,g
+WST-80126,B04,2026-09-03,Fresh Yellow Onion,0.08,lb,Trimming / Prep loss,Chef Elena,ING-ONION,35.62,g
+WST-80127,B04,2026-09-03,Egg Large White,0.84,each,Overcooked/burnt,Chef Marcus,ING-EGG,0.84,each
+WST-80128,B06,2026-09-03,Whipping Cream 36%,58.47,ml,Overcooked/burnt,Chef Marcus,ING-CREAM,58.47,ml
+WST-80129,B01,2026-09-04,Yellow Onions 50lb,0.13,lb,Trimming / Prep loss,Chef Elena,ING-ONION,60.42,g
+WST-80130,B01,2026-09-04,Egg Large White,1.27,each,Trimming / Prep loss,Chef Marcus,ING-EGG,1.27,each
+WST-80131,B02,2026-09-04,Tomato,60.51,g,Overcooked/burnt,Chef Chloe,ING-TOMATO,60.51,g
+WST-80132,B02,2026-09-04,POTATO-RUSSET,0.15,lb,Trimming / Prep loss,Chef Dave,ING-POTATO,69.18,g
+WST-80133,B02,2026-09-04,Shimla Mirch Green,0.12,lb,Dropped during prep,Chef Jin,ING-BELLPEPPER,55.58,g
+WST-80134,B03,2026-09-04,Fresh Yellow Onion,0.29,lb,Trimming / Prep loss,Chef Elena,ING-ONION,133.2,g
+WST-80135,B04,2026-09-04,POTATO-RUSSET,0.08,lb,Overcooked/burnt,Chef Marcus,ING-POTATO,36.5,g
+WST-80136,B05,2026-09-04,Baking Potatoes,83.82,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,83.82,g
+WST-80137,B01,2026-09-05,tomatoes fresh,0.59,lb,Overcooked/burnt,Chef Jin,ING-TOMATO,266.47,g
+WST-80138,B02,2026-09-05,Ground Beef 80/20,0.37,lb,Trimming / Prep loss,Chef Marcus,ING-BEEF,166.32,g
+WST-80139,B02,2026-09-05,chawal basmati,0.36,lb,Trimming / Prep loss,Chef Chloe,ING-RICE,162.39,g
+WST-80140,B03,2026-09-05,Aloo Russet,237.85,g,Trimming / Prep loss,Chef Dave,ING-POTATO,237.85,g
+WST-80141,B03,2026-09-05,malai cream,728.72,ml,Sour smell / Curdled cream,Chef Elena,ING-CREAM,728.72,ml
+WST-80142,B04,2026-09-05,ONION-YELLOW,0.13,lb,Customer return,Chef Dave,ING-ONION,57.94,g
+WST-80143,B04,2026-09-05,Green Peppers,0.23,lb,Customer return,Chef Elena,ING-BELLPEPPER,104.9,g
+WST-80144,B04,2026-09-05,Olive Oil EVOO,0.1,cup,Trimming / Prep loss,Chef Jin,ING-OIL,24.17,ml
+WST-80145,B05,2026-09-05,Cooking Olive Oil,46.98,ml,Trimming / Prep loss,Chef Elena,ING-OIL,46.98,ml
+WST-80146,B06,2026-09-05,Boneless Chk Brst 5kg,459.2,g,Trimming / Prep loss,Chef Dave,ING-CHICKEN,459.2,g
+WST-80147,B06,2026-09-05,Green Peppers,65.86,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,65.86,g
+WST-80148,B06,2026-09-05,malai cream,132.31,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,132.31,ml
+WST-80149,B06,2026-09-05,RICE-BASMATI,184.46,g,Trimming / Prep loss,Chef Marcus,ING-RICE,184.46,g
+WST-80150,B01,2026-09-06,Rice Basmati Extra Long,0.5,lb,Trimming / Prep loss,Chef Elena,ING-RICE,226.97,g
+WST-80151,B02,2026-09-06,chicken breast bnls,441.29,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,441.29,g
+WST-80152,B02,2026-09-06,ONION-YELLOW,98.07,g,Trimming / Prep loss,Chef Jin,ING-ONION,98.07,g
+WST-80153,B02,2026-09-06,Green Peppers,0.2,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,92.8,g
+WST-80154,B02,2026-09-06,Heavy Whipping Cream,116.31,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,116.31,ml
+WST-80155,B03,2026-09-06,Heavy Whipping Cream,3.31,cup,Expired batch past use-by date,Chef Elena,ING-CREAM,795.41,ml
+WST-80156,B03,2026-09-06,paneer mozzarella,1.361,kg,Expired batch past use-by date,Chef Jin,ING-CHEESE,1360.79,g
+WST-80157,B04,2026-09-06,Murgh Boneless,0.79,lb,Dropped during prep,Chef Chloe,ING-CHICKEN,356.23,g
+WST-80158,B05,2026-09-06,Ground Beef 80/20,204.24,g,Customer return,Chef Jin,ING-BEEF,204.24,g
+WST-80159,B05,2026-09-06,All Purpose Flour 25kg,104.96,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,104.96,g
+WST-80160,B06,2026-09-06,PEPPER-BELL-GREEN,0.33,lb,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,149.64,g
+WST-80161,B06,2026-09-06,Cooking Olive Oil,48.95,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,48.95,ml
+WST-80162,B01,2026-09-07,Farm Fresh Eggs 30ct,0.92,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.92,each
+WST-80163,B02,2026-09-07,Yellow Onions 50lb,70.55,g,Dropped during prep,Chef Dave,ING-ONION,70.55,g
+WST-80164,B03,2026-09-07,Fresh Yellow Onion,117.53,g,Trimming / Prep loss,Chef Marcus,ING-ONION,117.53,g
+WST-80165,B03,2026-09-07,malai cream,1.98,cup,Sour smell / Curdled cream,Chef Jin,ING-CREAM,474.39,ml
+WST-80166,B03,2026-09-07,Mozzarella Cheese Shredded,710.97,g,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,710.97,g
+WST-80167,B04,2026-09-07,Minced Beef,0.34,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,154.3,g
+WST-80168,B04,2026-09-07,TOMATO-RED 1kg,139.68,g,Customer return,Chef Dave,ING-TOMATO,139.68,g
+WST-80169,B04,2026-09-07,PEPPER-BELL-GREEN,0.07,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,34.01,g
+WST-80170,B04,2026-09-07,Heavy Whipping Cream,44.18,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,44.18,ml
+WST-80171,B05,2026-09-07,TOMATO-RED 1kg,142.98,g,Trimming / Prep loss,Chef Dave,ING-TOMATO,142.98,g
+WST-80172,B01,2026-09-08,Aloo Russet,93.28,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,93.28,g
+WST-80173,B02,2026-09-08,ONION-YELLOW,35.44,g,Trimming / Prep loss,Chef Jin,ING-ONION,35.44,g
+WST-80174,B02,2026-09-08,PEPPER-BELL-GREEN,0.12,lb,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,55.41,g
+WST-80175,B03,2026-09-08,Heavy cream 35%,2.56,cup,Mold detected on cheese block,Chef Jin,ING-CREAM,615.11,ml
+WST-80176,B03,2026-09-08,paneer mozzarella,889.18,g,Sour smell / Curdled cream,Chef Elena,ING-CHEESE,889.18,g
+WST-80177,B04,2026-09-08,POTATO-RUSSET,93.86,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,93.86,g
+WST-80178,B04,2026-09-08,Heavy cream 35%,76.66,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,76.66,ml
+WST-80179,B05,2026-09-08,chicken breast bnls,192.28,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,192.28,g
+WST-80180,B06,2026-09-08,Minced Beef,0.2,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,90.56,g
+WST-80181,B06,2026-09-08,Shimla Mirch Green,25.37,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,25.37,g
+WST-80182,B06,2026-09-08,SHRED MOZZARELLA,113.55,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,113.55,g
+WST-80183,B02,2026-09-09,EV Olive Oil,0.11,cup,Trimming / Prep loss,Chef Elena,ING-OIL,26.06,ml
+WST-80184,B03,2026-09-09,anda large,1.66,each,Trimming / Prep loss,Chef Marcus,ING-EGG,1.66,each
+WST-80185,B04,2026-09-09,Mozzarella block,123.4,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,123.4,g
+WST-80186,B04,2026-09-09,Olive Oil EVOO,29.04,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,29.04,ml
+WST-80187,B05,2026-09-09,Basmati Rice 20kg,0.28,lb,Dropped during prep,Chef Marcus,ING-RICE,126.84,g
+WST-80188,B06,2026-09-09,chicken breast bnls,0.7,lb,Trimming / Prep loss,Chef Jin,ING-CHICKEN,317.47,g
+WST-80189,B06,2026-09-09,Beef Minced Prime,0.3,lb,Trimming / Prep loss,Chef Jin,ING-BEEF,135.98,g
+WST-80190,B06,2026-09-09,Piyaz,0.2,lb,Trimming / Prep loss,Chef Dave,ING-ONION,90.15,g
+WST-80191,B06,2026-09-09,Green Peppers,88.41,g,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,88.41,g
+WST-80192,B01,2026-09-10,chicken breast bnls,131.99,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,131.99,g
+WST-80193,B01,2026-09-10,BEEF-GROUND-80,0.22,lb,Trimming / Prep loss,Chef Marcus,ING-BEEF,99.9,g
+WST-80194,B01,2026-09-10,tamatar,0.36,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,164.76,g
+WST-80195,B01,2026-09-10,Maida White Flour,0.22,lb,Trimming / Prep loss,Chef Dave,ING-FLOUR,100.08,g
+WST-80196,B02,2026-09-10,FLOUR-AP,60.33,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,60.33,g
+WST-80197,B03,2026-09-10,Whipping Cream 36%,550.04,ml,Expired batch past use-by date,Chef Chloe,ING-CREAM,550.04,ml
+WST-80198,B03,2026-09-10,mozz cheese 2kg,1.044,kg,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CHEESE,1043.61,g
+WST-80199,B04,2026-09-10,Fresh Yellow Onion,0.13,lb,Dropped during prep,Chef Marcus,ING-ONION,58.16,g
+WST-80200,B05,2026-09-10,Green Peppers,0.1,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,44.88,g
+WST-80201,B05,2026-09-10,Farm Fresh Eggs 30ct,1.8,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.8,each
+WST-80202,B05,2026-09-10,RICE-BASMATI,194.7,g,Trimming / Prep loss,Chef Elena,ING-RICE,194.7,g
+WST-80203,B06,2026-09-10,CREAM-HEAVY,150.42,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,150.42,ml
+WST-80204,B06,2026-09-10,Basmati Rice 20kg,156.69,g,Trimming / Prep loss,Chef Elena,ING-RICE,156.69,g
+WST-80205,B01,2026-09-11,Olive Oil EVOO,32.32,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,32.32,ml
+WST-80206,B01,2026-09-11,FLOUR-AP,92.21,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,92.21,g
+WST-80207,B02,2026-09-11,paneer mozzarella,134.91,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,134.91,g
+WST-80208,B03,2026-09-11,Minced Beef,0.25,lb,Trimming / Prep loss,Chef Jin,ING-BEEF,114.12,g
+WST-80209,B03,2026-09-11,Basmati Rice 20kg,255.09,g,Trimming / Prep loss,Chef Marcus,ING-RICE,255.09,g
+WST-80210,B04,2026-09-11,malai cream,0.52,cup,Trimming / Prep loss,Chef Chloe,ING-CREAM,124.13,ml
+WST-80211,B04,2026-09-11,paneer mozzarella,101.06,g,Trimming / Prep loss,Chef Marcus,ING-CHEESE,101.06,g
+WST-80212,B04,2026-09-11,anda large,0.57,each,Customer return,Chef Chloe,ING-EGG,0.57,each
+WST-80213,B05,2026-09-11,Murgh Boneless,297.21,g,Customer return,Chef Dave,ING-CHICKEN,297.21,g
+WST-80214,B05,2026-09-11,Piyaz,84.78,g,Trimming / Prep loss,Chef Elena,ING-ONION,84.78,g
+WST-80215,B05,2026-09-11,anda large,1.09,each,Dropped during prep,Chef Dave,ING-EGG,1.09,each
+WST-80216,B06,2026-09-11,PEPPER-BELL-GREEN,122.31,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,122.31,g
+WST-80217,B06,2026-09-11,SHRED MOZZARELLA,0.7,lb,Trimming / Prep loss,Chef Elena,ING-CHEESE,318.47,g
+WST-80218,B01,2026-09-12,tomatoes fresh,175.9,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,175.9,g
+WST-80219,B01,2026-09-12,FLOUR-AP,114.02,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,114.02,g
+WST-80220,B02,2026-09-12,POTATO-RUSSET,0.3,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,135.13,g
+WST-80221,B02,2026-09-12,Basmati Rice 20kg,0.14,lb,Trimming / Prep loss,Chef Chloe,ING-RICE,64.71,g
+WST-80222,B03,2026-09-12,ONION-YELLOW,0.3,lb,Trimming / Prep loss,Chef Elena,ING-ONION,137.04,g
+WST-80223,B03,2026-09-12,PEPPER-BELL-GREEN,88.07,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,88.07,g
+WST-80224,B03,2026-09-12,Heavy cream 35%,755.77,ml,Mold detected on cheese block,Chef Jin,ING-CREAM,755.77,ml
+WST-80225,B04,2026-09-12,All Purpose Flour 25kg,0.11,lb,Customer return,Chef Chloe,ING-FLOUR,50.15,g
+WST-80226,B05,2026-09-12,Beef Minced Prime,0.55,lb,Customer return,Chef Chloe,ING-BEEF,249.84,g
+WST-80227,B05,2026-09-12,Olive Oil EVOO,38.09,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,38.09,ml
+WST-80228,B06,2026-09-12,Fresh Yellow Onion,121.12,g,Customer return,Chef Elena,ING-ONION,121.12,g
+WST-80229,B06,2026-09-12,Whipping Cream 36%,120.63,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,120.63,ml
+WST-80230,B06,2026-09-12,Basmati Rice 20kg,263.38,g,Customer return,Chef Jin,ING-RICE,263.38,g
+WST-80231,B06,2026-09-12,FLOUR-AP,306.26,g,Dropped during prep,Chef Elena,ING-FLOUR,306.26,g
+WST-80232,B01,2026-09-13,Roma Tom,193.59,g,Trimming / Prep loss,Chef Elena,ING-TOMATO,193.59,g
+WST-80233,B01,2026-09-13,Onions bag,0.22,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,100.11,g
+WST-80234,B01,2026-09-13,malai cream,0.68,cup,Trimming / Prep loss,Chef Chloe,ING-CREAM,163.65,ml
+WST-80235,B01,2026-09-13,SHRED MOZZARELLA,237.53,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,237.53,g
+WST-80236,B02,2026-09-13,Yellow Onions 50lb,0.17,lb,Trimming / Prep loss,Chef Dave,ING-ONION,78.16,g
+WST-80237,B02,2026-09-13,Maida White Flour,76.0,g,Trimming / Prep loss,Chef Dave,ING-FLOUR,76.0,g
+WST-80238,B03,2026-09-13,Chicken Breast Fillet,580.72,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,580.72,g
+WST-80239,B03,2026-09-13,Fresh Yellow Onion,136.04,g,Trimming / Prep loss,Chef Marcus,ING-ONION,136.04,g
+WST-80240,B03,2026-09-13,Heavy cream 35%,5.81,cup,Expired batch past use-by date,Chef Marcus,ING-CREAM,1394.19,ml
+WST-80241,B03,2026-09-13,Mozzarella block,1618.8,g,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CHEESE,1618.8,g
+WST-80242,B03,2026-09-13,anda large,1.04,each,Trimming / Prep loss,Chef Dave,ING-EGG,1.04,each
+WST-80243,B03,2026-09-13,OLIVE-OIL-EXTRA-VIRGIN 5L,27.44,ml,Trimming / Prep loss,Chef Dave,ING-OIL,27.44,ml
+WST-80244,B04,2026-09-13,chk breast,184.28,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,184.28,g
+WST-80245,B04,2026-09-13,Onions bag,0.2,lb,Trimming / Prep loss,Chef Elena,ING-ONION,90.99,g
+WST-80246,B04,2026-09-13,Farm Fresh Eggs 30ct,1.56,each,Customer return,Chef Dave,ING-EGG,1.56,each
+WST-80247,B05,2026-09-13,Piyaz,119.96,g,Trimming / Prep loss,Chef Elena,ING-ONION,119.96,g
+WST-80248,B05,2026-09-13,RICE-BASMATI,189.18,g,Trimming / Prep loss,Chef Dave,ING-RICE,189.18,g
+WST-80249,B05,2026-09-13,Cooking Olive Oil,31.42,ml,Trimming / Prep loss,Chef Dave,ING-OIL,31.42,ml
+WST-80250,B06,2026-09-13,chk breast,1.55,lb,Trimming / Prep loss,Chef Jin,ING-CHICKEN,702.3,g
+WST-80251,B06,2026-09-13,Rice Basmati Extra Long,0.69,lb,Trimming / Prep loss,Chef Chloe,ING-RICE,313.74,g
+WST-80252,B06,2026-09-13,FLOUR-AP,178.08,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,178.08,g
+WST-80253,B02,2026-09-14,CREAM-HEAVY,37.84,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,37.84,ml
+WST-80254,B02,2026-09-14,Olive Oil EVOO,23.94,ml,Trimming / Prep loss,Chef Jin,ING-OIL,23.94,ml
+WST-80255,B03,2026-09-14,Murgh Boneless,381.82,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,381.82,g
+WST-80256,B04,2026-09-14,SHRED MOZZARELLA,82.2,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,82.2,g
+WST-80257,B04,2026-09-14,Rice Basmati Extra Long,141.93,g,Trimming / Prep loss,Chef Chloe,ING-RICE,141.93,g
+WST-80258,B06,2026-09-14,CHICKEN BONELESS,0.65,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,292.72,g
+WST-80259,B06,2026-09-14,Keema beef,0.46,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,209.94,g
+WST-80260,B06,2026-09-14,tamatar,105.96,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,105.96,g
+WST-80261,B06,2026-09-14,Fresh Yellow Onion,62.91,g,Trimming / Prep loss,Chef Chloe,ING-ONION,62.91,g
+WST-80262,B01,2026-09-15,Keema beef,0.37,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,168.89,g
+WST-80263,B01,2026-09-15,Tomato,0.22,lb,Trimming / Prep loss,Chef Elena,ING-TOMATO,101.02,g
+WST-80264,B01,2026-09-15,Mozzarella Cheese Shredded,166.55,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,166.55,g
+WST-80265,B01,2026-09-15,EV Olive Oil,33.6,ml,Trimming / Prep loss,Chef Dave,ING-OIL,33.6,ml
+WST-80266,B02,2026-09-15,Fresh Tomatoes Red,86.72,g,Trimming / Prep loss,Chef Elena,ING-TOMATO,86.72,g
+WST-80267,B03,2026-09-15,PEPPER-BELL-GREEN,0.1,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,47.09,g
+WST-80268,B03,2026-09-15,Whipping Cream 36%,434.82,ml,Mold detected on cheese block,Chef Chloe,ING-CREAM,434.82,ml
+WST-80269,B04,2026-09-15,chk breast,0.34,lb,Customer return,Chef Dave,ING-CHICKEN,152.13,g
+WST-80270,B04,2026-09-15,BEEF-GROUND-80,92.61,g,Trimming / Prep loss,Chef Dave,ING-BEEF,92.61,g
+WST-80271,B04,2026-09-15,Cooking Olive Oil,13.15,ml,Trimming / Prep loss,Chef Elena,ING-OIL,13.15,ml
+WST-80272,B05,2026-09-15,mozz cheese 2kg,0.37,lb,Customer return,Chef Marcus,ING-CHEESE,167.39,g
+WST-80273,B06,2026-09-15,mozz cheese 2kg,131.82,g,Overcooked/burnt,Chef Elena,ING-CHEESE,131.82,g
+WST-80274,B01,2026-09-16,Russet Potato 50lb,65.87,g,Trimming / Prep loss,Chef Dave,ING-POTATO,65.87,g
+WST-80275,B01,2026-09-16,Shimla Mirch Green,65.62,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,65.62,g
+WST-80276,B02,2026-09-16,Whipping Cream 36%,82.74,ml,Customer return,Chef Marcus,ING-CREAM,82.74,ml
+WST-80277,B02,2026-09-16,SHRED MOZZARELLA,129.55,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,129.55,g
+WST-80278,B03,2026-09-16,Onions bag,97.83,g,Trimming / Prep loss,Chef Chloe,ING-ONION,97.83,g
+WST-80279,B03,2026-09-16,Aloo Russet,196.7,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,196.7,g
+WST-80280,B03,2026-09-16,Heavy cream 35%,3.05,cup,Sour smell / Curdled cream,Chef Jin,ING-CREAM,731.01,ml
+WST-80281,B03,2026-09-16,Mozzarella Cheese Shredded,1.087,kg,Spoiled - walk-in temp fluctuation,Chef Dave,ING-CHEESE,1087.27,g
+WST-80282,B03,2026-09-16,Maida White Flour,134.0,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,134.0,g
+WST-80283,B04,2026-09-16,Chicken Breast Fillet,228.21,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,228.21,g
+WST-80284,B04,2026-09-16,Baking Potatoes,0.12,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,55.38,g
+WST-80285,B04,2026-09-16,paneer mozzarella,0.16,lb,Customer return,Chef Chloe,ING-CHEESE,71.6,g
+WST-80286,B04,2026-09-16,Cooking Olive Oil,0.06,cup,Trimming / Prep loss,Chef Dave,ING-OIL,14.69,ml
+WST-80287,B05,2026-09-16,Chicken Breast Fillet,0.43,lb,Trimming / Prep loss,Chef Jin,ING-CHICKEN,193.28,g
+WST-80288,B05,2026-09-16,tamatar,74.86,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,74.86,g
+WST-80289,B05,2026-09-16,Fresh Yellow Onion,0.17,lb,Trimming / Prep loss,Chef Dave,ING-ONION,75.2,g
+WST-80290,B06,2026-09-16,Onions bag,0.17,lb,Trimming / Prep loss,Chef Dave,ING-ONION,76.31,g
+WST-80291,B02,2026-09-17,mozz cheese 2kg,55.4,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,55.4,g
+WST-80292,B03,2026-09-17,ONION-YELLOW,119.8,g,Trimming / Prep loss,Chef Chloe,ING-ONION,119.8,g
+WST-80293,B03,2026-09-17,mozz cheese 2kg,710.28,g,Expired batch past use-by date,Chef Marcus,ING-CHEESE,710.28,g
+WST-80294,B03,2026-09-17,Cooking Olive Oil,0.08,cup,Trimming / Prep loss,Chef Chloe,ING-OIL,18.9,ml
+WST-80295,B04,2026-09-17,Chicken Breast Fillet,209.49,g,Overcooked/burnt,Chef Dave,ING-CHICKEN,209.49,g
+WST-80296,B05,2026-09-17,Beef Minced Prime,73.75,g,Trimming / Prep loss,Chef Dave,ING-BEEF,73.75,g
+WST-80297,B05,2026-09-17,Piyaz,61.63,g,Trimming / Prep loss,Chef Jin,ING-ONION,61.63,g
+WST-80298,B05,2026-09-17,mozz cheese 2kg,0.32,lb,Trimming / Prep loss,Chef Dave,ING-CHEESE,143.76,g
+WST-80299,B01,2026-09-18,chk breast,179.49,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,179.49,g
+WST-80300,B01,2026-09-18,Baking Potatoes,196.27,g,Trimming / Prep loss,Chef Jin,ING-POTATO,196.27,g
+WST-80301,B01,2026-09-18,Green Peppers,96.11,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,96.11,g
+WST-80302,B01,2026-09-18,EGGS-DOZ,1.2,each,Trimming / Prep loss,Chef Marcus,ING-EGG,1.2,each
+WST-80303,B02,2026-09-18,Shimla Mirch Green,0.04,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,16.35,g
+WST-80304,B02,2026-09-18,paneer mozzarella,73.16,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,73.16,g
+WST-80305,B02,2026-09-18,Farm Fresh Eggs 30ct,1.19,each,Trimming / Prep loss,Chef Marcus,ING-EGG,1.19,each
+WST-80306,B03,2026-09-18,SHRED MOZZARELLA,1691.7,g,Mold detected on cheese block,Chef Jin,ING-CHEESE,1691.7,g
+WST-80307,B04,2026-09-18,Onions bag,0.16,lb,Trimming / Prep loss,Chef Elena,ING-ONION,74.12,g
+WST-80308,B04,2026-09-18,Russet Potato 50lb,128.6,g,Dropped during prep,Chef Marcus,ING-POTATO,128.6,g
+WST-80309,B04,2026-09-18,Shimla Mirch Green,63.07,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,63.07,g
+WST-80310,B04,2026-09-18,All Purpose Flour 25kg,0.28,lb,Trimming / Prep loss,Chef Dave,ING-FLOUR,127.63,g
+WST-80311,B05,2026-09-18,tomatoes fresh,91.94,g,Overcooked/burnt,Chef Jin,ING-TOMATO,91.94,g
+WST-80312,B05,2026-09-18,Cooking Olive Oil,37.27,ml,Customer return,Chef Dave,ING-OIL,37.27,ml
+WST-80313,B06,2026-09-18,Aloo Russet,0.62,lb,Overcooked/burnt,Chef Jin,ING-POTATO,279.1,g
+WST-80314,B06,2026-09-18,malai cream,142.05,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,142.05,ml
+WST-80315,B06,2026-09-18,chawal basmati,177.71,g,Trimming / Prep loss,Chef Chloe,ING-RICE,177.71,g
+WST-80316,B01,2026-09-19,tomatoes fresh,206.03,g,Dropped during prep,Chef Jin,ING-TOMATO,206.03,g
+WST-80317,B01,2026-09-19,Farm Fresh Eggs 30ct,1.53,each,Trimming / Prep loss,Chef Chloe,ING-EGG,1.53,each
+WST-80318,B01,2026-09-19,EV Olive Oil,24.22,ml,Overcooked/burnt,Chef Elena,ING-OIL,24.22,ml
+WST-80319,B02,2026-09-19,TOMATO-RED 1kg,145.06,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,145.06,g
+WST-80320,B02,2026-09-19,malai cream,52.77,ml,Dropped during prep,Chef Marcus,ING-CREAM,52.77,ml
+WST-80321,B03,2026-09-19,Baking Potatoes,0.37,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,165.62,g
+WST-80322,B03,2026-09-19,Heavy cream 35%,1.34,l,Expired batch past use-by date,Chef Chloe,ING-CREAM,1338.94,ml
+WST-80323,B03,2026-09-19,Mozzarella Cheese Shredded,1.076,kg,Expired batch past use-by date,Chef Elena,ING-CHEESE,1075.52,g
+WST-80324,B04,2026-09-19,CREAM-HEAVY,0.42,cup,Dropped during prep,Chef Chloe,ING-CREAM,100.09,ml
+WST-80325,B04,2026-09-19,Mozzarella Cheese Shredded,78.76,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,78.76,g
+WST-80326,B05,2026-09-19,Farm Fresh Eggs 30ct,1.34,each,Trimming / Prep loss,Chef Jin,ING-EGG,1.34,each
+WST-80327,B05,2026-09-19,FLOUR-AP,85.66,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,85.66,g
+WST-80328,B06,2026-09-19,tomatoes fresh,257.92,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,257.92,g
+WST-80329,B06,2026-09-19,Rice Basmati Extra Long,0.51,lb,Overcooked/burnt,Chef Chloe,ING-RICE,229.85,g
+WST-80330,B01,2026-09-20,TOMATO-RED 1kg,0.42,lb,Trimming / Prep loss,Chef Dave,ING-TOMATO,192.73,g
+WST-80331,B01,2026-09-20,Egg Large White,2.15,each,Dropped during prep,Chef Jin,ING-EGG,2.15,each
+WST-80332,B01,2026-09-20,Basmati Rice 20kg,122.22,g,Trimming / Prep loss,Chef Chloe,ING-RICE,122.22,g
+WST-80333,B02,2026-09-20,Mozzarella Cheese Shredded,133.16,g,Trimming / Prep loss,Chef Dave,ING-CHEESE,133.16,g
+WST-80334,B03,2026-09-20,Piyaz,0.3,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,136.36,g
+WST-80335,B03,2026-09-20,Shimla Mirch Green,98.88,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,98.88,g
+WST-80336,B03,2026-09-20,Heavy cream 35%,2.61,cup,Mold detected on cheese block,Chef Chloe,ING-CREAM,627.43,ml
+WST-80337,B04,2026-09-20,CHICKEN BONELESS,188.71,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,188.71,g
+WST-80338,B04,2026-09-20,Ground Beef 80/20,107.21,g,Trimming / Prep loss,Chef Elena,ING-BEEF,107.21,g
+WST-80339,B05,2026-09-20,All Purpose Flour 25kg,117.09,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,117.09,g
+WST-80340,B01,2026-09-21,Aloo Russet,44.67,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,44.67,g
+WST-80341,B02,2026-09-21,Russet Potato 50lb,66.43,g,Overcooked/burnt,Chef Dave,ING-POTATO,66.43,g
+WST-80342,B02,2026-09-21,Shimla Mirch Green,15.21,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,15.21,g
+WST-80343,B03,2026-09-21,Heavy cream 35%,770.34,ml,Spoiled - walk-in temp fluctuation,Chef Dave,ING-CREAM,770.34,ml
+WST-80344,B03,2026-09-21,All Purpose Flour 25kg,76.58,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,76.58,g
+WST-80345,B04,2026-09-21,tomatoes fresh,0.27,lb,Trimming / Prep loss,Chef Dave,ING-TOMATO,120.62,g
+WST-80346,B04,2026-09-21,Baking Potatoes,54.85,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,54.85,g
+WST-80347,B04,2026-09-21,Green Peppers,18.02,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,18.02,g
+WST-80348,B05,2026-09-21,TOMATO-RED 1kg,0.2,lb,Overcooked/burnt,Chef Marcus,ING-TOMATO,89.87,g
+WST-80349,B05,2026-09-21,malai cream,103.9,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,103.9,ml
+WST-80350,B05,2026-09-21,Farm Fresh Eggs 30ct,1.03,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.03,each
+WST-80351,B06,2026-09-21,OLIVE-OIL-EXTRA-VIRGIN 5L,0.1,cup,Trimming / Prep loss,Chef Jin,ING-OIL,23.53,ml
+WST-80352,B06,2026-09-21,All Purpose Flour 25kg,87.69,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,87.69,g
+WST-80353,B01,2026-09-22,CREAM-HEAVY,68.3,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,68.3,ml
+WST-80354,B01,2026-09-22,Olive Oil EVOO,18.18,ml,Trimming / Prep loss,Chef Elena,ING-OIL,18.18,ml
+WST-80355,B03,2026-09-22,chk breast,346.82,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,346.82,g
+WST-80356,B03,2026-09-22,Heavy Whipping Cream,532.35,ml,Spoiled - walk-in temp fluctuation,Chef Elena,ING-CREAM,532.35,ml
+WST-80357,B03,2026-09-22,paneer mozzarella,1.62,lb,Expired batch past use-by date,Chef Marcus,ING-CHEESE,734.9,g
+WST-80358,B03,2026-09-22,Basmati Rice 20kg,0.26,lb,Customer return,Chef Elena,ING-RICE,115.83,g
+WST-80359,B04,2026-09-22,Fresh Tomatoes Red,103.02,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,103.02,g
+WST-80360,B05,2026-09-22,Minced Beef,63.2,g,Trimming / Prep loss,Chef Jin,ING-BEEF,63.2,g
+WST-80361,B05,2026-09-22,Russet Potato 50lb,0.15,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,65.88,g
+WST-80362,B05,2026-09-22,Egg Large White,0.8,each,Trimming / Prep loss,Chef Dave,ING-EGG,0.8,each
+WST-80363,B05,2026-09-22,Maida White Flour,87.9,g,Dropped during prep,Chef Marcus,ING-FLOUR,87.9,g
+WST-80364,B06,2026-09-22,Keema beef,138.74,g,Trimming / Prep loss,Chef Elena,ING-BEEF,138.74,g
+WST-80365,B06,2026-09-22,SHRED MOZZARELLA,191.81,g,Dropped during prep,Chef Dave,ING-CHEESE,191.81,g
+WST-80366,B01,2026-09-23,Aloo Russet,80.0,g,Trimming / Prep loss,Chef Elena,ING-POTATO,80.0,g
+WST-80367,B02,2026-09-23,Chicken Breast Fillet,0.32,lb,Overcooked/burnt,Chef Dave,ING-CHICKEN,145.16,g
+WST-80368,B02,2026-09-23,Minced Beef,0.28,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,126.04,g
+WST-80369,B03,2026-09-23,Roma Tom,0.22,lb,Trimming / Prep loss,Chef Elena,ING-TOMATO,99.47,g
+WST-80370,B03,2026-09-23,CREAM-HEAVY,3.37,cup,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CREAM,809.78,ml
+WST-80371,B03,2026-09-23,Mozzarella block,668.0,g,Expired batch past use-by date,Chef Chloe,ING-CHEESE,668.0,g
+WST-80372,B04,2026-09-23,Basmati Rice 20kg,80.16,g,Trimming / Prep loss,Chef Dave,ING-RICE,80.16,g
+WST-80373,B05,2026-09-23,Beef Minced Prime,134.31,g,Trimming / Prep loss,Chef Jin,ING-BEEF,134.31,g
+WST-80374,B01,2026-09-24,Minced Beef,100.34,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,100.34,g
+WST-80375,B01,2026-09-24,anda large,0.9,each,Trimming / Prep loss,Chef Jin,ING-EGG,0.9,each
+WST-80376,B01,2026-09-24,chawal basmati,89.12,g,Trimming / Prep loss,Chef Elena,ING-RICE,89.12,g
+WST-80377,B02,2026-09-24,TOMATO-RED 1kg,0.33,lb,Trimming / Prep loss,Chef Dave,ING-TOMATO,149.88,g
+WST-80378,B02,2026-09-24,Maida White Flour,0.15,lb,Trimming / Prep loss,Chef Marcus,ING-FLOUR,67.0,g
+WST-80379,B03,2026-09-24,Heavy cream 35%,535.52,ml,Expired batch past use-by date,Chef Marcus,ING-CREAM,535.52,ml
+WST-80380,B03,2026-09-24,SHRED MOZZARELLA,1.75,lb,Expired batch past use-by date,Chef Jin,ING-CHEESE,793.51,g
+WST-80381,B05,2026-09-24,Ground Beef 80/20,0.13,lb,Trimming / Prep loss,Chef Marcus,ING-BEEF,59.39,g
+WST-80382,B05,2026-09-24,Green Peppers,33.01,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,33.01,g
+WST-80383,B05,2026-09-24,OLIVE-OIL-EXTRA-VIRGIN 5L,19.15,ml,Trimming / Prep loss,Chef Elena,ING-OIL,19.15,ml
+WST-80384,B06,2026-09-24,Ground Beef 80/20,149.93,g,Trimming / Prep loss,Chef Dave,ING-BEEF,149.93,g
+WST-80385,B06,2026-09-24,tamatar,0.5,lb,Trimming / Prep loss,Chef Chloe,ING-TOMATO,225.69,g
+WST-80386,B06,2026-09-24,Maida White Flour,67.1,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,67.1,g
+WST-80387,B01,2026-09-25,Ground Beef 80/20,126.78,g,Trimming / Prep loss,Chef Dave,ING-BEEF,126.78,g
+WST-80388,B03,2026-09-25,Heavy cream 35%,2.44,cup,Spoiled - walk-in temp fluctuation,Chef Elena,ING-CREAM,584.88,ml
+WST-80389,B03,2026-09-25,Mozzarella block,1.027,kg,Sour smell / Curdled cream,Chef Marcus,ING-CHEESE,1027.43,g
+WST-80390,B03,2026-09-25,anda large,2.67,each,Trimming / Prep loss,Chef Dave,ING-EGG,2.67,each
+WST-80391,B04,2026-09-25,PEPPER-BELL-GREEN,67.4,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,67.4,g
+WST-80392,B05,2026-09-25,EV Olive Oil,24.72,ml,Trimming / Prep loss,Chef Elena,ING-OIL,24.72,ml
+WST-80393,B06,2026-09-25,tamatar,216.97,g,Trimming / Prep loss,Chef Dave,ING-TOMATO,216.97,g
+WST-80394,B06,2026-09-25,SHRED MOZZARELLA,265.31,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,265.31,g
+WST-80395,B06,2026-09-25,EV Olive Oil,34.15,ml,Trimming / Prep loss,Chef Elena,ING-OIL,34.15,ml
+WST-80396,B01,2026-09-26,Fresh Tomatoes Red,277.18,g,Trimming / Prep loss,Chef Elena,ING-TOMATO,277.18,g
+WST-80397,B01,2026-09-26,Aloo Russet,148.84,g,Overcooked/burnt,Chef Chloe,ING-POTATO,148.84,g
+WST-80398,B03,2026-09-26,Mozzarella Cheese Shredded,1.846,kg,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CHEESE,1845.91,g
+WST-80399,B03,2026-09-26,EGGS-DOZ,1.25,each,Overcooked/burnt,Chef Marcus,ING-EGG,1.25,each
+WST-80400,B03,2026-09-26,Olive Oil EVOO,46.35,ml,Trimming / Prep loss,Chef Jin,ING-OIL,46.35,ml
+WST-80401,B04,2026-09-26,tamatar,0.31,lb,Trimming / Prep loss,Chef Chloe,ING-TOMATO,140.34,g
+WST-80402,B04,2026-09-26,Whipping Cream 36%,115.37,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,115.37,ml
+WST-80403,B04,2026-09-26,Egg Large White,1.16,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.16,each
+WST-80404,B04,2026-09-26,Cooking Olive Oil,27.55,ml,Trimming / Prep loss,Chef Jin,ING-OIL,27.55,ml
+WST-80405,B05,2026-09-26,POTATO-RUSSET,208.32,g,Overcooked/burnt,Chef Jin,ING-POTATO,208.32,g
+WST-80406,B05,2026-09-26,PEPPER-BELL-GREEN,92.93,g,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,92.93,g
+WST-80407,B05,2026-09-26,Maida White Flour,96.21,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,96.21,g
+WST-80408,B06,2026-09-26,tomatoes fresh,319.91,g,Dropped during prep,Chef Dave,ING-TOMATO,319.91,g
+WST-80409,B06,2026-09-26,Russet Potato 50lb,408.69,g,Dropped during prep,Chef Dave,ING-POTATO,408.69,g
+WST-80410,B01,2026-09-27,Basmati Rice 20kg,179.31,g,Trimming / Prep loss,Chef Elena,ING-RICE,179.31,g
+WST-80411,B01,2026-09-27,EV Olive Oil,0.19,cup,Trimming / Prep loss,Chef Jin,ING-OIL,45.35,ml
+WST-80412,B02,2026-09-27,tamatar,134.94,g,Customer return,Chef Chloe,ING-TOMATO,134.94,g
+WST-80413,B02,2026-09-27,Green Peppers,0.13,lb,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,56.75,g
+WST-80414,B02,2026-09-27,Basmati Rice 20kg,0.13,lb,Trimming / Prep loss,Chef Chloe,ING-RICE,60.8,g
+WST-80415,B03,2026-09-27,CREAM-HEAVY,928.89,ml,Expired batch past use-by date,Chef Jin,ING-CREAM,928.89,ml
+WST-80416,B03,2026-09-27,Mozzarella block,2.73,lb,Expired batch past use-by date,Chef Dave,ING-CHEESE,1236.54,g
+WST-80417,B03,2026-09-27,chawal basmati,313.02,g,Overcooked/burnt,Chef Marcus,ING-RICE,313.02,g
+WST-80418,B03,2026-09-27,Cooking Olive Oil,27.05,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,27.05,ml
+WST-80419,B03,2026-09-27,Maida White Flour,244.66,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,244.66,g
+WST-80420,B04,2026-09-27,Ground Beef 80/20,0.22,lb,Trimming / Prep loss,Chef Jin,ING-BEEF,101.14,g
+WST-80421,B05,2026-09-27,Mozzarella block,0.19,lb,Trimming / Prep loss,Chef Marcus,ING-CHEESE,85.8,g
+WST-80422,B06,2026-09-27,Green Peppers,40.11,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,40.11,g
+WST-80423,B01,2026-09-28,Piyaz,0.18,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,81.15,g
+WST-80424,B03,2026-09-28,Minced Beef,166.43,g,Dropped during prep,Chef Chloe,ING-BEEF,166.43,g
+WST-80425,B03,2026-09-28,paneer mozzarella,1.43,lb,Sour smell / Curdled cream,Chef Marcus,ING-CHEESE,650.69,g
+WST-80426,B04,2026-09-28,Egg Large White,0.81,each,Dropped during prep,Chef Elena,ING-EGG,0.81,each
+WST-80427,B05,2026-09-28,Ground Beef 80/20,0.21,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,96.33,g
+WST-80428,B05,2026-09-28,Aloo Russet,74.66,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,74.66,g
+WST-80429,B05,2026-09-28,Rice Basmati Extra Long,63.76,g,Trimming / Prep loss,Chef Chloe,ING-RICE,63.76,g
+WST-80430,B06,2026-09-28,Whipping Cream 36%,0.5,cup,Trimming / Prep loss,Chef Jin,ING-CREAM,120.65,ml
+WST-80431,B06,2026-09-28,Maida White Flour,121.63,g,Customer return,Chef Chloe,ING-FLOUR,121.63,g
+WST-80432,B01,2026-09-29,Tomato,158.25,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,158.25,g
+WST-80433,B02,2026-09-29,Aloo Russet,0.18,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,83.2,g
+WST-80434,B02,2026-09-29,Whipping Cream 36%,108.14,ml,Dropped during prep,Chef Elena,ING-CREAM,108.14,ml
+WST-80435,B02,2026-09-29,EGGS-DOZ,0.63,each,Trimming / Prep loss,Chef Jin,ING-EGG,0.63,each
+WST-80436,B03,2026-09-29,Onions bag,0.15,lb,Trimming / Prep loss,Chef Chloe,ING-ONION,70.0,g
+WST-80437,B03,2026-09-29,POTATO-RUSSET,0.1,lb,Trimming / Prep loss,Chef Dave,ING-POTATO,45.36,g
+WST-80438,B03,2026-09-29,malai cream,733.3,ml,Mold detected on cheese block,Chef Dave,ING-CREAM,733.3,ml
+WST-80439,B04,2026-09-29,Beef Minced Prime,0.2,lb,Trimming / Prep loss,Chef Chloe,ING-BEEF,92.17,g
+WST-80440,B04,2026-09-29,ONION-YELLOW,0.11,lb,Overcooked/burnt,Chef Chloe,ING-ONION,50.12,g
+WST-80441,B04,2026-09-29,Aloo Russet,144.46,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,144.46,g
+WST-80442,B04,2026-09-29,Maida White Flour,60.03,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,60.03,g
+WST-80443,B05,2026-09-29,Murgh Boneless,229.07,g,Dropped during prep,Chef Jin,ING-CHICKEN,229.07,g
+WST-80444,B05,2026-09-29,tamatar,73.43,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,73.43,g
+WST-80445,B05,2026-09-29,EGGS-DOZ,0.77,each,Trimming / Prep loss,Chef Chloe,ING-EGG,0.77,each
+WST-80446,B06,2026-09-29,Aloo Russet,0.34,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,152.39,g
+WST-80447,B06,2026-09-29,Mozzarella block,128.09,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,128.09,g
+WST-80448,B01,2026-09-30,Chicken Breast Fillet,283.85,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,283.85,g
+WST-80449,B01,2026-09-30,POTATO-RUSSET,0.39,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,177.17,g
+WST-80450,B01,2026-09-30,All Purpose Flour 25kg,53.56,g,Overcooked/burnt,Chef Marcus,ING-FLOUR,53.56,g
+WST-80451,B02,2026-09-30,ONION-YELLOW,48.96,g,Trimming / Prep loss,Chef Dave,ING-ONION,48.96,g
+WST-80452,B02,2026-09-30,Rice Basmati Extra Long,111.37,g,Trimming / Prep loss,Chef Dave,ING-RICE,111.37,g
+WST-80453,B03,2026-09-30,CREAM-HEAVY,453.85,ml,Mold detected on cheese block,Chef Chloe,ING-CREAM,453.85,ml
+WST-80454,B03,2026-09-30,Mozzarella Cheese Shredded,2.01,lb,Sour smell / Curdled cream,Chef Jin,ING-CHEESE,912.33,g
+WST-80455,B03,2026-09-30,EV Olive Oil,22.82,ml,Trimming / Prep loss,Chef Dave,ING-OIL,22.82,ml
+WST-80456,B04,2026-09-30,chicken breast bnls,0.29,lb,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,133.34,g
+WST-80457,B04,2026-09-30,CREAM-HEAVY,59.0,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,59.0,ml
+WST-80458,B05,2026-09-30,Green Peppers,50.55,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,50.55,g
+WST-80459,B05,2026-09-30,SHRED MOZZARELLA,103.49,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,103.49,g
+WST-80460,B05,2026-09-30,FLOUR-AP,0.07,lb,Trimming / Prep loss,Chef Marcus,ING-FLOUR,32.81,g
+WST-80461,B06,2026-09-30,Yellow Onions 50lb,73.46,g,Trimming / Prep loss,Chef Marcus,ING-ONION,73.46,g
+WST-80462,B06,2026-09-30,Mozzarella block,0.26,lb,Trimming / Prep loss,Chef Elena,ING-CHEESE,118.95,g
+WST-80463,B06,2026-09-30,Rice Basmati Extra Long,214.79,g,Customer return,Chef Chloe,ING-RICE,214.79,g
+WST-80464,B02,2026-10-01,Olive Oil EVOO,19.25,ml,Customer return,Chef Jin,ING-OIL,19.25,ml
+WST-80465,B03,2026-10-01,Heavy cream 35%,715.67,ml,Expired batch past use-by date,Chef Jin,ING-CREAM,715.67,ml
+WST-80466,B03,2026-10-01,Mozzarella block,1.82,lb,Mold detected on cheese block,Chef Marcus,ING-CHEESE,825.51,g
+WST-80467,B04,2026-10-01,Minced Beef,73.66,g,Customer return,Chef Dave,ING-BEEF,73.66,g
+WST-80468,B04,2026-10-01,Piyaz,0.1,lb,Trimming / Prep loss,Chef Elena,ING-ONION,46.28,g
+WST-80469,B04,2026-10-01,Aloo Russet,85.07,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,85.07,g
+WST-80470,B04,2026-10-01,Heavy cream 35%,70.98,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,70.98,ml
+WST-80471,B04,2026-10-01,EGGS-DOZ,0.65,each,Trimming / Prep loss,Chef Chloe,ING-EGG,0.65,each
+WST-80472,B04,2026-10-01,Rice Basmati Extra Long,101.03,g,Trimming / Prep loss,Chef Dave,ING-RICE,101.03,g
+WST-80473,B05,2026-10-01,chicken breast bnls,292.22,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,292.22,g
+WST-80474,B02,2026-10-02,Piyaz,0.1,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,44.0,g
+WST-80475,B03,2026-10-02,Minced Beef,301.36,g,Trimming / Prep loss,Chef Dave,ING-BEEF,301.36,g
+WST-80476,B03,2026-10-02,Heavy cream 35%,666.52,ml,Mold detected on cheese block,Chef Dave,ING-CREAM,666.52,ml
+WST-80477,B03,2026-10-02,mozz cheese 2kg,3.97,lb,Expired batch past use-by date,Chef Elena,ING-CHEESE,1801.36,g
+WST-80478,B03,2026-10-02,chawal basmati,119.08,g,Trimming / Prep loss,Chef Marcus,ING-RICE,119.08,g
+WST-80479,B04,2026-10-02,All Purpose Flour 25kg,50.47,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,50.47,g
+WST-80480,B05,2026-10-02,All Purpose Flour 25kg,0.15,lb,Trimming / Prep loss,Chef Jin,ING-FLOUR,67.68,g
+WST-80481,B06,2026-10-02,Fresh Yellow Onion,111.36,g,Trimming / Prep loss,Chef Marcus,ING-ONION,111.36,g
+WST-80482,B01,2026-10-03,Russet Potato 50lb,0.31,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,141.62,g
+WST-80483,B01,2026-10-03,Mozzarella block,0.33,lb,Trimming / Prep loss,Chef Jin,ING-CHEESE,149.33,g
+WST-80484,B02,2026-10-03,Basmati Rice 20kg,65.04,g,Trimming / Prep loss,Chef Dave,ING-RICE,65.04,g
+WST-80485,B02,2026-10-03,OLIVE-OIL-EXTRA-VIRGIN 5L,25.24,ml,Trimming / Prep loss,Chef Dave,ING-OIL,25.24,ml
+WST-80486,B03,2026-10-03,Shimla Mirch Green,133.32,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,133.32,g
+WST-80487,B03,2026-10-03,malai cream,1.11,l,Mold detected on cheese block,Chef Dave,ING-CREAM,1106.78,ml
+WST-80488,B03,2026-10-03,SHRED MOZZARELLA,1.555,kg,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CHEESE,1555.04,g
+WST-80489,B04,2026-10-03,BEEF-GROUND-80,0.31,lb,Dropped during prep,Chef Chloe,ING-BEEF,141.44,g
+WST-80490,B04,2026-10-03,Green Peppers,39.67,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,39.67,g
+WST-80491,B04,2026-10-03,CREAM-HEAVY,0.46,cup,Trimming / Prep loss,Chef Elena,ING-CREAM,110.16,ml
+WST-80492,B05,2026-10-03,EV Olive Oil,27.7,ml,Trimming / Prep loss,Chef Jin,ING-OIL,27.7,ml
+WST-80493,B06,2026-10-03,PEPPER-BELL-GREEN,87.07,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,87.07,g
+WST-80494,B06,2026-10-03,Egg Large White,1.0,each,Trimming / Prep loss,Chef Jin,ING-EGG,1.0,each
+WST-80495,B02,2026-10-04,ONION-YELLOW,86.8,g,Trimming / Prep loss,Chef Jin,ING-ONION,86.8,g
+WST-80496,B02,2026-10-04,POTATO-RUSSET,109.86,g,Trimming / Prep loss,Chef Dave,ING-POTATO,109.86,g
+WST-80497,B03,2026-10-04,Fresh Tomatoes Red,296.39,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,296.39,g
+WST-80498,B03,2026-10-04,CREAM-HEAVY,847.97,ml,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CREAM,847.97,ml
+WST-80499,B03,2026-10-04,Olive Oil EVOO,39.2,ml,Trimming / Prep loss,Chef Dave,ING-OIL,39.2,ml
+WST-80500,B04,2026-10-04,PEPPER-BELL-GREEN,51.86,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,51.86,g
+WST-80501,B05,2026-10-04,Tomato,160.57,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,160.57,g
+WST-80502,B05,2026-10-04,Shimla Mirch Green,0.1,lb,Dropped during prep,Chef Jin,ING-BELLPEPPER,43.44,g
+WST-80503,B05,2026-10-04,Whipping Cream 36%,80.06,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,80.06,ml
+WST-80504,B01,2026-10-05,Farm Fresh Eggs 30ct,1.54,each,Trimming / Prep loss,Chef Jin,ING-EGG,1.54,each
+WST-80505,B01,2026-10-05,chawal basmati,88.47,g,Trimming / Prep loss,Chef Jin,ING-RICE,88.47,g
+WST-80506,B02,2026-10-05,tomatoes fresh,0.25,lb,Trimming / Prep loss,Chef Elena,ING-TOMATO,112.91,g
+WST-80507,B02,2026-10-05,Green Peppers,34.78,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,34.78,g
+WST-80508,B02,2026-10-05,Mozzarella Cheese Shredded,0.15,lb,Trimming / Prep loss,Chef Marcus,ING-CHEESE,66.2,g
+WST-80509,B03,2026-10-05,Baking Potatoes,0.3,lb,Trimming / Prep loss,Chef Dave,ING-POTATO,134.98,g
+WST-80510,B03,2026-10-05,Rice Basmati Extra Long,138.9,g,Dropped during prep,Chef Chloe,ING-RICE,138.9,g
+WST-80511,B04,2026-10-05,Boneless Chk Brst 5kg,0.32,lb,Trimming / Prep loss,Chef Elena,ING-CHICKEN,145.01,g
+WST-80512,B04,2026-10-05,Shimla Mirch Green,46.17,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,46.17,g
+WST-80513,B04,2026-10-05,Maida White Flour,0.15,lb,Trimming / Prep loss,Chef Dave,ING-FLOUR,66.87,g
+WST-80514,B05,2026-10-05,chicken breast bnls,258.11,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,258.11,g
+WST-80515,B05,2026-10-05,Yellow Onions 50lb,0.1,lb,Trimming / Prep loss,Chef Dave,ING-ONION,47.04,g
+WST-80516,B05,2026-10-05,Aloo Russet,98.82,g,Trimming / Prep loss,Chef Jin,ING-POTATO,98.82,g
+WST-80517,B05,2026-10-05,SHRED MOZZARELLA,0.25,lb,Trimming / Prep loss,Chef Dave,ING-CHEESE,113.57,g
+WST-80518,B06,2026-10-05,Aloo Russet,0.16,lb,Trimming / Prep loss,Chef Dave,ING-POTATO,71.73,g
+WST-80519,B06,2026-10-05,FLOUR-AP,0.39,lb,Trimming / Prep loss,Chef Chloe,ING-FLOUR,176.05,g
+WST-80520,B03,2026-10-06,Russet Potato 50lb,0.36,lb,Dropped during prep,Chef Marcus,ING-POTATO,163.54,g
+WST-80521,B03,2026-10-06,malai cream,500.26,ml,Sour smell / Curdled cream,Chef Chloe,ING-CREAM,500.26,ml
+WST-80522,B03,2026-10-06,Mozzarella Cheese Shredded,999.1,g,Mold detected on cheese block,Chef Dave,ING-CHEESE,999.1,g
+WST-80523,B03,2026-10-06,Basmati Rice 20kg,111.12,g,Trimming / Prep loss,Chef Marcus,ING-RICE,111.12,g
+WST-80524,B03,2026-10-06,Olive Oil EVOO,25.13,ml,Trimming / Prep loss,Chef Elena,ING-OIL,25.13,ml
+WST-80525,B04,2026-10-06,TOMATO-RED 1kg,0.29,lb,Trimming / Prep loss,Chef Dave,ING-TOMATO,130.29,g
+WST-80526,B04,2026-10-06,Fresh Yellow Onion,62.15,g,Trimming / Prep loss,Chef Chloe,ING-ONION,62.15,g
+WST-80527,B04,2026-10-06,mozz cheese 2kg,0.18,lb,Trimming / Prep loss,Chef Chloe,ING-CHEESE,82.3,g
+WST-80528,B05,2026-10-06,Onions bag,54.26,g,Trimming / Prep loss,Chef Dave,ING-ONION,54.26,g
+WST-80529,B05,2026-10-06,Green Peppers,0.1,lb,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,43.62,g
+WST-80530,B05,2026-10-06,Heavy Whipping Cream,107.23,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,107.23,ml
+WST-80531,B05,2026-10-06,Maida White Flour,45.08,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,45.08,g
+WST-80532,B06,2026-10-06,Heavy cream 35%,148.16,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,148.16,ml
+WST-80533,B06,2026-10-06,OLIVE-OIL-EXTRA-VIRGIN 5L,43.07,ml,Trimming / Prep loss,Chef Jin,ING-OIL,43.07,ml
+WST-80534,B01,2026-10-07,Farm Fresh Eggs 30ct,0.93,each,Trimming / Prep loss,Chef Chloe,ING-EGG,0.93,each
+WST-80535,B02,2026-10-07,Ground Beef 80/20,131.23,g,Trimming / Prep loss,Chef Jin,ING-BEEF,131.23,g
+WST-80536,B02,2026-10-07,SHRED MOZZARELLA,78.79,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,78.79,g
+WST-80537,B03,2026-10-07,Baking Potatoes,148.53,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,148.53,g
+WST-80538,B03,2026-10-07,paneer mozzarella,1.74,lb,Expired batch past use-by date,Chef Chloe,ING-CHEESE,787.53,g
+WST-80539,B03,2026-10-07,Egg Large White,1.89,each,Trimming / Prep loss,Chef Dave,ING-EGG,1.89,each
+WST-80540,B03,2026-10-07,Maida White Flour,0.26,lb,Trimming / Prep loss,Chef Elena,ING-FLOUR,118.24,g
+WST-80541,B04,2026-10-07,chk breast,0.35,lb,Overcooked/burnt,Chef Jin,ING-CHICKEN,159.22,g
+WST-80542,B04,2026-10-07,Heavy Whipping Cream,59.89,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,59.89,ml
+WST-80543,B05,2026-10-07,Ground Beef 80/20,103.13,g,Trimming / Prep loss,Chef Jin,ING-BEEF,103.13,g
+WST-80544,B05,2026-10-07,tomatoes fresh,127.3,g,Trimming / Prep loss,Chef Elena,ING-TOMATO,127.3,g
+WST-80545,B05,2026-10-07,mozz cheese 2kg,91.04,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,91.04,g
+WST-80546,B06,2026-10-07,Aloo Russet,0.37,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,167.65,g
+WST-80547,B06,2026-10-07,paneer mozzarella,0.29,lb,Trimming / Prep loss,Chef Chloe,ING-CHEESE,130.44,g
+WST-80548,B06,2026-10-07,All Purpose Flour 25kg,97.63,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,97.63,g
+WST-80549,B01,2026-10-08,Basmati Rice 20kg,103.66,g,Trimming / Prep loss,Chef Chloe,ING-RICE,103.66,g
+WST-80550,B02,2026-10-08,Russet Potato 50lb,103.09,g,Trimming / Prep loss,Chef Elena,ING-POTATO,103.09,g
+WST-80551,B02,2026-10-08,Mozzarella Cheese Shredded,0.13,lb,Trimming / Prep loss,Chef Dave,ING-CHEESE,59.08,g
+WST-80552,B03,2026-10-08,Heavy cream 35%,603.64,ml,Sour smell / Curdled cream,Chef Chloe,ING-CREAM,603.64,ml
+WST-80553,B03,2026-10-08,SHRED MOZZARELLA,734.62,g,Sour smell / Curdled cream,Chef Elena,ING-CHEESE,734.62,g
+WST-80554,B03,2026-10-08,Farm Fresh Eggs 30ct,1.66,each,Overcooked/burnt,Chef Marcus,ING-EGG,1.66,each
+WST-80555,B04,2026-10-08,Minced Beef,59.45,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,59.45,g
+WST-80556,B04,2026-10-08,Egg Large White,0.58,each,Trimming / Prep loss,Chef Dave,ING-EGG,0.58,each
+WST-80557,B06,2026-10-08,anda large,1.13,each,Trimming / Prep loss,Chef Dave,ING-EGG,1.13,each
+WST-80558,B06,2026-10-08,EV Olive Oil,35.21,ml,Trimming / Prep loss,Chef Dave,ING-OIL,35.21,ml
+WST-80559,B01,2026-10-09,Basmati Rice 20kg,147.18,g,Trimming / Prep loss,Chef Jin,ING-RICE,147.18,g
+WST-80560,B03,2026-10-09,Minced Beef,222.67,g,Trimming / Prep loss,Chef Jin,ING-BEEF,222.67,g
+WST-80561,B03,2026-10-09,Piyaz,0.15,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,68.61,g
+WST-80562,B03,2026-10-09,mozz cheese 2kg,984.74,g,Expired batch past use-by date,Chef Jin,ING-CHEESE,984.74,g
+WST-80563,B04,2026-10-09,Russet Potato 50lb,0.34,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,154.06,g
+WST-80564,B05,2026-10-09,FLOUR-AP,0.3,lb,Trimming / Prep loss,Chef Elena,ING-FLOUR,134.69,g
+WST-80565,B06,2026-10-09,Tomato,0.5,lb,Trimming / Prep loss,Chef Dave,ING-TOMATO,226.05,g
+WST-80566,B06,2026-10-09,Shimla Mirch Green,46.42,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,46.42,g
+WST-80567,B01,2026-10-10,malai cream,0.54,cup,Trimming / Prep loss,Chef Dave,ING-CREAM,130.04,ml
+WST-80568,B01,2026-10-10,anda large,1.7,each,Overcooked/burnt,Chef Marcus,ING-EGG,1.7,each
+WST-80569,B01,2026-10-10,Cooking Olive Oil,0.11,cup,Trimming / Prep loss,Chef Marcus,ING-OIL,27.14,ml
+WST-80570,B02,2026-10-10,Aloo Russet,118.94,g,Customer return,Chef Elena,ING-POTATO,118.94,g
+WST-80571,B03,2026-10-10,Heavy cream 35%,1.01,l,Sour smell / Curdled cream,Chef Marcus,ING-CREAM,1007.41,ml
+WST-80572,B03,2026-10-10,paneer mozzarella,1.591,kg,Spoiled - walk-in temp fluctuation,Chef Elena,ING-CHEESE,1591.12,g
+WST-80573,B03,2026-10-10,Rice Basmati Extra Long,0.52,lb,Trimming / Prep loss,Chef Marcus,ING-RICE,237.66,g
+WST-80574,B04,2026-10-10,PEPPER-BELL-GREEN,0.15,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,66.46,g
+WST-80575,B04,2026-10-10,Heavy Whipping Cream,113.95,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,113.95,ml
+WST-80576,B04,2026-10-10,FLOUR-AP,90.57,g,Trimming / Prep loss,Chef Dave,ING-FLOUR,90.57,g
+WST-80577,B05,2026-10-10,Murgh Boneless,0.67,lb,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,304.88,g
+WST-80578,B05,2026-10-10,tomatoes fresh,0.44,lb,Trimming / Prep loss,Chef Elena,ING-TOMATO,200.18,g
+WST-80579,B05,2026-10-10,PEPPER-BELL-GREEN,70.54,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,70.54,g
+WST-80580,B05,2026-10-10,anda large,1.42,each,Trimming / Prep loss,Chef Dave,ING-EGG,1.42,each
+WST-80581,B06,2026-10-10,Chicken Breast Fillet,0.61,lb,Overcooked/burnt,Chef Dave,ING-CHICKEN,276.61,g
+WST-80582,B01,2026-10-11,Green Peppers,44.57,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,44.57,g
+WST-80583,B01,2026-10-11,Whipping Cream 36%,140.17,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,140.17,ml
+WST-80584,B01,2026-10-11,RICE-BASMATI,309.3,g,Trimming / Prep loss,Chef Elena,ING-RICE,309.3,g
+WST-80585,B01,2026-10-11,Olive Oil EVOO,48.87,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,48.87,ml
+WST-80586,B01,2026-10-11,All Purpose Flour 25kg,0.26,lb,Trimming / Prep loss,Chef Dave,ING-FLOUR,117.19,g
+WST-80587,B02,2026-10-11,Baking Potatoes,0.13,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,58.65,g
+WST-80588,B02,2026-10-11,Whipping Cream 36%,53.05,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,53.05,ml
+WST-80589,B03,2026-10-11,POTATO-RUSSET,199.63,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,199.63,g
+WST-80590,B03,2026-10-11,Heavy Whipping Cream,971.54,ml,Mold detected on cheese block,Chef Elena,ING-CREAM,971.54,ml
+WST-80591,B03,2026-10-11,SHRED MOZZARELLA,1.036,kg,Sour smell / Curdled cream,Chef Jin,ING-CHEESE,1035.64,g
+WST-80592,B04,2026-10-11,TOMATO-RED 1kg,172.48,g,Overcooked/burnt,Chef Dave,ING-TOMATO,172.48,g
+WST-80593,B05,2026-10-11,POTATO-RUSSET,70.7,g,Overcooked/burnt,Chef Dave,ING-POTATO,70.7,g
+WST-80594,B06,2026-10-11,Boneless Chk Brst 5kg,557.99,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,557.99,g
+WST-80595,B06,2026-10-11,Yellow Onions 50lb,114.49,g,Trimming / Prep loss,Chef Chloe,ING-ONION,114.49,g
+WST-80596,B06,2026-10-11,Cooking Olive Oil,49.13,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,49.13,ml
+WST-80597,B01,2026-10-12,Ground Beef 80/20,86.19,g,Overcooked/burnt,Chef Jin,ING-BEEF,86.19,g
+WST-80598,B01,2026-10-12,EV Olive Oil,27.15,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,27.15,ml
+WST-80599,B01,2026-10-12,Maida White Flour,0.19,lb,Trimming / Prep loss,Chef Marcus,ING-FLOUR,84.68,g
+WST-80600,B02,2026-10-12,ONION-YELLOW,0.08,lb,Trimming / Prep loss,Chef Elena,ING-ONION,37.17,g
+WST-80601,B02,2026-10-12,POTATO-RUSSET,30.21,g,Trimming / Prep loss,Chef Dave,ING-POTATO,30.21,g
+WST-80602,B02,2026-10-12,SHRED MOZZARELLA,0.24,lb,Trimming / Prep loss,Chef Chloe,ING-CHEESE,108.97,g
+WST-80603,B03,2026-10-12,Fresh Yellow Onion,92.81,g,Trimming / Prep loss,Chef Marcus,ING-ONION,92.81,g
+WST-80604,B03,2026-10-12,malai cream,409.37,ml,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CREAM,409.37,ml
+WST-80605,B03,2026-10-12,Mozzarella block,1376.35,g,Sour smell / Curdled cream,Chef Elena,ING-CHEESE,1376.35,g
+WST-80606,B03,2026-10-12,chawal basmati,0.18,lb,Trimming / Prep loss,Chef Elena,ING-RICE,83.46,g
+WST-80607,B04,2026-10-12,Yellow Onions 50lb,45.67,g,Trimming / Prep loss,Chef Marcus,ING-ONION,45.67,g
+WST-80608,B05,2026-10-12,Russet Potato 50lb,0.13,lb,Trimming / Prep loss,Chef Chloe,ING-POTATO,59.64,g
+WST-80609,B06,2026-10-12,Keema beef,0.35,lb,Trimming / Prep loss,Chef Marcus,ING-BEEF,160.02,g
+WST-80610,B06,2026-10-12,Green Peppers,0.06,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,29.31,g
+WST-80611,B01,2026-10-13,chawal basmati,73.94,g,Trimming / Prep loss,Chef Elena,ING-RICE,73.94,g
+WST-80612,B02,2026-10-13,Aloo Russet,0.29,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,132.76,g
+WST-80613,B02,2026-10-13,CREAM-HEAVY,0.11,cup,Trimming / Prep loss,Chef Marcus,ING-CREAM,25.98,ml
+WST-80614,B02,2026-10-13,Farm Fresh Eggs 30ct,0.52,each,Trimming / Prep loss,Chef Chloe,ING-EGG,0.52,each
+WST-80615,B03,2026-10-13,Mozzarella block,1.59,lb,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CHEESE,720.31,g
+WST-80616,B03,2026-10-13,EV Olive Oil,19.03,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,19.03,ml
+WST-80617,B04,2026-10-13,Boneless Chk Brst 5kg,156.42,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,156.42,g
+WST-80618,B04,2026-10-13,POTATO-RUSSET,0.28,lb,Trimming / Prep loss,Chef Chloe,ING-POTATO,125.64,g
+WST-80619,B04,2026-10-13,Green Peppers,22.41,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,22.41,g
+WST-80620,B04,2026-10-13,chawal basmati,0.26,lb,Overcooked/burnt,Chef Elena,ING-RICE,118.31,g
+WST-80621,B05,2026-10-13,CHICKEN BONELESS,0.76,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,345.39,g
+WST-80622,B05,2026-10-13,TOMATO-RED 1kg,171.16,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,171.16,g
+WST-80623,B05,2026-10-13,Russet Potato 50lb,49.78,g,Trimming / Prep loss,Chef Dave,ING-POTATO,49.78,g
+WST-80624,B06,2026-10-13,Aloo Russet,0.31,lb,Trimming / Prep loss,Chef Chloe,ING-POTATO,141.29,g
+WST-80625,B06,2026-10-13,RICE-BASMATI,0.42,lb,Trimming / Prep loss,Chef Chloe,ING-RICE,190.55,g
+WST-80626,B02,2026-10-14,OLIVE-OIL-EXTRA-VIRGIN 5L,21.95,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,21.95,ml
+WST-80627,B03,2026-10-14,malai cream,899.51,ml,Sour smell / Curdled cream,Chef Dave,ING-CREAM,899.51,ml
+WST-80628,B03,2026-10-14,Mozzarella block,2.98,lb,Mold detected on cheese block,Chef Jin,ING-CHEESE,1351.56,g
+WST-80629,B04,2026-10-14,Tomato,94.3,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,94.3,g
+WST-80630,B04,2026-10-14,Green Peppers,14.51,g,Overcooked/burnt,Chef Chloe,ING-BELLPEPPER,14.51,g
+WST-80631,B02,2026-10-15,Egg Large White,0.73,each,Trimming / Prep loss,Chef Elena,ING-EGG,0.73,each
+WST-80632,B02,2026-10-15,All Purpose Flour 25kg,0.11,lb,Trimming / Prep loss,Chef Chloe,ING-FLOUR,47.8,g
+WST-80633,B03,2026-10-15,CREAM-HEAVY,449.54,ml,Sour smell / Curdled cream,Chef Chloe,ING-CREAM,449.54,ml
+WST-80634,B03,2026-10-15,paneer mozzarella,834.82,g,Mold detected on cheese block,Chef Dave,ING-CHEESE,834.82,g
+WST-80635,B04,2026-10-15,POTATO-RUSSET,117.61,g,Trimming / Prep loss,Chef Elena,ING-POTATO,117.61,g
+WST-80636,B04,2026-10-15,Green Peppers,0.06,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,28.03,g
+WST-80637,B04,2026-10-15,malai cream,0.24,cup,Trimming / Prep loss,Chef Chloe,ING-CREAM,57.32,ml
+WST-80638,B05,2026-10-15,CHICKEN BONELESS,0.28,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,126.05,g
+WST-80639,B06,2026-10-15,CHICKEN BONELESS,0.83,lb,Trimming / Prep loss,Chef Jin,ING-CHICKEN,378.15,g
+WST-80640,B06,2026-10-15,Fresh Yellow Onion,0.25,lb,Trimming / Prep loss,Chef Elena,ING-ONION,113.0,g
+WST-80641,B06,2026-10-15,POTATO-RUSSET,0.62,lb,Trimming / Prep loss,Chef Chloe,ING-POTATO,281.98,g
+WST-80642,B06,2026-10-15,mozz cheese 2kg,0.31,lb,Trimming / Prep loss,Chef Elena,ING-CHEESE,140.2,g
+WST-80643,B01,2026-10-16,malai cream,0.43,cup,Trimming / Prep loss,Chef Dave,ING-CREAM,103.7,ml
+WST-80644,B01,2026-10-16,SHRED MOZZARELLA,224.93,g,Trimming / Prep loss,Chef Dave,ING-CHEESE,224.93,g
+WST-80645,B02,2026-10-16,PEPPER-BELL-GREEN,26.49,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,26.49,g
+WST-80646,B03,2026-10-16,Murgh Boneless,266.39,g,Dropped during prep,Chef Chloe,ING-CHICKEN,266.39,g
+WST-80647,B03,2026-10-16,Heavy cream 35%,2.95,cup,Sour smell / Curdled cream,Chef Jin,ING-CREAM,706.87,ml
+WST-80648,B04,2026-10-16,Beef Minced Prime,73.88,g,Trimming / Prep loss,Chef Dave,ING-BEEF,73.88,g
+WST-80649,B04,2026-10-16,Maida White Flour,60.16,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,60.16,g
+WST-80650,B05,2026-10-16,Farm Fresh Eggs 30ct,1.75,each,Overcooked/burnt,Chef Chloe,ING-EGG,1.75,each
+WST-80651,B06,2026-10-16,chicken breast bnls,405.14,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,405.14,g
+WST-80652,B06,2026-10-16,EGGS-DOZ,2.72,each,Trimming / Prep loss,Chef Marcus,ING-EGG,2.72,each
+WST-80653,B06,2026-10-16,chawal basmati,0.4,lb,Customer return,Chef Chloe,ING-RICE,183.37,g
+WST-80654,B06,2026-10-16,EV Olive Oil,49.73,ml,Trimming / Prep loss,Chef Elena,ING-OIL,49.73,ml
+WST-80655,B01,2026-10-17,Ground Beef 80/20,0.48,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,217.61,g
+WST-80656,B01,2026-10-17,ONION-YELLOW,0.2,lb,Trimming / Prep loss,Chef Jin,ING-ONION,89.42,g
+WST-80657,B02,2026-10-17,ONION-YELLOW,71.95,g,Trimming / Prep loss,Chef Marcus,ING-ONION,71.95,g
+WST-80658,B02,2026-10-17,chawal basmati,121.45,g,Trimming / Prep loss,Chef Marcus,ING-RICE,121.45,g
+WST-80659,B03,2026-10-17,Russet Potato 50lb,177.76,g,Trimming / Prep loss,Chef Jin,ING-POTATO,177.76,g
+WST-80660,B03,2026-10-17,Green Peppers,141.59,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,141.59,g
+WST-80661,B03,2026-10-17,malai cream,812.63,ml,Sour smell / Curdled cream,Chef Jin,ING-CREAM,812.63,ml
+WST-80662,B03,2026-10-17,Mozzarella Cheese Shredded,1165.34,g,Expired batch past use-by date,Chef Chloe,ING-CHEESE,1165.34,g
+WST-80663,B03,2026-10-17,Basmati Rice 20kg,0.34,lb,Trimming / Prep loss,Chef Marcus,ING-RICE,153.9,g
+WST-80664,B04,2026-10-17,POTATO-RUSSET,111.27,g,Dropped during prep,Chef Chloe,ING-POTATO,111.27,g
+WST-80665,B04,2026-10-17,Farm Fresh Eggs 30ct,1.36,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.36,each
+WST-80666,B05,2026-10-17,Egg Large White,1.39,each,Overcooked/burnt,Chef Jin,ING-EGG,1.39,each
+WST-80667,B05,2026-10-17,Rice Basmati Extra Long,0.37,lb,Trimming / Prep loss,Chef Jin,ING-RICE,169.38,g
+WST-80668,B06,2026-10-17,Green Peppers,120.45,g,Overcooked/burnt,Chef Chloe,ING-BELLPEPPER,120.45,g
+WST-80669,B06,2026-10-17,mozz cheese 2kg,174.33,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,174.33,g
+WST-80670,B01,2026-10-18,Heavy Whipping Cream,108.43,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,108.43,ml
+WST-80671,B02,2026-10-18,CHICKEN BONELESS,337.75,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,337.75,g
+WST-80672,B02,2026-10-18,Beef Minced Prime,94.5,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,94.5,g
+WST-80673,B02,2026-10-18,Shimla Mirch Green,33.98,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,33.98,g
+WST-80674,B03,2026-10-18,Green Peppers,114.78,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,114.78,g
+WST-80675,B03,2026-10-18,Whipping Cream 36%,1.19,l,Sour smell / Curdled cream,Chef Chloe,ING-CREAM,1185.54,ml
+WST-80676,B03,2026-10-18,SHRED MOZZARELLA,1492.48,g,Expired batch past use-by date,Chef Jin,ING-CHEESE,1492.48,g
+WST-80677,B03,2026-10-18,Farm Fresh Eggs 30ct,1.93,each,Trimming / Prep loss,Chef Jin,ING-EGG,1.93,each
+WST-80678,B04,2026-10-18,Roma Tom,137.91,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,137.91,g
+WST-80679,B04,2026-10-18,Fresh Yellow Onion,0.17,lb,Trimming / Prep loss,Chef Jin,ING-ONION,78.75,g
+WST-80680,B04,2026-10-18,Baking Potatoes,165.12,g,Trimming / Prep loss,Chef Dave,ING-POTATO,165.12,g
+WST-80681,B04,2026-10-18,Mozzarella block,0.35,lb,Trimming / Prep loss,Chef Elena,ING-CHEESE,157.72,g
+WST-80682,B06,2026-10-18,Green Peppers,103.09,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,103.09,g
+WST-80683,B06,2026-10-18,Olive Oil EVOO,0.21,cup,Trimming / Prep loss,Chef Elena,ING-OIL,49.48,ml
+WST-80684,B06,2026-10-18,All Purpose Flour 25kg,115.08,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,115.08,g
+WST-80685,B01,2026-10-19,malai cream,95.0,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,95.0,ml
+WST-80686,B02,2026-10-19,FLOUR-AP,65.78,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,65.78,g
+WST-80687,B03,2026-10-19,Roma Tom,215.85,g,Dropped during prep,Chef Elena,ING-TOMATO,215.85,g
+WST-80688,B03,2026-10-19,Yellow Onions 50lb,104.2,g,Trimming / Prep loss,Chef Jin,ING-ONION,104.2,g
+WST-80689,B03,2026-10-19,PEPPER-BELL-GREEN,0.18,lb,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,83.78,g
+WST-80690,B03,2026-10-19,Whipping Cream 36%,2.34,cup,Sour smell / Curdled cream,Chef Jin,ING-CREAM,560.75,ml
+WST-80691,B03,2026-10-19,SHRED MOZZARELLA,2.05,lb,Mold detected on cheese block,Chef Elena,ING-CHEESE,930.27,g
+WST-80692,B03,2026-10-19,All Purpose Flour 25kg,103.2,g,Trimming / Prep loss,Chef Dave,ING-FLOUR,103.2,g
+WST-80693,B04,2026-10-19,Boneless Chk Brst 5kg,133.31,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,133.31,g
+WST-80694,B05,2026-10-19,Yellow Onions 50lb,0.13,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,60.35,g
+WST-80695,B05,2026-10-19,Basmati Rice 20kg,0.24,lb,Trimming / Prep loss,Chef Elena,ING-RICE,107.2,g
+WST-80696,B06,2026-10-19,EV Olive Oil,29.4,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,29.4,ml
+WST-80697,B01,2026-10-20,POTATO-RUSSET,92.33,g,Trimming / Prep loss,Chef Dave,ING-POTATO,92.33,g
+WST-80698,B01,2026-10-20,malai cream,0.29,cup,Trimming / Prep loss,Chef Jin,ING-CREAM,69.52,ml
+WST-80699,B01,2026-10-20,OLIVE-OIL-EXTRA-VIRGIN 5L,31.43,ml,Trimming / Prep loss,Chef Dave,ING-OIL,31.43,ml
+WST-80700,B02,2026-10-20,chk breast,175.68,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,175.68,g
+WST-80701,B02,2026-10-20,Heavy cream 35%,68.66,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,68.66,ml
+WST-80702,B02,2026-10-20,FLOUR-AP,75.99,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,75.99,g
+WST-80703,B03,2026-10-20,paneer mozzarella,867.32,g,Expired batch past use-by date,Chef Dave,ING-CHEESE,867.32,g
+WST-80704,B04,2026-10-20,Beef Minced Prime,0.18,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,80.12,g
+WST-80705,B04,2026-10-20,Egg Large White,0.51,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.51,each
+WST-80706,B05,2026-10-20,Russet Potato 50lb,168.96,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,168.96,g
+WST-80707,B06,2026-10-20,CREAM-HEAVY,113.93,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,113.93,ml
+WST-80708,B06,2026-10-20,mozz cheese 2kg,125.39,g,Trimming / Prep loss,Chef Marcus,ING-CHEESE,125.39,g
+WST-80709,B06,2026-10-20,Farm Fresh Eggs 30ct,1.48,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.48,each
+WST-80710,B06,2026-10-20,RICE-BASMATI,177.63,g,Overcooked/burnt,Chef Dave,ING-RICE,177.63,g
+WST-80711,B01,2026-10-21,Baking Potatoes,0.14,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,62.72,g
+WST-80712,B02,2026-10-21,chk breast,0.48,lb,Customer return,Chef Dave,ING-CHICKEN,215.88,g
+WST-80713,B03,2026-10-21,Whipping Cream 36%,570.53,ml,Mold detected on cheese block,Chef Dave,ING-CREAM,570.53,ml
+WST-80714,B03,2026-10-21,Mozzarella block,951.11,g,Expired batch past use-by date,Chef Jin,ING-CHEESE,951.11,g
+WST-80715,B04,2026-10-21,Mozzarella block,88.15,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,88.15,g
+WST-80716,B04,2026-10-21,anda large,0.94,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.94,each
+WST-80717,B05,2026-10-21,POTATO-RUSSET,0.12,lb,Trimming / Prep loss,Chef Chloe,ING-POTATO,53.71,g
+WST-80718,B05,2026-10-21,EGGS-DOZ,0.5,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.5,each
+WST-80719,B01,2026-10-22,Tomato,166.36,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,166.36,g
+WST-80720,B01,2026-10-22,Piyaz,0.12,lb,Overcooked/burnt,Chef Chloe,ING-ONION,56.65,g
+WST-80721,B01,2026-10-22,Olive Oil EVOO,33.94,ml,Trimming / Prep loss,Chef Jin,ING-OIL,33.94,ml
+WST-80722,B02,2026-10-22,Boneless Chk Brst 5kg,194.99,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,194.99,g
+WST-80723,B02,2026-10-22,Whipping Cream 36%,41.04,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,41.04,ml
+WST-80724,B03,2026-10-22,Shimla Mirch Green,0.07,lb,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,33.56,g
+WST-80725,B03,2026-10-22,Whipping Cream 36%,464.5,ml,Mold detected on cheese block,Chef Marcus,ING-CREAM,464.5,ml
+WST-80726,B03,2026-10-22,Basmati Rice 20kg,152.76,g,Trimming / Prep loss,Chef Elena,ING-RICE,152.76,g
+WST-80727,B03,2026-10-22,Olive Oil EVOO,0.14,cup,Trimming / Prep loss,Chef Jin,ING-OIL,34.08,ml
+WST-80728,B04,2026-10-22,chicken breast bnls,0.66,lb,Customer return,Chef Marcus,ING-CHICKEN,299.82,g
+WST-80729,B04,2026-10-22,POTATO-RUSSET,0.11,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,50.76,g
+WST-80730,B05,2026-10-22,Russet Potato 50lb,0.2,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,91.6,g
+WST-80731,B06,2026-10-22,Fresh Tomatoes Red,129.29,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,129.29,g
+WST-80732,B06,2026-10-22,malai cream,110.14,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,110.14,ml
+WST-80733,B01,2026-10-23,Heavy cream 35%,103.4,ml,Overcooked/burnt,Chef Jin,ING-CREAM,103.4,ml
+WST-80734,B02,2026-10-23,Piyaz,62.9,g,Trimming / Prep loss,Chef Chloe,ING-ONION,62.9,g
+WST-80735,B02,2026-10-23,Shimla Mirch Green,25.34,g,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,25.34,g
+WST-80736,B02,2026-10-23,RICE-BASMATI,0.25,lb,Dropped during prep,Chef Dave,ING-RICE,112.32,g
+WST-80737,B02,2026-10-23,FLOUR-AP,104.75,g,Customer return,Chef Jin,ING-FLOUR,104.75,g
+WST-80738,B03,2026-10-23,Aloo Russet,298.78,g,Trimming / Prep loss,Chef Dave,ING-POTATO,298.78,g
+WST-80739,B03,2026-10-23,Green Peppers,72.11,g,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,72.11,g
+WST-80740,B03,2026-10-23,Whipping Cream 36%,688.36,ml,Mold detected on cheese block,Chef Dave,ING-CREAM,688.36,ml
+WST-80741,B03,2026-10-23,Maida White Flour,0.43,lb,Trimming / Prep loss,Chef Chloe,ING-FLOUR,193.29,g
+WST-80742,B04,2026-10-23,Onions bag,0.11,lb,Trimming / Prep loss,Chef Chloe,ING-ONION,48.28,g
+WST-80743,B04,2026-10-23,POTATO-RUSSET,0.28,lb,Dropped during prep,Chef Elena,ING-POTATO,129.19,g
+WST-80744,B04,2026-10-23,PEPPER-BELL-GREEN,0.13,lb,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,58.27,g
+WST-80745,B05,2026-10-23,paneer mozzarella,149.78,g,Trimming / Prep loss,Chef Dave,ING-CHEESE,149.78,g
+WST-80746,B01,2026-10-24,Green Peppers,0.18,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,80.02,g
+WST-80747,B01,2026-10-24,SHRED MOZZARELLA,188.02,g,Trimming / Prep loss,Chef Jin,ING-CHEESE,188.02,g
+WST-80748,B03,2026-10-24,Heavy Whipping Cream,1.16,l,Sour smell / Curdled cream,Chef Elena,ING-CREAM,1158.59,ml
+WST-80749,B03,2026-10-24,Maida White Flour,152.06,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,152.06,g
+WST-80750,B04,2026-10-24,chk breast,0.51,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,231.56,g
+WST-80751,B04,2026-10-24,BEEF-GROUND-80,179.54,g,Trimming / Prep loss,Chef Elena,ING-BEEF,179.54,g
+WST-80752,B04,2026-10-24,EV Olive Oil,28.24,ml,Trimming / Prep loss,Chef Elena,ING-OIL,28.24,ml
+WST-80753,B05,2026-10-24,Ground Beef 80/20,274.59,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,274.59,g
+WST-80754,B06,2026-10-24,Mozzarella Cheese Shredded,315.53,g,Trimming / Prep loss,Chef Dave,ING-CHEESE,315.53,g
+WST-80755,B01,2026-10-25,POTATO-RUSSET,257.03,g,Trimming / Prep loss,Chef Elena,ING-POTATO,257.03,g
+WST-80756,B01,2026-10-25,PEPPER-BELL-GREEN,0.29,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,129.8,g
+WST-80757,B02,2026-10-25,Whipping Cream 36%,100.27,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,100.27,ml
+WST-80758,B02,2026-10-25,chawal basmati,196.32,g,Trimming / Prep loss,Chef Elena,ING-RICE,196.32,g
+WST-80759,B03,2026-10-25,Boneless Chk Brst 5kg,345.28,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,345.28,g
+WST-80760,B03,2026-10-25,Roma Tom,188.89,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,188.89,g
+WST-80761,B03,2026-10-25,ONION-YELLOW,130.71,g,Trimming / Prep loss,Chef Dave,ING-ONION,130.71,g
+WST-80762,B03,2026-10-25,Heavy Whipping Cream,1.56,l,Expired batch past use-by date,Chef Chloe,ING-CREAM,1556.31,ml
+WST-80763,B03,2026-10-25,paneer mozzarella,1.55,kg,Expired batch past use-by date,Chef Dave,ING-CHEESE,1549.94,g
+WST-80764,B03,2026-10-25,EV Olive Oil,50.86,ml,Customer return,Chef Jin,ING-OIL,50.86,ml
+WST-80765,B04,2026-10-25,Baking Potatoes,124.54,g,Trimming / Prep loss,Chef Elena,ING-POTATO,124.54,g
+WST-80766,B04,2026-10-25,Green Peppers,0.1,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,45.73,g
+WST-80767,B04,2026-10-25,Whipping Cream 36%,0.43,cup,Trimming / Prep loss,Chef Dave,ING-CREAM,103.57,ml
+WST-80768,B04,2026-10-25,Olive Oil EVOO,0.07,cup,Trimming / Prep loss,Chef Dave,ING-OIL,17.97,ml
+WST-80769,B05,2026-10-25,Roma Tom,173.39,g,Trimming / Prep loss,Chef Elena,ING-TOMATO,173.39,g
+WST-80770,B05,2026-10-25,EV Olive Oil,21.5,ml,Trimming / Prep loss,Chef Dave,ING-OIL,21.5,ml
+WST-80771,B06,2026-10-25,ONION-YELLOW,211.9,g,Trimming / Prep loss,Chef Elena,ING-ONION,211.9,g
+WST-80772,B06,2026-10-25,PEPPER-BELL-GREEN,147.43,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,147.43,g
+WST-80773,B06,2026-10-25,Cooking Olive Oil,73.12,ml,Trimming / Prep loss,Chef Dave,ING-OIL,73.12,ml
+WST-80774,B01,2026-10-26,paneer mozzarella,0.2,lb,Trimming / Prep loss,Chef Jin,ING-CHEESE,89.06,g
+WST-80775,B02,2026-10-26,Roma Tom,0.15,lb,Trimming / Prep loss,Chef Jin,ING-TOMATO,67.64,g
+WST-80776,B03,2026-10-26,Russet Potato 50lb,108.27,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,108.27,g
+WST-80777,B03,2026-10-26,Mozzarella Cheese Shredded,1.147,kg,Spoiled - walk-in temp fluctuation,Chef Jin,ING-CHEESE,1146.98,g
+WST-80778,B03,2026-10-26,Rice Basmati Extra Long,0.45,lb,Trimming / Prep loss,Chef Jin,ING-RICE,205.46,g
+WST-80779,B04,2026-10-26,chk breast,0.25,lb,Trimming / Prep loss,Chef Elena,ING-CHICKEN,114.93,g
+WST-80780,B04,2026-10-26,Ground Beef 80/20,0.21,lb,Dropped during prep,Chef Marcus,ING-BEEF,97.23,g
+WST-80781,B04,2026-10-26,Russet Potato 50lb,0.12,lb,Overcooked/burnt,Chef Dave,ING-POTATO,54.53,g
+WST-80782,B04,2026-10-26,PEPPER-BELL-GREEN,49.29,g,Dropped during prep,Chef Chloe,ING-BELLPEPPER,49.29,g
+WST-80783,B04,2026-10-26,EGGS-DOZ,0.89,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.89,each
+WST-80784,B05,2026-10-26,POTATO-RUSSET,0.17,lb,Dropped during prep,Chef Jin,ING-POTATO,77.62,g
+WST-80785,B05,2026-10-26,Basmati Rice 20kg,98.23,g,Dropped during prep,Chef Dave,ING-RICE,98.23,g
+WST-80786,B06,2026-10-26,chk breast,0.61,lb,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,278.69,g
+WST-80787,B01,2026-10-27,chicken breast bnls,0.55,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,247.39,g
+WST-80788,B02,2026-10-27,CREAM-HEAVY,0.46,cup,Trimming / Prep loss,Chef Jin,ING-CREAM,110.36,ml
+WST-80789,B02,2026-10-27,Rice Basmati Extra Long,62.36,g,Overcooked/burnt,Chef Elena,ING-RICE,62.36,g
+WST-80790,B02,2026-10-27,EV Olive Oil,0.05,cup,Overcooked/burnt,Chef Dave,ING-OIL,11.13,ml
+WST-80791,B03,2026-10-27,Heavy cream 35%,629.56,ml,Spoiled - walk-in temp fluctuation,Chef Elena,ING-CREAM,629.56,ml
+WST-80792,B03,2026-10-27,paneer mozzarella,1.8,lb,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CHEESE,817.66,g
+WST-80793,B03,2026-10-27,FLOUR-AP,0.14,lb,Trimming / Prep loss,Chef Jin,ING-FLOUR,64.67,g
+WST-80794,B04,2026-10-27,Green Peppers,0.11,lb,Customer return,Chef Elena,ING-BELLPEPPER,49.07,g
+WST-80795,B04,2026-10-27,Whipping Cream 36%,58.45,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,58.45,ml
+WST-80796,B04,2026-10-27,All Purpose Flour 25kg,76.63,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,76.63,g
+WST-80797,B05,2026-10-27,Tomato,0.3,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,136.21,g
+WST-80798,B05,2026-10-27,Heavy cream 35%,52.66,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,52.66,ml
+WST-80799,B06,2026-10-27,All Purpose Flour 25kg,0.21,lb,Customer return,Chef Elena,ING-FLOUR,96.09,g
+WST-80800,B01,2026-10-28,Boneless Chk Brst 5kg,299.31,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,299.31,g
+WST-80801,B01,2026-10-28,Onions bag,62.93,g,Trimming / Prep loss,Chef Chloe,ING-ONION,62.93,g
+WST-80802,B01,2026-10-28,Aloo Russet,0.26,lb,Trimming / Prep loss,Chef Elena,ING-POTATO,117.75,g
+WST-80803,B01,2026-10-28,RICE-BASMATI,0.24,lb,Trimming / Prep loss,Chef Elena,ING-RICE,108.7,g
+WST-80804,B02,2026-10-28,Beef Minced Prime,70.48,g,Overcooked/burnt,Chef Dave,ING-BEEF,70.48,g
+WST-80805,B03,2026-10-28,Boneless Chk Brst 5kg,396.11,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,396.11,g
+WST-80806,B03,2026-10-28,Shimla Mirch Green,0.16,lb,Customer return,Chef Chloe,ING-BELLPEPPER,72.96,g
+WST-80807,B03,2026-10-28,Whipping Cream 36%,611.75,ml,Mold detected on cheese block,Chef Marcus,ING-CREAM,611.75,ml
+WST-80808,B03,2026-10-28,Mozzarella block,2.95,lb,Spoiled - walk-in temp fluctuation,Chef Dave,ING-CHEESE,1339.45,g
+WST-80809,B04,2026-10-28,Shimla Mirch Green,0.09,lb,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,39.7,g
+WST-80810,B04,2026-10-28,Mozzarella block,0.29,lb,Trimming / Prep loss,Chef Marcus,ING-CHEESE,130.98,g
+WST-80811,B05,2026-10-28,Yellow Onions 50lb,48.6,g,Trimming / Prep loss,Chef Elena,ING-ONION,48.6,g
+WST-80812,B05,2026-10-28,Whipping Cream 36%,0.38,cup,Trimming / Prep loss,Chef Elena,ING-CREAM,90.78,ml
+WST-80813,B05,2026-10-28,paneer mozzarella,83.3,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,83.3,g
+WST-80814,B06,2026-10-28,EV Olive Oil,28.01,ml,Trimming / Prep loss,Chef Jin,ING-OIL,28.01,ml
+WST-80815,B01,2026-10-29,CHICKEN BONELESS,0.83,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,378.74,g
+WST-80816,B01,2026-10-29,Yellow Onions 50lb,0.14,lb,Overcooked/burnt,Chef Jin,ING-ONION,62.89,g
+WST-80817,B02,2026-10-29,Yellow Onions 50lb,48.08,g,Trimming / Prep loss,Chef Chloe,ING-ONION,48.08,g
+WST-80818,B02,2026-10-29,Aloo Russet,0.17,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,77.24,g
+WST-80819,B03,2026-10-29,BEEF-GROUND-80,141.98,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,141.98,g
+WST-80820,B03,2026-10-29,tamatar,95.12,g,Trimming / Prep loss,Chef Jin,ING-TOMATO,95.12,g
+WST-80821,B03,2026-10-29,Whipping Cream 36%,648.75,ml,Mold detected on cheese block,Chef Elena,ING-CREAM,648.75,ml
+WST-80822,B03,2026-10-29,Mozzarella block,802.79,g,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,802.79,g
+WST-80823,B03,2026-10-29,All Purpose Flour 25kg,0.22,lb,Dropped during prep,Chef Elena,ING-FLOUR,97.72,g
+WST-80824,B04,2026-10-29,Boneless Chk Brst 5kg,246.27,g,Overcooked/burnt,Chef Elena,ING-CHICKEN,246.27,g
+WST-80825,B04,2026-10-29,Heavy cream 35%,75.82,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,75.82,ml
+WST-80826,B05,2026-10-29,Aloo Russet,93.85,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,93.85,g
+WST-80827,B05,2026-10-29,SHRED MOZZARELLA,0.24,lb,Trimming / Prep loss,Chef Chloe,ING-CHEESE,109.04,g
+WST-80828,B06,2026-10-29,RICE-BASMATI,154.77,g,Trimming / Prep loss,Chef Chloe,ING-RICE,154.77,g
+WST-80829,B02,2026-10-30,CHICKEN BONELESS,268.35,g,Customer return,Chef Jin,ING-CHICKEN,268.35,g
+WST-80830,B02,2026-10-30,Ground Beef 80/20,124.89,g,Trimming / Prep loss,Chef Elena,ING-BEEF,124.89,g
+WST-80831,B02,2026-10-30,All Purpose Flour 25kg,63.52,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,63.52,g
+WST-80832,B03,2026-10-30,Ground Beef 80/20,143.75,g,Overcooked/burnt,Chef Chloe,ING-BEEF,143.75,g
+WST-80833,B03,2026-10-30,Russet Potato 50lb,104.27,g,Trimming / Prep loss,Chef Jin,ING-POTATO,104.27,g
+WST-80834,B03,2026-10-30,Heavy Whipping Cream,641.93,ml,Mold detected on cheese block,Chef Elena,ING-CREAM,641.93,ml
+WST-80835,B03,2026-10-30,Maida White Flour,121.42,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,121.42,g
+WST-80836,B04,2026-10-30,Fresh Tomatoes Red,104.14,g,Overcooked/burnt,Chef Marcus,ING-TOMATO,104.14,g
+WST-80837,B04,2026-10-30,Piyaz,55.03,g,Trimming / Prep loss,Chef Marcus,ING-ONION,55.03,g
+WST-80838,B05,2026-10-30,CHICKEN BONELESS,0.65,lb,Trimming / Prep loss,Chef Jin,ING-CHICKEN,296.64,g
+WST-80839,B05,2026-10-30,Maida White Flour,78.92,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,78.92,g
+WST-80840,B06,2026-10-30,PEPPER-BELL-GREEN,49.15,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,49.15,g
+WST-80841,B01,2026-10-31,ONION-YELLOW,179.13,g,Dropped during prep,Chef Elena,ING-ONION,179.13,g
+WST-80842,B01,2026-10-31,Heavy cream 35%,0.4,cup,Trimming / Prep loss,Chef Chloe,ING-CREAM,95.92,ml
+WST-80843,B01,2026-10-31,OLIVE-OIL-EXTRA-VIRGIN 5L,0.15,cup,Trimming / Prep loss,Chef Dave,ING-OIL,35.88,ml
+WST-80844,B02,2026-10-31,Ground Beef 80/20,0.21,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,97.0,g
+WST-80845,B02,2026-10-31,tamatar,89.41,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,89.41,g
+WST-80846,B02,2026-10-31,Aloo Russet,230.65,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,230.65,g
+WST-80847,B03,2026-10-31,Tomato,0.65,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,295.81,g
+WST-80848,B03,2026-10-31,Whipping Cream 36%,3.93,cup,Expired batch past use-by date,Chef Jin,ING-CREAM,943.1,ml
+WST-80849,B04,2026-10-31,Mozzarella Cheese Shredded,108.38,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,108.38,g
+WST-80850,B05,2026-10-31,Shimla Mirch Green,37.4,g,Overcooked/burnt,Chef Elena,ING-BELLPEPPER,37.4,g
+WST-80851,B05,2026-10-31,Heavy Whipping Cream,0.35,cup,Trimming / Prep loss,Chef Marcus,ING-CREAM,83.31,ml
+WST-80852,B05,2026-10-31,Olive Oil EVOO,25.32,ml,Trimming / Prep loss,Chef Elena,ING-OIL,25.32,ml
+WST-80853,B05,2026-10-31,FLOUR-AP,80.11,g,Customer return,Chef Dave,ING-FLOUR,80.11,g
+WST-80854,B06,2026-10-31,mozz cheese 2kg,301.94,g,Dropped during prep,Chef Elena,ING-CHEESE,301.94,g
+WST-80855,B01,2026-11-01,EV Olive Oil,27.64,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,27.64,ml
+WST-80856,B02,2026-11-01,Baking Potatoes,206.76,g,Trimming / Prep loss,Chef Dave,ING-POTATO,206.76,g
+WST-80857,B02,2026-11-01,EV Olive Oil,0.12,cup,Trimming / Prep loss,Chef Dave,ING-OIL,29.79,ml
+WST-80858,B03,2026-11-01,Heavy Whipping Cream,4.54,cup,Spoiled - walk-in temp fluctuation,Chef Marcus,ING-CREAM,1090.74,ml
+WST-80859,B03,2026-11-01,Mozzarella block,1.536,kg,Expired batch past use-by date,Chef Marcus,ING-CHEESE,1535.97,g
+WST-80860,B03,2026-11-01,anda large,1.87,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.87,each
+WST-80861,B04,2026-11-01,Farm Fresh Eggs 30ct,2.1,each,Trimming / Prep loss,Chef Jin,ING-EGG,2.1,each
+WST-80862,B05,2026-11-01,Fresh Tomatoes Red,0.4,lb,Dropped during prep,Chef Elena,ING-TOMATO,181.56,g
+WST-80863,B01,2026-11-02,tamatar,0.38,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,173.36,g
+WST-80864,B01,2026-11-02,Aloo Russet,112.41,g,Trimming / Prep loss,Chef Marcus,ING-POTATO,112.41,g
+WST-80865,B02,2026-11-02,anda large,0.67,each,Customer return,Chef Jin,ING-EGG,0.67,each
+WST-80866,B03,2026-11-02,SHRED MOZZARELLA,1.83,lb,Spoiled - walk-in temp fluctuation,Chef Jin,ING-CHEESE,828.0,g
+WST-80867,B03,2026-11-02,Olive Oil EVOO,0.16,cup,Trimming / Prep loss,Chef Chloe,ING-OIL,38.64,ml
+WST-80868,B04,2026-11-02,CHICKEN BONELESS,0.55,lb,Trimming / Prep loss,Chef Elena,ING-CHICKEN,249.0,g
+WST-80869,B04,2026-11-02,Cooking Olive Oil,21.09,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,21.09,ml
+WST-80870,B05,2026-11-02,Whipping Cream 36%,0.33,cup,Trimming / Prep loss,Chef Marcus,ING-CREAM,78.76,ml
+WST-80871,B06,2026-11-02,Piyaz,112.59,g,Trimming / Prep loss,Chef Jin,ING-ONION,112.59,g
+WST-80872,B06,2026-11-02,Baking Potatoes,0.28,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,124.97,g
+WST-80873,B01,2026-11-03,CHICKEN BONELESS,0.45,lb,Customer return,Chef Chloe,ING-CHICKEN,203.22,g
+WST-80874,B01,2026-11-03,BEEF-GROUND-80,146.34,g,Dropped during prep,Chef Chloe,ING-BEEF,146.34,g
+WST-80875,B01,2026-11-03,Tomato,146.93,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,146.93,g
+WST-80876,B01,2026-11-03,Piyaz,0.2,lb,Trimming / Prep loss,Chef Elena,ING-ONION,91.39,g
+WST-80877,B01,2026-11-03,Olive Oil EVOO,28.69,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,28.69,ml
+WST-80878,B02,2026-11-03,Maida White Flour,48.46,g,Trimming / Prep loss,Chef Elena,ING-FLOUR,48.46,g
+WST-80879,B03,2026-11-03,Whipping Cream 36%,965.23,ml,Sour smell / Curdled cream,Chef Dave,ING-CREAM,965.23,ml
+WST-80880,B03,2026-11-03,paneer mozzarella,2.79,lb,Spoiled - walk-in temp fluctuation,Chef Chloe,ING-CHEESE,1267.13,g
+WST-80881,B04,2026-11-03,chawal basmati,87.12,g,Trimming / Prep loss,Chef Elena,ING-RICE,87.12,g
+WST-80882,B06,2026-11-03,Heavy cream 35%,49.88,ml,Trimming / Prep loss,Chef Marcus,ING-CREAM,49.88,ml
+WST-80883,B01,2026-11-04,malai cream,0.31,cup,Dropped during prep,Chef Marcus,ING-CREAM,73.95,ml
+WST-80884,B01,2026-11-04,Maida White Flour,163.09,g,Overcooked/burnt,Chef Chloe,ING-FLOUR,163.09,g
+WST-80885,B02,2026-11-04,Shimla Mirch Green,64.79,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,64.79,g
+WST-80886,B02,2026-11-04,Basmati Rice 20kg,60.58,g,Overcooked/burnt,Chef Jin,ING-RICE,60.58,g
+WST-80887,B03,2026-11-04,CREAM-HEAVY,499.02,ml,Mold detected on cheese block,Chef Marcus,ING-CREAM,499.02,ml
+WST-80888,B03,2026-11-04,mozz cheese 2kg,908.93,g,Spoiled - walk-in temp fluctuation,Chef Dave,ING-CHEESE,908.93,g
+WST-80889,B04,2026-11-04,chk breast,0.39,lb,Trimming / Prep loss,Chef Dave,ING-CHICKEN,178.67,g
+WST-80890,B04,2026-11-04,Shimla Mirch Green,28.22,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,28.22,g
+WST-80891,B04,2026-11-04,mozz cheese 2kg,0.11,lb,Trimming / Prep loss,Chef Elena,ING-CHEESE,51.14,g
+WST-80892,B06,2026-11-04,Roma Tom,0.55,lb,Customer return,Chef Chloe,ING-TOMATO,248.01,g
+WST-80893,B06,2026-11-04,RICE-BASMATI,0.52,lb,Trimming / Prep loss,Chef Marcus,ING-RICE,233.62,g
+WST-80894,B03,2026-11-05,paneer mozzarella,927.19,g,Mold detected on cheese block,Chef Jin,ING-CHEESE,927.19,g
+WST-80895,B05,2026-11-05,Murgh Boneless,223.81,g,Trimming / Prep loss,Chef Dave,ING-CHICKEN,223.81,g
+WST-80896,B05,2026-11-05,Shimla Mirch Green,0.06,lb,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,27.06,g
+WST-80897,B05,2026-11-05,SHRED MOZZARELLA,0.2,lb,Trimming / Prep loss,Chef Elena,ING-CHEESE,90.78,g
+WST-80898,B06,2026-11-05,Keema beef,195.12,g,Trimming / Prep loss,Chef Jin,ING-BEEF,195.12,g
+WST-80899,B01,2026-11-06,Fresh Yellow Onion,0.17,lb,Trimming / Prep loss,Chef Dave,ING-ONION,76.27,g
+WST-80900,B01,2026-11-06,Rice Basmati Extra Long,128.88,g,Trimming / Prep loss,Chef Elena,ING-RICE,128.88,g
+WST-80901,B01,2026-11-06,Olive Oil EVOO,36.79,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,36.79,ml
+WST-80902,B03,2026-11-06,CREAM-HEAVY,556.61,ml,Sour smell / Curdled cream,Chef Elena,ING-CREAM,556.61,ml
+WST-80903,B05,2026-11-06,Fresh Tomatoes Red,180.35,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,180.35,g
+WST-80904,B05,2026-11-06,Mozzarella Cheese Shredded,0.32,lb,Customer return,Chef Marcus,ING-CHEESE,145.71,g
+WST-80905,B05,2026-11-06,EV Olive Oil,19.26,ml,Trimming / Prep loss,Chef Elena,ING-OIL,19.26,ml
+WST-80906,B06,2026-11-06,EV Olive Oil,68.21,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,68.21,ml
+WST-80907,B01,2026-11-07,ONION-YELLOW,0.17,lb,Overcooked/burnt,Chef Jin,ING-ONION,78.83,g
+WST-80908,B01,2026-11-07,Baking Potatoes,198.3,g,Overcooked/burnt,Chef Jin,ING-POTATO,198.3,g
+WST-80909,B01,2026-11-07,Mozzarella Cheese Shredded,133.53,g,Trimming / Prep loss,Chef Chloe,ING-CHEESE,133.53,g
+WST-80910,B01,2026-11-07,FLOUR-AP,91.4,g,Customer return,Chef Jin,ING-FLOUR,91.4,g
+WST-80911,B02,2026-11-07,Chicken Breast Fillet,300.78,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,300.78,g
+WST-80912,B03,2026-11-07,Piyaz,86.5,g,Trimming / Prep loss,Chef Jin,ING-ONION,86.5,g
+WST-80913,B03,2026-11-07,Green Peppers,0.17,lb,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,77.08,g
+WST-80914,B03,2026-11-07,Heavy cream 35%,654.85,ml,Mold detected on cheese block,Chef Dave,ING-CREAM,654.85,ml
+WST-80915,B03,2026-11-07,SHRED MOZZARELLA,1.606,kg,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,1606.07,g
+WST-80916,B03,2026-11-07,chawal basmati,0.61,lb,Trimming / Prep loss,Chef Marcus,ING-RICE,276.56,g
+WST-80917,B03,2026-11-07,All Purpose Flour 25kg,198.08,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,198.08,g
+WST-80918,B04,2026-11-07,Shimla Mirch Green,48.47,g,Trimming / Prep loss,Chef Chloe,ING-BELLPEPPER,48.47,g
+WST-80919,B04,2026-11-07,Whipping Cream 36%,99.24,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,99.24,ml
+WST-80920,B05,2026-11-07,tomatoes fresh,0.25,lb,Trimming / Prep loss,Chef Jin,ING-TOMATO,114.02,g
+WST-80921,B05,2026-11-07,Aloo Russet,0.38,lb,Trimming / Prep loss,Chef Dave,ING-POTATO,174.33,g
+WST-80922,B06,2026-11-07,Maida White Flour,0.28,lb,Trimming / Prep loss,Chef Dave,ING-FLOUR,126.04,g
+WST-80923,B01,2026-11-08,Russet Potato 50lb,0.25,lb,Trimming / Prep loss,Chef Jin,ING-POTATO,112.3,g
+WST-80924,B01,2026-11-08,anda large,1.25,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.25,each
+WST-80925,B02,2026-11-08,Murgh Boneless,347.96,g,Trimming / Prep loss,Chef Elena,ING-CHICKEN,347.96,g
+WST-80926,B02,2026-11-08,Whipping Cream 36%,72.15,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,72.15,ml
+WST-80927,B03,2026-11-08,Baking Potatoes,199.82,g,Dropped during prep,Chef Elena,ING-POTATO,199.82,g
+WST-80928,B03,2026-11-08,mozz cheese 2kg,983.57,g,Expired batch past use-by date,Chef Elena,ING-CHEESE,983.57,g
+WST-80929,B04,2026-11-08,tomatoes fresh,93.36,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,93.36,g
+WST-80930,B04,2026-11-08,Fresh Yellow Onion,63.93,g,Trimming / Prep loss,Chef Dave,ING-ONION,63.93,g
+WST-80931,B04,2026-11-08,Shimla Mirch Green,23.85,g,Dropped during prep,Chef Dave,ING-BELLPEPPER,23.85,g
+WST-80932,B04,2026-11-08,All Purpose Flour 25kg,0.25,lb,Trimming / Prep loss,Chef Marcus,ING-FLOUR,112.94,g
+WST-80933,B05,2026-11-08,Murgh Boneless,1.04,lb,Trimming / Prep loss,Chef Elena,ING-CHICKEN,470.07,g
+WST-80934,B05,2026-11-08,All Purpose Flour 25kg,108.02,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,108.02,g
+WST-80935,B06,2026-11-08,Yellow Onions 50lb,163.71,g,Trimming / Prep loss,Chef Chloe,ING-ONION,163.71,g
+WST-80936,B06,2026-11-08,chawal basmati,0.55,lb,Trimming / Prep loss,Chef Marcus,ING-RICE,248.4,g
+WST-80937,B01,2026-11-09,tamatar,0.46,lb,Customer return,Chef Chloe,ING-TOMATO,207.03,g
+WST-80938,B01,2026-11-09,PEPPER-BELL-GREEN,25.57,g,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,25.57,g
+WST-80939,B03,2026-11-09,Heavy cream 35%,435.21,ml,Sour smell / Curdled cream,Chef Dave,ING-CREAM,435.21,ml
+WST-80940,B03,2026-11-09,Mozzarella block,718.57,g,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,718.57,g
+WST-80941,B04,2026-11-09,Ground Beef 80/20,141.93,g,Trimming / Prep loss,Chef Elena,ING-BEEF,141.93,g
+WST-80942,B04,2026-11-09,Roma Tom,0.23,lb,Trimming / Prep loss,Chef Marcus,ING-TOMATO,105.25,g
+WST-80943,B05,2026-11-09,Roma Tom,104.4,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,104.4,g
+WST-80944,B06,2026-11-09,Russet Potato 50lb,116.88,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,116.88,g
+WST-80945,B02,2026-11-10,tamatar,126.46,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,126.46,g
+WST-80946,B02,2026-11-10,POTATO-RUSSET,76.58,g,Trimming / Prep loss,Chef Dave,ING-POTATO,76.58,g
+WST-80947,B02,2026-11-10,Green Peppers,0.06,lb,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,27.21,g
+WST-80948,B02,2026-11-10,Maida White Flour,63.04,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,63.04,g
+WST-80949,B03,2026-11-10,paneer mozzarella,1.093,kg,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,1093.29,g
+WST-80950,B05,2026-11-10,tamatar,0.4,lb,Trimming / Prep loss,Chef Jin,ING-TOMATO,183.54,g
+WST-80951,B05,2026-11-10,Maida White Flour,0.23,lb,Trimming / Prep loss,Chef Chloe,ING-FLOUR,103.64,g
+WST-80952,B06,2026-11-10,ONION-YELLOW,108.0,g,Trimming / Prep loss,Chef Dave,ING-ONION,108.0,g
+WST-80953,B06,2026-11-10,Heavy cream 35%,56.02,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,56.02,ml
+WST-80954,B06,2026-11-10,Cooking Olive Oil,39.36,ml,Dropped during prep,Chef Jin,ING-OIL,39.36,ml
+WST-80955,B01,2026-11-11,chk breast,309.18,g,Customer return,Chef Jin,ING-CHICKEN,309.18,g
+WST-80956,B01,2026-11-11,Aloo Russet,0.21,lb,Dropped during prep,Chef Marcus,ING-POTATO,94.58,g
+WST-80957,B01,2026-11-11,Heavy cream 35%,108.42,ml,Overcooked/burnt,Chef Elena,ING-CREAM,108.42,ml
+WST-80958,B01,2026-11-11,EV Olive Oil,16.66,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,16.66,ml
+WST-80959,B02,2026-11-11,Beef Minced Prime,0.21,lb,Trimming / Prep loss,Chef Marcus,ING-BEEF,97.01,g
+WST-80960,B03,2026-11-11,FLOUR-AP,87.17,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,87.17,g
+WST-80961,B04,2026-11-11,Maida White Flour,0.16,lb,Trimming / Prep loss,Chef Marcus,ING-FLOUR,73.5,g
+WST-80962,B05,2026-11-11,Boneless Chk Brst 5kg,212.64,g,Trimming / Prep loss,Chef Jin,ING-CHICKEN,212.64,g
+WST-80963,B06,2026-11-11,Ground Beef 80/20,0.28,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,128.16,g
+WST-80964,B06,2026-11-11,tamatar,0.42,lb,Dropped during prep,Chef Chloe,ING-TOMATO,188.57,g
+WST-80965,B06,2026-11-11,Rice Basmati Extra Long,229.04,g,Trimming / Prep loss,Chef Chloe,ING-RICE,229.04,g
+WST-80966,B01,2026-11-12,tomatoes fresh,146.3,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,146.3,g
+WST-80967,B01,2026-11-12,CREAM-HEAVY,61.56,ml,Trimming / Prep loss,Chef Jin,ING-CREAM,61.56,ml
+WST-80968,B01,2026-11-12,SHRED MOZZARELLA,76.96,g,Dropped during prep,Chef Jin,ING-CHEESE,76.96,g
+WST-80969,B02,2026-11-12,chk breast,0.29,lb,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,132.78,g
+WST-80970,B02,2026-11-12,Tomato,119.36,g,Overcooked/burnt,Chef Elena,ING-TOMATO,119.36,g
+WST-80971,B02,2026-11-12,Basmati Rice 20kg,102.28,g,Customer return,Chef Marcus,ING-RICE,102.28,g
+WST-80972,B02,2026-11-12,All Purpose Flour 25kg,58.31,g,Trimming / Prep loss,Chef Chloe,ING-FLOUR,58.31,g
+WST-80973,B03,2026-11-12,Fresh Tomatoes Red,96.02,g,Trimming / Prep loss,Chef Elena,ING-TOMATO,96.02,g
+WST-80974,B03,2026-11-12,EGGS-DOZ,1.1,each,Trimming / Prep loss,Chef Jin,ING-EGG,1.1,each
+WST-80975,B04,2026-11-12,RICE-BASMATI,0.14,lb,Trimming / Prep loss,Chef Marcus,ING-RICE,63.43,g
+WST-80976,B05,2026-11-12,ONION-YELLOW,56.41,g,Trimming / Prep loss,Chef Jin,ING-ONION,56.41,g
+WST-80977,B05,2026-11-12,Mozzarella block,122.55,g,Trimming / Prep loss,Chef Elena,ING-CHEESE,122.55,g
+WST-80978,B06,2026-11-12,Tomato,238.37,g,Trimming / Prep loss,Chef Marcus,ING-TOMATO,238.37,g
+WST-80979,B06,2026-11-12,Yellow Onions 50lb,81.6,g,Dropped during prep,Chef Marcus,ING-ONION,81.6,g
+WST-80980,B06,2026-11-12,paneer mozzarella,235.81,g,Customer return,Chef Chloe,ING-CHEESE,235.81,g
+WST-80981,B06,2026-11-12,Farm Fresh Eggs 30ct,0.96,each,Trimming / Prep loss,Chef Marcus,ING-EGG,0.96,each
+WST-80982,B06,2026-11-12,Cooking Olive Oil,0.15,cup,Customer return,Chef Marcus,ING-OIL,35.36,ml
+WST-80983,B06,2026-11-12,All Purpose Flour 25kg,0.17,lb,Trimming / Prep loss,Chef Dave,ING-FLOUR,78.29,g
+WST-80984,B01,2026-11-13,Murgh Boneless,0.47,lb,Overcooked/burnt,Chef Elena,ING-CHICKEN,215.13,g
+WST-80985,B01,2026-11-13,Beef Minced Prime,117.91,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,117.91,g
+WST-80986,B01,2026-11-13,EV Olive Oil,31.15,ml,Overcooked/burnt,Chef Marcus,ING-OIL,31.15,ml
+WST-80987,B01,2026-11-13,Maida White Flour,118.54,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,118.54,g
+WST-80988,B03,2026-11-13,Minced Beef,201.24,g,Trimming / Prep loss,Chef Chloe,ING-BEEF,201.24,g
+WST-80989,B03,2026-11-13,Mozzarella block,1438.38,g,Mold detected on cheese block,Chef Chloe,ING-CHEESE,1438.38,g
+WST-80990,B04,2026-11-13,Russet Potato 50lb,0.12,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,55.13,g
+WST-80991,B05,2026-11-13,Onions bag,56.14,g,Trimming / Prep loss,Chef Elena,ING-ONION,56.14,g
+WST-80992,B05,2026-11-13,RICE-BASMATI,0.29,lb,Trimming / Prep loss,Chef Dave,ING-RICE,132.7,g
+WST-80993,B05,2026-11-13,EV Olive Oil,26.52,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,26.52,ml
+WST-80994,B06,2026-11-13,Heavy Whipping Cream,0.6,cup,Trimming / Prep loss,Chef Elena,ING-CREAM,143.74,ml
+WST-80995,B01,2026-11-14,POTATO-RUSSET,126.92,g,Trimming / Prep loss,Chef Chloe,ING-POTATO,126.92,g
+WST-80996,B02,2026-11-14,Boneless Chk Brst 5kg,359.58,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,359.58,g
+WST-80997,B03,2026-11-14,Piyaz,131.34,g,Trimming / Prep loss,Chef Elena,ING-ONION,131.34,g
+WST-80998,B04,2026-11-14,Fresh Yellow Onion,99.04,g,Trimming / Prep loss,Chef Dave,ING-ONION,99.04,g
+WST-80999,B04,2026-11-14,Basmati Rice 20kg,135.35,g,Trimming / Prep loss,Chef Marcus,ING-RICE,135.35,g
+WST-81000,B05,2026-11-14,POTATO-RUSSET,197.27,g,Overcooked/burnt,Chef Elena,ING-POTATO,197.27,g
+WST-81001,B05,2026-11-14,EGGS-DOZ,1.01,each,Trimming / Prep loss,Chef Chloe,ING-EGG,1.01,each
+WST-81002,B06,2026-11-14,POTATO-RUSSET,185.63,g,Customer return,Chef Dave,ING-POTATO,185.63,g
+WST-81003,B06,2026-11-14,RICE-BASMATI,269.22,g,Trimming / Prep loss,Chef Marcus,ING-RICE,269.22,g
+WST-81004,B06,2026-11-14,EV Olive Oil,0.25,cup,Trimming / Prep loss,Chef Jin,ING-OIL,60.34,ml
+WST-81005,B01,2026-11-15,Baking Potatoes,182.02,g,Trimming / Prep loss,Chef Jin,ING-POTATO,182.02,g
+WST-81006,B01,2026-11-15,Cooking Olive Oil,47.57,ml,Trimming / Prep loss,Chef Dave,ING-OIL,47.57,ml
+WST-81007,B02,2026-11-15,anda large,1.03,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.03,each
+WST-81008,B03,2026-11-15,Minced Beef,0.5,lb,Trimming / Prep loss,Chef Jin,ING-BEEF,226.64,g
+WST-81009,B03,2026-11-15,Heavy cream 35%,1.12,l,Expired batch past use-by date,Chef Elena,ING-CREAM,1123.24,ml
+WST-81010,B03,2026-11-15,Mozzarella block,1.482,kg,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,1482.31,g
+WST-81011,B03,2026-11-15,Farm Fresh Eggs 30ct,2.51,each,Trimming / Prep loss,Chef Jin,ING-EGG,2.51,each
+WST-81012,B04,2026-11-15,Fresh Yellow Onion,0.18,lb,Trimming / Prep loss,Chef Dave,ING-ONION,80.73,g
+WST-81013,B05,2026-11-15,Cooking Olive Oil,46.05,ml,Trimming / Prep loss,Chef Chloe,ING-OIL,46.05,ml
+WST-81014,B06,2026-11-15,tamatar,185.28,g,Trimming / Prep loss,Chef Chloe,ING-TOMATO,185.28,g
+WST-81015,B01,2026-11-16,Chicken Breast Fillet,355.51,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,355.51,g
+WST-81016,B01,2026-11-16,Shimla Mirch Green,0.09,lb,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,39.6,g
+WST-81017,B01,2026-11-16,EGGS-DOZ,0.85,each,Trimming / Prep loss,Chef Elena,ING-EGG,0.85,each
+WST-81018,B02,2026-11-16,Shimla Mirch Green,0.04,lb,Trimming / Prep loss,Chef Dave,ING-BELLPEPPER,18.18,g
+WST-81019,B02,2026-11-16,mozz cheese 2kg,0.21,lb,Trimming / Prep loss,Chef Dave,ING-CHEESE,95.02,g
+WST-81020,B03,2026-11-16,Onions bag,73.85,g,Trimming / Prep loss,Chef Marcus,ING-ONION,73.85,g
+WST-81021,B03,2026-11-16,Heavy Whipping Cream,702.69,ml,Expired batch past use-by date,Chef Elena,ING-CREAM,702.69,ml
+WST-81022,B03,2026-11-16,mozz cheese 2kg,514.66,g,Expired batch past use-by date,Chef Marcus,ING-CHEESE,514.66,g
+WST-81023,B05,2026-11-16,tamatar,84.53,g,Trimming / Prep loss,Chef Dave,ING-TOMATO,84.53,g
+WST-81024,B05,2026-11-16,PEPPER-BELL-GREEN,0.06,lb,Trimming / Prep loss,Chef Jin,ING-BELLPEPPER,25.72,g
+WST-81025,B05,2026-11-16,FLOUR-AP,0.17,lb,Overcooked/burnt,Chef Chloe,ING-FLOUR,77.2,g
+WST-81026,B06,2026-11-16,EGGS-DOZ,1.38,each,Trimming / Prep loss,Chef Elena,ING-EGG,1.38,each
+WST-81027,B06,2026-11-16,Olive Oil EVOO,41.32,ml,Trimming / Prep loss,Chef Jin,ING-OIL,41.32,ml
+WST-81028,B01,2026-11-17,Heavy Whipping Cream,42.43,ml,Trimming / Prep loss,Chef Elena,ING-CREAM,42.43,ml
+WST-81029,B01,2026-11-17,Farm Fresh Eggs 30ct,1.75,each,Trimming / Prep loss,Chef Chloe,ING-EGG,1.75,each
+WST-81030,B01,2026-11-17,RICE-BASMATI,0.26,lb,Trimming / Prep loss,Chef Jin,ING-RICE,118.85,g
+WST-81031,B02,2026-11-17,EGGS-DOZ,0.68,each,Overcooked/burnt,Chef Elena,ING-EGG,0.68,each
+WST-81032,B03,2026-11-17,Mozzarella block,1.159,kg,Sour smell / Curdled cream,Chef Marcus,ING-CHEESE,1158.99,g
+WST-81033,B03,2026-11-17,FLOUR-AP,0.13,lb,Customer return,Chef Chloe,ING-FLOUR,61.15,g
+WST-81034,B04,2026-11-17,Keema beef,131.89,g,Dropped during prep,Chef Chloe,ING-BEEF,131.89,g
+WST-81035,B04,2026-11-17,Onions bag,0.08,lb,Trimming / Prep loss,Chef Marcus,ING-ONION,35.91,g
+WST-81036,B04,2026-11-17,CREAM-HEAVY,45.54,ml,Trimming / Prep loss,Chef Dave,ING-CREAM,45.54,ml
+WST-81037,B04,2026-11-17,SHRED MOZZARELLA,0.18,lb,Trimming / Prep loss,Chef Dave,ING-CHEESE,81.1,g
+WST-81038,B05,2026-11-17,Keema beef,0.25,lb,Trimming / Prep loss,Chef Dave,ING-BEEF,112.37,g
+WST-81039,B05,2026-11-17,EGGS-DOZ,0.68,each,Trimming / Prep loss,Chef Dave,ING-EGG,0.68,each
+WST-81040,B01,2026-11-18,Beef Minced Prime,121.14,g,Trimming / Prep loss,Chef Marcus,ING-BEEF,121.14,g
+WST-81041,B01,2026-11-18,Whipping Cream 36%,79.12,ml,Trimming / Prep loss,Chef Chloe,ING-CREAM,79.12,ml
+WST-81042,B01,2026-11-18,OLIVE-OIL-EXTRA-VIRGIN 5L,0.08,cup,Trimming / Prep loss,Chef Chloe,ING-OIL,19.31,ml
+WST-81043,B02,2026-11-18,Murgh Boneless,99.45,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,99.45,g
+WST-81044,B02,2026-11-18,Minced Beef,72.84,g,Trimming / Prep loss,Chef Dave,ING-BEEF,72.84,g
+WST-81045,B02,2026-11-18,Piyaz,0.17,lb,Trimming / Prep loss,Chef Elena,ING-ONION,75.35,g
+WST-81046,B02,2026-11-18,Baking Potatoes,69.68,g,Dropped during prep,Chef Dave,ING-POTATO,69.68,g
+WST-81047,B02,2026-11-18,chawal basmati,0.13,lb,Trimming / Prep loss,Chef Chloe,ING-RICE,59.43,g
+WST-81048,B03,2026-11-18,Murgh Boneless,375.13,g,Trimming / Prep loss,Chef Dave,ING-CHICKEN,375.13,g
+WST-81049,B03,2026-11-18,CREAM-HEAVY,520.93,ml,Spoiled - walk-in temp fluctuation,Chef Dave,ING-CREAM,520.93,ml
+WST-81050,B03,2026-11-18,SHRED MOZZARELLA,1.3,lb,Sour smell / Curdled cream,Chef Chloe,ING-CHEESE,590.57,g
+WST-81051,B03,2026-11-18,Basmati Rice 20kg,0.3,lb,Customer return,Chef Chloe,ING-RICE,134.15,g
+WST-81052,B04,2026-11-18,Beef Minced Prime,0.2,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,92.94,g
+WST-81053,B04,2026-11-18,Cooking Olive Oil,24.1,ml,Trimming / Prep loss,Chef Marcus,ING-OIL,24.1,ml
+WST-81054,B05,2026-11-18,EGGS-DOZ,0.39,each,Trimming / Prep loss,Chef Chloe,ING-EGG,0.39,each
+WST-81055,B06,2026-11-18,Basmati Rice 20kg,176.4,g,Trimming / Prep loss,Chef Chloe,ING-RICE,176.4,g
+WST-81056,B01,2026-11-19,Fresh Tomatoes Red,0.27,lb,Customer return,Chef Jin,ING-TOMATO,124.43,g
+WST-81057,B01,2026-11-19,FLOUR-AP,0.34,lb,Overcooked/burnt,Chef Dave,ING-FLOUR,152.71,g
+WST-81058,B02,2026-11-19,Aloo Russet,0.16,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,72.19,g
+WST-81059,B03,2026-11-19,SHRED MOZZARELLA,1.95,lb,Expired batch past use-by date,Chef Elena,ING-CHEESE,886.44,g
+WST-81060,B03,2026-11-19,FLOUR-AP,87.57,g,Trimming / Prep loss,Chef Marcus,ING-FLOUR,87.57,g
+WST-81061,B04,2026-11-19,Onions bag,40.5,g,Trimming / Prep loss,Chef Chloe,ING-ONION,40.5,g
+WST-81062,B04,2026-11-19,Shimla Mirch Green,26.85,g,Trimming / Prep loss,Chef Elena,ING-BELLPEPPER,26.85,g
+WST-81063,B05,2026-11-19,Baking Potatoes,160.64,g,Trimming / Prep loss,Chef Jin,ING-POTATO,160.64,g
+WST-81064,B06,2026-11-19,Chicken Breast Fillet,436.19,g,Trimming / Prep loss,Chef Chloe,ING-CHICKEN,436.19,g
+WST-81065,B01,2026-11-20,Basmati Rice 20kg,193.74,g,Dropped during prep,Chef Elena,ING-RICE,193.74,g
+WST-81066,B02,2026-11-20,Piyaz,0.16,lb,Trimming / Prep loss,Chef Jin,ING-ONION,71.97,g
+WST-81067,B03,2026-11-20,Onions bag,0.24,lb,Trimming / Prep loss,Chef Jin,ING-ONION,107.38,g
+WST-81068,B03,2026-11-20,SHRED MOZZARELLA,1.918,kg,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,1918.21,g
+WST-81069,B04,2026-11-20,Fresh Yellow Onion,118.08,g,Trimming / Prep loss,Chef Marcus,ING-ONION,118.08,g
+WST-81070,B04,2026-11-20,All Purpose Flour 25kg,106.83,g,Trimming / Prep loss,Chef Jin,ING-FLOUR,106.83,g
+WST-81071,B05,2026-11-20,EGGS-DOZ,0.8,each,Customer return,Chef Jin,ING-EGG,0.8,each
+WST-81072,B05,2026-11-20,All Purpose Flour 25kg,0.14,lb,Trimming / Prep loss,Chef Elena,ING-FLOUR,61.77,g
+WST-81073,B06,2026-11-20,Keema beef,228.62,g,Dropped during prep,Chef Jin,ING-BEEF,228.62,g
+WST-81074,B06,2026-11-20,Heavy Whipping Cream,227.48,ml,Dropped during prep,Chef Marcus,ING-CREAM,227.48,ml
+WST-81075,B06,2026-11-20,EV Olive Oil,0.23,cup,Trimming / Prep loss,Chef Jin,ING-OIL,55.07,ml
+WST-81076,B01,2026-11-21,Tomato,0.29,lb,Trimming / Prep loss,Chef Elena,ING-TOMATO,132.49,g
+WST-81077,B01,2026-11-21,Yellow Onions 50lb,142.17,g,Trimming / Prep loss,Chef Elena,ING-ONION,142.17,g
+WST-81078,B03,2026-11-21,Heavy Whipping Cream,821.19,ml,Mold detected on cheese block,Chef Jin,ING-CREAM,821.19,ml
+WST-81079,B03,2026-11-21,SHRED MOZZARELLA,1.223,kg,Expired batch past use-by date,Chef Marcus,ING-CHEESE,1222.96,g
+WST-81080,B03,2026-11-21,chawal basmati,205.02,g,Trimming / Prep loss,Chef Elena,ING-RICE,205.02,g
+WST-81081,B04,2026-11-21,Aloo Russet,65.61,g,Overcooked/burnt,Chef Chloe,ING-POTATO,65.61,g
+WST-81082,B04,2026-11-21,Green Peppers,61.82,g,Trimming / Prep loss,Chef Marcus,ING-BELLPEPPER,61.82,g
+WST-81083,B04,2026-11-21,Rice Basmati Extra Long,0.28,lb,Trimming / Prep loss,Chef Dave,ING-RICE,126.52,g
+WST-81084,B04,2026-11-21,Maida White Flour,112.75,g,Overcooked/burnt,Chef Elena,ING-FLOUR,112.75,g
+WST-81085,B06,2026-11-21,malai cream,94.32,ml,Dropped during prep,Chef Chloe,ING-CREAM,94.32,ml
+WST-81086,B01,2026-11-22,POTATO-RUSSET,0.34,lb,Trimming / Prep loss,Chef Marcus,ING-POTATO,156.43,g
+WST-81087,B01,2026-11-22,Basmati Rice 20kg,187.36,g,Trimming / Prep loss,Chef Marcus,ING-RICE,187.36,g
+WST-81088,B01,2026-11-22,FLOUR-AP,0.23,lb,Trimming / Prep loss,Chef Jin,ING-FLOUR,103.82,g
+WST-81089,B02,2026-11-22,Chicken Breast Fillet,283.15,g,Trimming / Prep loss,Chef Marcus,ING-CHICKEN,283.15,g
+WST-81090,B03,2026-11-22,CREAM-HEAVY,995.6,ml,Spoiled - walk-in temp fluctuation,Chef Elena,ING-CREAM,995.6,ml
+WST-81091,B03,2026-11-22,SHRED MOZZARELLA,1853.95,g,Sour smell / Curdled cream,Chef Dave,ING-CHEESE,1853.95,g
+WST-81092,B04,2026-11-22,Minced Beef,92.34,g,Trimming / Prep loss,Chef Dave,ING-BEEF,92.34,g
+WST-81093,B04,2026-11-22,Basmati Rice 20kg,0.27,lb,Overcooked/burnt,Chef Chloe,ING-RICE,124.46,g
+WST-81094,B05,2026-11-22,BEEF-GROUND-80,0.38,lb,Trimming / Prep loss,Chef Elena,ING-BEEF,171.79,g
+WST-81095,B05,2026-11-22,Onions bag,0.19,lb,Trimming / Prep loss,Chef Chloe,ING-ONION,85.07,g
+WST-81096,B06,2026-11-22,Ground Beef 80/20,167.35,g,Dropped during prep,Chef Jin,ING-BEEF,167.35,g
+WST-81097,B06,2026-11-22,chawal basmati,278.64,g,Trimming / Prep loss,Chef Elena,ING-RICE,278.64,g

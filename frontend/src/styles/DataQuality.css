@@ -1,0 +1,47 @@
+/* Data Quality CSS */
+.data-quality-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.quality-sections-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.quality-card {
+  background: #FFFFFF;
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  box-shadow: var(--shadow-neo);
+}
+
+.quality-card-header {
+  margin-bottom: 18px;
+}
+
+.quality-card-header h3 {
+  font-size: 1.3rem;
+}
+
+.alias-row-match {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: var(--border-thick);
+  border-radius: 16px;
+  margin-bottom: 10px;
+  background: #FAF8F5;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.confidence-score {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.9rem;
+}

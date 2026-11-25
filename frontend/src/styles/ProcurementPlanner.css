@@ -1,0 +1,53 @@
+/* Procurement Planner CSS */
+.procurement-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.procurement-header-banner {
+  background: var(--color-yellow);
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.procurement-banner-text h2 {
+  font-size: 2rem;
+}
+
+.order-qty-input {
+  width: 70px;
+  padding: 6px 10px;
+  border: var(--border-thick);
+  border-radius: 10px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: center;
+  background: #FFF9D2;
+}
+
+.order-qty-input:focus {
+  background: #FFFFFF;
+  outline: none;
+  box-shadow: var(--shadow-neo-sm);
+}
+
+.urgency-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  border: var(--border-thick);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}

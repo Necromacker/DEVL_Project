@@ -1,0 +1,85 @@
+/* Menu Item Review CSS */
+.menu-review-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menu-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.menu-card {
+  background: #FFFFFF;
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 22px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu-card-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.menu-card-category {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-gray-600);
+  text-transform: uppercase;
+}
+
+.menu-metrics-row {
+  display: flex;
+  justify-content: space-between;
+  background: var(--bg-page);
+  padding: 12px;
+  border: var(--border-thick);
+  border-radius: 16px;
+}
+
+.menu-metric-col {
+  text-align: center;
+}
+
+.menu-metric-col span {
+  display: block;
+}
+
+.metric-micro-label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-gray-600);
+}
+
+.metric-micro-value {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.bom-accordion {
+  border-top: var(--border-thick);
+  padding-top: 12px;
+}
+
+.bom-ingredient-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 6px 0;
+  border-bottom: 1px dashed #E5E7EB;
+}

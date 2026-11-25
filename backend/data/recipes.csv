@@ -1,0 +1,37 @@
+menu_item_id,canonical_id,raw_ingredient_name,quantity,unit,yield_pct,trim_loss_pct
+ITEM-01,ING-CHICKEN,Boneless Chicken Breast,220.0,g,95.0,5.0
+ITEM-01,ING-RICE,Basmati Rice,150.0,g,100.0,0.0
+ITEM-01,ING-TOMATO,Roma Tomato,60.0,g,90.0,10.0
+ITEM-01,ING-ONION,Yellow Onion,40.0,g,88.0,12.0
+ITEM-01,ING-OIL,Extra Virgin Olive Oil,15.0,ml,98.0,2.0
+ITEM-02,ING-BEEF,Ground Beef 80/20,200.0,g,88.0,12.0
+ITEM-02,ING-CHEESE,Mozzarella Cheese,40.0,g,98.0,2.0
+ITEM-02,ING-ONION,Yellow Onion,30.0,g,88.0,12.0
+ITEM-02,ING-TOMATO,Roma Tomato,40.0,g,90.0,10.0
+ITEM-02,ING-EGG,Large Fresh Eggs,1.0,each,100.0,0.0
+ITEM-03,ING-CHICKEN,Boneless Chicken Breast,180.0,g,95.0,5.0
+ITEM-03,ING-CREAM,Heavy Cream 36%,120.0,ml,98.0,2.0
+ITEM-03,ING-CHEESE,Mozzarella Cheese,50.0,g,98.0,2.0
+ITEM-03,ING-OIL,Extra Virgin Olive Oil,10.0,ml,98.0,2.0
+ITEM-04,ING-FLOUR,All-Purpose Flour,180.0,g,100.0,0.0
+ITEM-04,ING-CHEESE,Mozzarella Cheese,120.0,g,98.0,2.0
+ITEM-04,ING-TOMATO,Roma Tomato,100.0,g,90.0,10.0
+ITEM-04,ING-OIL,Extra Virgin Olive Oil,15.0,ml,98.0,2.0
+ITEM-05,ING-POTATO,Russet Potato,300.0,g,85.0,15.0
+ITEM-05,ING-CHEESE,Mozzarella Cheese,50.0,g,98.0,2.0
+ITEM-05,ING-ONION,Yellow Onion,20.0,g,88.0,12.0
+ITEM-06,ING-CHICKEN,Boneless Chicken Breast,200.0,g,95.0,5.0
+ITEM-06,ING-CREAM,Heavy Cream 36%,100.0,ml,98.0,2.0
+ITEM-06,ING-ONION,Yellow Onion,80.0,g,88.0,12.0
+ITEM-06,ING-TOMATO,Roma Tomato,120.0,g,90.0,10.0
+ITEM-06,ING-RICE,Basmati Rice,150.0,g,100.0,0.0
+ITEM-07,ING-BELLPEPPER,Green Bell Pepper,180.0,g,85.0,15.0
+ITEM-07,ING-BEEF,Ground Beef 80/20,100.0,g,88.0,12.0
+ITEM-07,ING-RICE,Basmati Rice,80.0,g,100.0,0.0
+ITEM-07,ING-CHEESE,Mozzarella Cheese,30.0,g,98.0,2.0
+ITEM-08,ING-EGG,Large Fresh Eggs,3.0,each,100.0,0.0
+ITEM-08,ING-POTATO,Russet Potato,150.0,g,85.0,15.0
+ITEM-08,ING-ONION,Yellow Onion,50.0,g,88.0,12.0
+ITEM-08,ING-OIL,Extra Virgin Olive Oil,20.0,ml,98.0,2.0
+ITEM-10,ING-CREAM,Heavy Cream,,ml,100.0,0.0
+ITEM-10,ING-CHEESE,Mozzarella Cheese,,g,100.0,0.0

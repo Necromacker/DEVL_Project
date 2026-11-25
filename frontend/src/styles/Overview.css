@@ -1,0 +1,425 @@
+/* Overview Page Styling matching reference images */
+
+.overview-page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Page Section Title: "ACTIVE RESTAURANT (6)" */
+.page-headline-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.page-headline {
+  font-size: 2.1rem;
+  letter-spacing: -1px;
+}
+
+.headline-badge {
+  font-size: 1.2rem;
+  margin-left: 6px;
+}
+
+/* Filter controls bar */
+.overview-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  padding: 12px 20px;
+  border: var(--border-bold);
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-neo-sm);
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+}
+
+/* Top KPI Grid matching Reference Image Cards */
+.kpi-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Card 1: Pastel Yellow Card */
+.kpi-card-yellow {
+  background-color: var(--color-yellow);
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 22px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+  position: relative;
+}
+
+/* Card 2: Pastel Lavender Card */
+.kpi-card-purple {
+  background-color: var(--color-purple);
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 22px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+  position: relative;
+}
+
+/* Card 3: Crisp White Card with Sparkline */
+.kpi-card-white {
+  background-color: #FFFFFF;
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 22px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+/* Card Top bar with icon circle and menu dot */
+.card-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-icon-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: var(--border-thick);
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.card-menu-dot {
+  width: 36px;
+  height: 28px;
+  border-radius: var(--radius-pill);
+  border: var(--border-thick);
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.card-metric-section {
+  margin-top: 18px;
+}
+
+.card-metric-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-black);
+  margin-bottom: 4px;
+}
+
+.card-metric-value {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.card-metric-sub {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Sparkline container */
+.sparkline-svg {
+  width: 100%;
+  height: 48px;
+  stroke: var(--color-purple);
+  stroke-width: 3;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* 2-Column Analytics Layout */
+.overview-analytics-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.95fr;
+  gap: 24px;
+}
+
+/* Segmented Chart Card */
+.chart-panel-card {
+  background: #FFFFFF;
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  box-shadow: var(--shadow-neo);
+}
+
+.chart-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-title-group h3 {
+  font-size: 1.25rem;
+}
+
+.chart-title-group p {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-gray-600);
+}
+
+/* Segmented Pill Chart internals */
+.segmented-chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chart-period-tabs {
+  display: flex;
+  gap: 16px;
+  border-bottom: 1.5px solid #E5E7EB;
+  padding-bottom: 12px;
+}
+
+.period-tab-btn {
+  background: none;
+  border: none;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-gray-400);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: all 0.1s;
+}
+
+.period-tab-btn:hover {
+  color: var(--color-black);
+}
+
+.period-tab-btn.active {
+  color: var(--color-black);
+  border-bottom: 3px solid var(--color-black);
+}
+
+.pill-bars-wrapper {
+  display: flex;
+  align-items: flex-end;
+  height: 260px;
+  padding: 10px 0;
+  gap: 16px;
+}
+
+.y-axis-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-gray-600);
+  padding-right: 8px;
+}
+
+.bars-flex {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.day-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.column-pills-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+/* Individual Pill block inside bar */
+.pill-block {
+  width: 32px;
+  height: 18px;
+  border-radius: 9px;
+  border: var(--border-thick);
+}
+
+.pill-block-yellow {
+  background-color: var(--color-yellow);
+}
+
+.pill-block-purple {
+  background-color: var(--color-purple);
+}
+
+.pill-block-white {
+  background-color: #FFFFFF;
+}
+
+.column-day-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-gray-600);
+}
+
+.column-day-label.day-highlight {
+  color: var(--color-black);
+  font-weight: 800;
+}
+
+/* Right Side: Recent Orders / Food Items List matching reference */
+.recent-orders-card {
+  background: #FFFFFF;
+  border: var(--border-bold);
+  border-radius: var(--radius-card);
+  padding: 24px;
+  box-shadow: var(--shadow-neo);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.recent-orders-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recent-orders-header h3 {
+  font-size: 1.25rem;
+}
+
+.view-all-link {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-gray-600);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.orders-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.order-pill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: var(--border-thick);
+  border-radius: 20px;
+  background: #FFFFFF;
+  box-shadow: var(--shadow-neo-sm);
+  transition: transform 0.1s;
+}
+
+.order-pill-row:hover {
+  transform: translate(-1px, -1px);
+}
+
+.order-item-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.order-avatar-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: var(--border-thick);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.order-item-name {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.order-item-sub {
+  font-size: 0.78rem;
+  color: var(--color-gray-600);
+  font-weight: 600;
+}
+
+.order-item-right {
+  text-align: right;
+}
+
+.order-item-price {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.order-item-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-gray-600);
+}
+
+/* Branch Ranking Table section */
+.branch-ranking-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.branch-name-pill {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 1024px) {
+  .overview-analytics-grid {
+    grid-template-columns: 1fr;
+  }
+}
